@@ -1,0 +1,1 @@
+facing = sign(1);

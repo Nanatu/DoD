@@ -1,0 +1,1 @@
+draw_sprite(spr_Platform,0,x,y,);
