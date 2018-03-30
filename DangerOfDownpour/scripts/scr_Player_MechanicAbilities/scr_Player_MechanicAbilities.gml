@@ -18,10 +18,9 @@ for (i = 10; i > 0; i--)
 		{
 		with (instance_create_layer(x,y,"Player",obj_Mechanic_Fletchette))
 			{
-				image_angle = point_direction(x,y,x+other.facing*40,y+random_range(-5, 5));
+				image_angle = point_direction(x,y,x+other.facing*40,y+random_range(-5, 3));
 				speed = 30 + random_range(-5,5);
-				direction = point_direction(x,y,x+other.facing*40,y+random_range(-5, 5));
-				image_angle = point_direction(x,y,x+other.facing*40,y);
+				direction = point_direction(x,y,x+other.facing*40,y+random_range(-5, 3));
 			}
 		}
 barrelOne = false;
@@ -37,7 +36,6 @@ with (instance_create_layer(x,y,"Player",obj_Mechanic_Fletchette))
 		image_angle = point_direction(x,y,x+random_range(-5, 5),y+30);
 		speed = 30 + random_range(-5,5);
 		direction = point_direction(x,y,x+random_range(-5, 5),y+30);
-		image_angle = point_direction(x,y,x+random_range(-5, 5),y+30);
 	}
 		}
 barrelOne = false;
@@ -52,10 +50,9 @@ for (i = 10; i > 0; i--)
 		{
 with (instance_create_layer(x,y,"Player",obj_Mechanic_Fletchette))
 	{
-		image_angle = point_direction(x,y,x+other.facing*40,y+random_range(-5, 5));
+		image_angle = point_direction(x,y,x+other.facing*40,y+random_range(-5, 3));
 		speed = 30 + random_range(-5,5);
-		direction = point_direction(x,y,x+other.facing*40,y+random_range(-5, 5));
-		image_angle = point_direction(x,y,x+other.facing*40,y);
+		direction = point_direction(x,y,x+other.facing*40,y+random_range(-5, 3));
 	}
 		}
 fireCD = 20;
@@ -73,7 +70,6 @@ with (instance_create_layer(x,y,"Player",obj_Mechanic_Fletchette))
 		image_angle = point_direction(x,y,x+random_range(-5, 5),y+30);
 		speed = 30 + random_range(-5,5);
 		direction = point_direction(x,y,x+random_range(-5, 5),y+30);
-		image_angle = point_direction(x,y,x+random_range(-5, 5),y+30);
 	}
 		}
 fireCD = 20;
