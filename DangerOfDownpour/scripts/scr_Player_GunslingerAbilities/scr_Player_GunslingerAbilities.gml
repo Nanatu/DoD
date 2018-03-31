@@ -4,6 +4,8 @@
 //	Includes upkeep
 //
 
+//TODO: Reload, FMJs to mod basic attack
+
 {
 	
 fireCD = max(0, fireCD-1);
@@ -61,6 +63,7 @@ var tx, wall, target;
 }
 
 //Shoot Many
+//Run this when FMJs are loaded
 if (key_abilityTwo) && (fireCD<= 0)
 {
 	var tx, wall, targets;
@@ -139,7 +142,6 @@ if (key_abilityFour && missileCD <= 0)
 //	}
 //	dodgeCD = 30;
 //}
-
 
 
 }
