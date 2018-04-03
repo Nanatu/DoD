@@ -3,14 +3,14 @@
 //	Script describing the Marksman character's abilities
 //	Includes upkeep
 //
+
+//TODO: Implement ALL In The Chamber
+//		Hold to load in several bullets, basic attack fires all
 {
 	
 fireCD = max(0, fireCD-1);
 
 //Shoot One
-//if (key_abilityOne) && (fireCD <= 0)
-
-
 if (key_abilityOne && fireCD <= 0)
 {
 var tx, wall, target;
@@ -69,6 +69,7 @@ if (key_abilityThree)
 state = marksmanStates.backflip;	
 }
 
+//All In The Chamber
 if (key_abilityFour)
 {
 
