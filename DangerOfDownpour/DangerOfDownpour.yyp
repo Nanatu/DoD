@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "5643d71b-f1f7-41d6-b1fd-53c2cd100a2b",
+            "Value": {
+                "id": "88faba07-1ed8-4a75-b983-19ba2042598a",
+                "resourcePath": "objects\\obj_test_enemy\\obj_test_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a7ac29b-f8c8-486f-a51b-dfbaa13317d3",
             "Value": {
                 "id": "0f3bbf76-8317-4917-a947-8e870d9e865f",
