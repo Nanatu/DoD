@@ -27,4 +27,10 @@ if (!instance_exists(obj_Player))
 		show_debug_message("PLAYER TYPE IS MECHANIC");
 		//instance_deactivate_object(obj_PlayerSpawn);
 	}
+	if (global.characterType == currentCharacter.Huntress)
+	{
+		instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y,"Player",obj_Player_Huntress)
+		show_debug_message("PLAYER TYPE IS HUNTRESS");
+		//instance_deactivate_object(obj_PlayerSpawn);
+	}
 }

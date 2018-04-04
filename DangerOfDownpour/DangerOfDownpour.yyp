@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "58a060f1-c3b0-4545-ae0e-335cffd5e228",
+            "Value": {
+                "id": "99f52f9d-a189-4011-88fc-65902e0f5161",
+                "resourcePath": "objects\\obj_PlayerSelect_Huntress\\obj_PlayerSelect_Huntress.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a7ac29b-f8c8-486f-a51b-dfbaa13317d3",
             "Value": {
                 "id": "0f3bbf76-8317-4917-a947-8e870d9e865f",
@@ -567,6 +575,14 @@
             }
         },
         {
+            "Key": "9c44987a-910f-4485-898a-cc9cdc0d6d04",
+            "Value": {
+                "id": "486d589b-f49c-4b3b-bc76-266928109a55",
+                "resourcePath": "objects\\obj_Huntress_Select_Spawner\\obj_Huntress_Select_Spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a0a1bd78-f831-45bf-8ab3-14b7bc102995",
             "Value": {
                 "id": "3a3a4177-d584-417e-b849-31507c0fb0ee",
@@ -603,6 +619,14 @@
             "Value": {
                 "id": "dacdfbc9-329e-4acd-a508-5f28745222eb",
                 "resourcePath": "sprites\\spr_Player_Gunslinger\\spr_Player_Gunslinger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a68ecc3a-a604-4c04-ae7c-fb13e0388e6b",
+            "Value": {
+                "id": "fc76bc7f-22bb-4c9d-a72a-cf4640caa470",
+                "resourcePath": "sprites\\spr_Player_Huntress\\spr_Player_Huntress.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -779,6 +803,14 @@
             "Value": {
                 "id": "07a81c6b-37a7-429d-841c-83fdc19e758f",
                 "resourcePath": "objects\\obj_Platform\\obj_Platform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d5d5410e-25bc-4b19-a995-9dca3c2a1897",
+            "Value": {
+                "id": "bef51032-b3fa-497a-b5e4-42c86af73d8b",
+                "resourcePath": "objects\\obj_Player_Huntress\\obj_Player_Huntress.yy",
                 "resourceType": "GMObject"
             }
         },

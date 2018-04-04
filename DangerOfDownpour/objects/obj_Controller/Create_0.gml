@@ -7,6 +7,7 @@ enum currentCharacter
 	Gunslinger,
 	Marksman,
 	Mechanic,
+	Huntress,
 }
 
 global.characterType = noone;
