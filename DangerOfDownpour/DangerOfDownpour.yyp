@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "15fb150c-f496-469f-98b3-dbf79d8dab30",
+            "Value": {
+                "id": "d7e75bb3-934c-453f-84a7-f0fb1901709b",
+                "resourcePath": "objects\\obj_Huntress_SpearThrust\\obj_Huntress_SpearThrust.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1aa4f908-ad63-4969-938d-bc2e9d949645",
             "Value": {
                 "id": "8c24fd73-e73c-41cc-8c26-63188763c1c3",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "399bb3f7-3253-48a7-b068-5434f0d3c459",
+            "Value": {
+                "id": "7dab2f85-c77f-4c21-bf37-8ec05c40c473",
+                "resourcePath": "objects\\obj_Huntress_SpearThrow\\obj_Huntress_SpearThrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3aa7ad67-926a-449c-8e86-df4bebb1f7ac",
             "Value": {
                 "id": "eb10ec8b-adf3-45b9-90d8-a3d1117259f4",
@@ -268,6 +284,14 @@
                 "id": "cdc449c1-d2aa-464b-91e2-412b0579a4d3",
                 "resourcePath": "objects\\obj_Marksman_Select_Spawner\\obj_Marksman_Select_Spawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "44cda7de-bf1c-4609-9e79-d65f0f4fffc4",
+            "Value": {
+                "id": "249ef4d5-4f0d-47d5-8577-f74ac489b8a1",
+                "resourcePath": "scripts\\scr_Player_HuntressAbilties\\scr_Player_HuntressAbilties.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -751,6 +775,14 @@
             }
         },
         {
+            "Key": "c354f6e8-3877-4bab-8285-4dd3a84d0145",
+            "Value": {
+                "id": "73dd0048-ea21-44d6-a5d9-ab40de19e980",
+                "resourcePath": "sprites\\spr_Player_Huntress_Spear\\spr_Player_Huntress_Spear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c49d7185-8383-47c8-b006-b1a99e8f2bfc",
             "Value": {
                 "id": "7ceaf9a9-db59-4184-81fe-75da73dacc18",
@@ -1079,6 +1111,7 @@
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "4377bc14-0566-40c5-95fd-5762c6ef9789",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",
+        "44cda7de-bf1c-4609-9e79-d65f0f4fffc4",
         "faa63cef-560f-4541-96b0-0a20d510ed8f"
     ],
     "tutorial": ""
