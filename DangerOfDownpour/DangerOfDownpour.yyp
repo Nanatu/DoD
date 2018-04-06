@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "b4e9d2bb-f074-4259-b8cb-48d43acc8c25",
+            "Value": {
+                "id": "20f51d38-bf57-4cfe-a2dc-cc7462e6815c",
+                "resourcePath": "sprites\\spr_Player_Huntress_Crow\\spr_Player_Huntress_Crow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b57ac316-7cfe-40f2-8b93-72db9b01945f",
             "Value": {
                 "id": "cdac651b-1c68-4840-b67a-475da2a16f51",
@@ -731,6 +739,14 @@
             "Value": {
                 "id": "4941f27e-1999-462c-8d0c-18d6d5565aa5",
                 "resourcePath": "objects\\obj_Marksman_Tracer\\obj_Marksman_Tracer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b8034c43-9e5a-4d14-b5f4-633cdd9353aa",
+            "Value": {
+                "id": "32b827d5-a3ec-40fb-bc0b-8ce72de5c437",
+                "resourcePath": "objects\\obj_Huntress_Crow\\obj_Huntress_Crow.yy",
                 "resourceType": "GMObject"
             }
         },
