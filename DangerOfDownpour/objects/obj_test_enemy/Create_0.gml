@@ -7,6 +7,7 @@ scr_Enemy_General_Init();
 //hsp = walksp;
 
 //hp
+time_in_state = 0;
 hp = 20;
 flash = 0;
 hitfrom = 0;
