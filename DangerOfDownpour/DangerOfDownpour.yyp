@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "05ed0cfc-9002-4ae7-9f54-6ad59e0311de",
+            "Value": {
+                "id": "9813202f-243e-4f49-a3ae-661981af2264",
+                "resourcePath": "sprites\\spr_Player_Huntress_Virus\\spr_Player_Huntress_Virus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08815ec5-313c-41fa-bd4c-ab633861b349",
             "Value": {
                 "id": "3fbfe782-3694-45c1-ba79-350ee0c65e71",
@@ -988,6 +996,14 @@
                 "id": "ed08691c-1b2f-42c1-a9e8-7397b44e5a7c",
                 "resourcePath": "sprites\\spr_Player\\spr_Player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f1d5f8de-1c57-4eb0-a652-8c56bac7e839",
+            "Value": {
+                "id": "be591996-3345-42ba-9010-e962e4e6f93e",
+                "resourcePath": "objects\\obj_Huntress_Virus\\obj_Huntress_Virus.yy",
+                "resourceType": "GMObject"
             }
         },
         {

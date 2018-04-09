@@ -46,10 +46,10 @@ spearCharge = 0;
 //Crow Throw
 if (key_abilityTwo)
 {
-	with (instance_create_layer(x,y,"Player",obj_Huntress_Crow))
+	with (instance_create_layer(x,y-5,"Player",obj_Huntress_Crow))
 			{
 				image_angle = point_direction(x,y,x+other.facing*40,y);
-				speed = 20;
+				speed = 10;
 				direction = point_direction(x,y,x+other.facing*40,y);
 			}
 }
