@@ -57,7 +57,12 @@ if (key_abilityTwo)
 //Dragon virus
 if (key_abilityThree)
 {
-	
+	with (instance_create_layer(x,y-5,"Player",obj_Huntress_Virus))
+			{
+				image_angle = point_direction(x,y,x+other.facing*40,y);
+				speed = 10;
+				direction = point_direction(x,y,x+other.facing*40,y);
+			}
 }
 
 //MDK

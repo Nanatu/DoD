@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "315d2381-63de-48c8-a451-62e97000e276",
+            "Value": {
+                "id": "53442c91-b207-49e3-9a37-2c6d01eb7b8b",
+                "resourcePath": "objects\\obj_Huntress_VirusSpread\\obj_Huntress_VirusSpread.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "324a730f-6b24-4a79-b6a3-ac389f692637",
             "Value": {
                 "id": "483bfb9a-be10-4a85-aee5-8a7636b96ed2",
@@ -783,6 +791,14 @@
             }
         },
         {
+            "Key": "be818519-8860-4143-858b-03b481e4e7d1",
+            "Value": {
+                "id": "7aa9fb92-0ca6-4656-a1dc-dcd09de9f8dc",
+                "resourcePath": "sprites\\spr_Player_Huntress_VirusSpread\\spr_Player_Huntress_VirusSpread.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfbdce9e-d74d-444c-bed7-469ec90d8550",
             "Value": {
                 "id": "4a3b47ba-614b-478d-a3ac-9e830d57c212",
@@ -1039,6 +1055,14 @@
             }
         },
         {
+            "Key": "f4f3d0e0-90dd-4404-9cd4-e22372fd5cfa",
+            "Value": {
+                "id": "28073cd9-37ea-47db-9eef-59c150997511",
+                "resourcePath": "scripts\\scr_NearestNthInstance\\scr_NearestNthInstance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f7a5a3e6-32ba-41b1-8296-f630dfdd40e3",
             "Value": {
                 "id": "6d48140f-1939-4736-b549-4a5274c528bd",
@@ -1129,6 +1153,7 @@
         "b860d792-3f4e-44eb-b5a0-bd23347c491e",
         "7f5a18bc-a019-4ee7-9d1c-00fd76d9c243",
         "324a730f-6b24-4a79-b6a3-ac389f692637",
+        "f4f3d0e0-90dd-4404-9cd4-e22372fd5cfa",
         "61d87885-9ce0-44f7-96b8-dec2529b38d4",
         "b57ac316-7cfe-40f2-8b93-72db9b01945f",
         "e1a272ca-7747-4469-98c3-b4ef97880330",

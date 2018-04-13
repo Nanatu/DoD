@@ -1,3 +1,4 @@
 spawnCount = 1;
-target = none;
-timeToDie = 30;
+timeToDie = 120;
+target = noone;
+spreadTarget = noone;
