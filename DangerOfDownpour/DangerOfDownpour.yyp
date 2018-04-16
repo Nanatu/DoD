@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "a17894be-3adf-427b-b28f-09b773e7a67c",
+            "Value": {
+                "id": "b0943a8d-0ab4-4cbb-8271-8e154c93ee03",
+                "resourcePath": "scripts\\scr_Enemy_PlayerWithinRange\\scr_Enemy_PlayerWithinRange.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a201374e-8715-4ad9-a89d-035470265a6c",
             "Value": {
                 "id": "5593bdd8-d6d6-4ca9-bddc-6c486b112948",
@@ -1079,6 +1087,7 @@
         "1ea44cf0-65f5-444f-bc1d-6b36ba94e162",
         "e328b927-73b2-4934-87ae-122522136f06",
         "56bc5700-f1db-493e-ae18-83656cb6fb1b",
+        "a17894be-3adf-427b-b28f-09b773e7a67c",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "4377bc14-0566-40c5-95fd-5762c6ef9789",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",

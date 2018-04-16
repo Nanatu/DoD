@@ -1,6 +1,12 @@
 ///scr_Grinner_Wander()
 
 // should i move
+
+if(scr_Enemy_PlayerWithinRange(500)){
+	state = enemyStates.chase;
+	return;
+}
+
 if(time_in_state >= 2* room_speed)
 {
 	var roll = random(10);
