@@ -15,4 +15,4 @@ hitfrom = 0;
 target = noone;
 targetVisible = false;
 
-state = enemyStates.wander;
+state = enemyStates.idle;

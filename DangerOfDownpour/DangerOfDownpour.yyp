@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "56bc5700-f1db-493e-ae18-83656cb6fb1b",
+            "Value": {
+                "id": "83aaa60d-0664-4bcc-8bf0-532639f0823a",
+                "resourcePath": "scripts\\scr_Grinner_ChaseState\\scr_Grinner_ChaseState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5a7ac29b-f8c8-486f-a51b-dfbaa13317d3",
             "Value": {
                 "id": "0f3bbf76-8317-4917-a947-8e870d9e865f",
@@ -482,7 +490,7 @@
             "Key": "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
             "Value": {
                 "id": "8ff238cd-2928-4d1e-853e-104e97afce2c",
-                "resourcePath": "scripts\\scr_EnemyState_Wander\\scr_EnemyState_Wander.yy",
+                "resourcePath": "scripts\\scr_Grinner_WanderState\\scr_Grinner_WanderState.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -879,6 +887,14 @@
             }
         },
         {
+            "Key": "e328b927-73b2-4934-87ae-122522136f06",
+            "Value": {
+                "id": "c05f794d-dac9-4ff3-bb10-5cd4fd2d6c1d",
+                "resourcePath": "scripts\\scr_Grinner_IdleState\\scr_Grinner_IdleState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e5421bc8-893f-4b59-b4c5-9c5f88744fc1",
             "Value": {
                 "id": "9d5671af-35e4-4f12-8331-d362a3d2c06e",
@@ -1061,6 +1077,8 @@
         "0b86c4e3-2121-453a-8b99-c43cd6397138",
         "371ae587-9c02-400a-a81e-22505da3df8d",
         "1ea44cf0-65f5-444f-bc1d-6b36ba94e162",
+        "e328b927-73b2-4934-87ae-122522136f06",
+        "56bc5700-f1db-493e-ae18-83656cb6fb1b",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "4377bc14-0566-40c5-95fd-5762c6ef9789",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",
