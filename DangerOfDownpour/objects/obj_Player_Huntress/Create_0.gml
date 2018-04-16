@@ -8,3 +8,5 @@ enum huntressStates
 script_execute(scr_Player_General_Init);
 spearCharge = 0;
 chargeMax = 20;
+crowCD = 60;
+virusCD = 60;

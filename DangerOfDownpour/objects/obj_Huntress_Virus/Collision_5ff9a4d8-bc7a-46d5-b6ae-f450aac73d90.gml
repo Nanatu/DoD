@@ -15,6 +15,7 @@ var targets;
 		}
 }
 
+instance_destroy();
 
 /*
 if (spawnCount > 0 )

@@ -4,6 +4,9 @@
 //	Includes upkeep
 //
 {
+	
+crowCD = max(0, crowCD - 1);
+virusCD = max(0, virusCD - 1);
 
 key_abilityOne_Release = keyboard_check_released(ord("Q"));
 key_abilityOne_Pressed = keyboard_check_pressed(ord("Q"));
@@ -44,7 +47,7 @@ spearCharge = 0;
 }
 
 //Crow Throw
-if (key_abilityTwo)
+if (key_abilityTwo && (crowCD == 0))
 {
 	with (instance_create_layer(x,y-5,"Player",obj_Huntress_Crow))
 			{
@@ -52,10 +55,11 @@ if (key_abilityTwo)
 				speed = 10;
 				direction = point_direction(x,y,x+other.facing*40,y);
 			}
+		crowCD = 60;
 }
 
 //Dragon virus
-if (key_abilityThree)
+if (key_abilityThree && (virusCD == 0))
 {
 	with (instance_create_layer(x,y-5,"Player",obj_Huntress_Virus))
 			{
@@ -63,6 +67,7 @@ if (key_abilityThree)
 				speed = 10;
 				direction = point_direction(x,y,x+other.facing*40,y);
 			}
+			virusCD = 60;
 }
 
 //MDK
