@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1ea44cf0-65f5-444f-bc1d-6b36ba94e162",
+            "Value": {
+                "id": "f4222a63-689f-4f89-9997-ebd5a89ac7f2",
+                "resourcePath": "scripts\\scr_EnemyState_Chase\\scr_EnemyState_Chase.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "23534945-e6bf-4f4d-9d26-c62f373e0edf",
             "Value": {
                 "id": "1241bbfe-fc7c-4862-b37c-fdd86a3c7bf8",
@@ -347,7 +355,21 @@
             "Value": {
                 "id": "99f52f9d-a189-4011-88fc-65902e0f5161",
                 "resourcePath": "objects\\obj_PlayerSelect_Huntress\\obj_PlayerSelect_Huntress.yy",
+            "Key": "5643d71b-f1f7-41d6-b1fd-53c2cd100a2b",
+            "Value": {
+                "id": "88faba07-1ed8-4a75-b983-19ba2042598a",
+                "resourcePath": "objects\\obj_test_enemy\\obj_test_enemy.yy",
+
                 "resourceType": "GMObject"
+            }
+        },
+        {
+
+            "Key": "56bc5700-f1db-493e-ae18-83656cb6fb1b",
+            "Value": {
+                "id": "83aaa60d-0664-4bcc-8bf0-532639f0823a",
+                "resourcePath": "scripts\\scr_Grinner_ChaseState\\scr_Grinner_ChaseState.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -420,6 +442,14 @@
                 "id": "9c40eca3-2dc6-4177-8124-081e3fc76485",
                 "resourcePath": "objects\\obj_PlayerSpawn\\obj_PlayerSpawn.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7199239e-c890-4f22-91bc-e77285ce9512",
+            "Value": {
+                "id": "c32e3425-3587-454d-bdb8-8fd630a5c76e",
+                "resourcePath": "scripts\\scr_Grinner_AttackState\\scr_Grinner_AttackState.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -514,7 +544,7 @@
             "Key": "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
             "Value": {
                 "id": "8ff238cd-2928-4d1e-853e-104e97afce2c",
-                "resourcePath": "scripts\\scr_EnemyState_Wander\\scr_EnemyState_Wander.yy",
+                "resourcePath": "scripts\\scr_Grinner_WanderState\\scr_Grinner_WanderState.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -628,6 +658,14 @@
                 "id": "3a3a4177-d584-417e-b849-31507c0fb0ee",
                 "resourcePath": "sprites\\spr_Mechanic_JumpJets\\spr_Mechanic_JumpJets.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a17894be-3adf-427b-b28f-09b773e7a67c",
+            "Value": {
+                "id": "b0943a8d-0ab4-4cbb-8271-8e154c93ee03",
+                "resourcePath": "scripts\\scr_Enemy_PlayerWithinRange\\scr_Enemy_PlayerWithinRange.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -967,6 +1005,14 @@
             }
         },
         {
+            "Key": "e328b927-73b2-4934-87ae-122522136f06",
+            "Value": {
+                "id": "c05f794d-dac9-4ff3-bb10-5cd4fd2d6c1d",
+                "resourcePath": "scripts\\scr_Grinner_IdleState\\scr_Grinner_IdleState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e5421bc8-893f-4b59-b4c5-9c5f88744fc1",
             "Value": {
                 "id": "9d5671af-35e4-4f12-8331-d362a3d2c06e",
@@ -1165,6 +1211,11 @@
         "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
         "0b86c4e3-2121-453a-8b99-c43cd6397138",
         "371ae587-9c02-400a-a81e-22505da3df8d",
+        "1ea44cf0-65f5-444f-bc1d-6b36ba94e162",
+        "e328b927-73b2-4934-87ae-122522136f06",
+        "56bc5700-f1db-493e-ae18-83656cb6fb1b",
+        "a17894be-3adf-427b-b28f-09b773e7a67c",
+        "7199239e-c890-4f22-91bc-e77285ce9512",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "4377bc14-0566-40c5-95fd-5762c6ef9789",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",
