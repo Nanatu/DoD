@@ -1,8 +1,8 @@
 {
-    "id": "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
+    "id": "7199239e-c890-4f22-91bc-e77285ce9512",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_EnemyState_Wander",
+    "name": "scr_Grinner_AttackState",
     "IsCompatibility": false,
     "IsDnD": false
 }
