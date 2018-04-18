@@ -2,8 +2,9 @@
 
 if(scr_Enemy_PlayerWithinRange(500)){
 	//close enough to attack?
-	if(scr_Enemy_PlayerWithinRange(180)){
-		//state = enemyStates.attack;
+	if(attackCD <= 0 && scr_Enemy_PlayerWithinRange(180)){
+		time_in_state = 0;
+		state = enemyStates.attack;
 		return;
 	}
 	//chase to within range

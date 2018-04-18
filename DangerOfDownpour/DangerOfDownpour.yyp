@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "7199239e-c890-4f22-91bc-e77285ce9512",
+            "Value": {
+                "id": "c32e3425-3587-454d-bdb8-8fd630a5c76e",
+                "resourcePath": "scripts\\scr_Grinner_AttackState\\scr_Grinner_AttackState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "726719a9-81b2-40ca-90b9-d8ff2338864c",
             "Value": {
                 "id": "a37ce239-9844-492f-8a87-0d8a5965087e",
@@ -1088,6 +1096,7 @@
         "e328b927-73b2-4934-87ae-122522136f06",
         "56bc5700-f1db-493e-ae18-83656cb6fb1b",
         "a17894be-3adf-427b-b28f-09b773e7a67c",
+        "7199239e-c890-4f22-91bc-e77285ce9512",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "4377bc14-0566-40c5-95fd-5762c6ef9789",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",

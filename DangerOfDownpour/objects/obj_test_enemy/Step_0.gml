@@ -6,6 +6,8 @@ if(instance_exists(obj_Player)){
 
 show_debug_message(state);
 
+attackCD = max(0,attackCD-1);
+//attackCD--;
 switch state{
 	case enemyStates.idle:
 	scr_Grinner_IdleState();
@@ -17,6 +19,6 @@ switch state{
 	scr_Grinner_ChaseState();
 	break;
 	case enemyStates.attack:
-	
+	scr_Grinner_AttackState();
 	break;
 }

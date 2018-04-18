@@ -15,4 +15,6 @@ hitfrom = 0;
 target = noone;
 targetVisible = false;
 
+attackCD = 0;
+
 state = enemyStates.idle;
