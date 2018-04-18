@@ -355,11 +355,14 @@
             "Value": {
                 "id": "99f52f9d-a189-4011-88fc-65902e0f5161",
                 "resourcePath": "objects\\obj_PlayerSelect_Huntress\\obj_PlayerSelect_Huntress.yy",
+				"resourceType": "GMObject"
+				}
+		},
+		{
             "Key": "5643d71b-f1f7-41d6-b1fd-53c2cd100a2b",
             "Value": {
                 "id": "88faba07-1ed8-4a75-b983-19ba2042598a",
                 "resourcePath": "objects\\obj_test_enemy\\obj_test_enemy.yy",
-
                 "resourceType": "GMObject"
             }
         },
