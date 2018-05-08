@@ -73,7 +73,7 @@ if (key_abilityThree && (virusCD == 0))
 //MDK
 if (key_abilityFour)
 {
-	
+	scr_MDK_Spawn();
 }
 
 }
