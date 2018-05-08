@@ -5,4 +5,4 @@
 event_inherited();
 
 off_from_player = 0;
-
+time_left = 30*room_speed;

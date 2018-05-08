@@ -7,6 +7,7 @@
 	
 crowCD = max(0, crowCD - 1);
 virusCD = max(0, virusCD - 1);
+mdkCD = max(0, mdkCD - 1);
 
 key_abilityOne_Release = keyboard_check_released(ord("Q"));
 key_abilityOne_Pressed = keyboard_check_pressed(ord("Q"));
@@ -71,9 +72,18 @@ if (key_abilityThree && (virusCD == 0))
 }
 
 //MDK
-if (key_abilityFour)
+if (key_abilityFour && (mdkCD == 0))
 {
-	scr_MDK_Spawn();
+	with(instance_create_layer(x + 32,y,"MDK_MurderLayer",obj_Murder)){
+		
+	}
+	with(instance_create_layer(x -16,y,"MDK_DeathLayer",obj_Death)){
+		
+	}
+	with(instance_create_layer(x,y,"MDK_KillLayer",obj_Kill)){
+		
+	}
+	mdkCD = 60* room_speed;
 }
 
 }

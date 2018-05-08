@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0145814c-f878-4291-b290-74835f7a9820",
+            "Value": {
+                "id": "896916cf-83bd-4b9b-ab77-bb0ad653962b",
+                "resourcePath": "sprites\\spr_Murder\\spr_Murder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "05d3f8ea-bd40-44dd-b0b3-bd35f48812a4",
             "Value": {
                 "id": "7d3791ed-a388-4732-8e26-f13e7234c899",
@@ -655,6 +663,14 @@
             }
         },
         {
+            "Key": "90b1264c-cbb2-46de-b894-e9a38a02ec74",
+            "Value": {
+                "id": "2e23b3c0-2b63-48b3-8e44-7ac452fddb03",
+                "resourcePath": "sprites\\spr_Death\\spr_Death.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "912c46a7-72e8-4be2-80da-7bd5f08a4e6c",
             "Value": {
                 "id": "e8ca239e-b0f1-460e-bf04-c1b68726fccc",
@@ -1100,6 +1116,14 @@
                 "id": "fa746c67-a832-4501-bbeb-6b4487757f14",
                 "resourcePath": "scripts\\scr_Enemy_ChaseTarget\\scr_Enemy_ChaseTarget.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ea96d5e0-c031-4a60-92f3-7174a7434098",
+            "Value": {
+                "id": "b12a3f61-4aa8-4979-8799-6ad1b6a03090",
+                "resourcePath": "sprites\\spr_Kill\\spr_Kill.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

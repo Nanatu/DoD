@@ -1,6 +1,5 @@
 //mdk_spawn
 /// @description spawns Murder, Death, and Kill
 
-//scr_SpawnMurder();
-//scr_SpawnDeath();
-//scr_SpawnKill();
+//spawn murder
+murder = instance_create_layer(x+32,y,"MDK_MurderLayer",obj_Murder);

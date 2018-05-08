@@ -10,3 +10,4 @@ spearCharge = 0;
 chargeMax = 20;
 crowCD = 60;
 virusCD = 60;
+mdkCD = 60;
