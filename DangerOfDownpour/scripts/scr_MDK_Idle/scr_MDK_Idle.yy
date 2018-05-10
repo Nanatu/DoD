@@ -1,8 +1,8 @@
 {
-    "id": "0910f216-a1d6-4f0c-8110-b42ff0c99557",
+    "id": "2ef33d36-c4f3-47d5-a89f-a2d2ff6bccf2",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_MDK_Spawn",
+    "name": "scr_MDK_Idle",
     "IsCompatibility": false,
     "IsDnD": false
 }

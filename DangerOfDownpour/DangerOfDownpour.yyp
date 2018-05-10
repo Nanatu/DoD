@@ -74,7 +74,7 @@
             "Key": "0910f216-a1d6-4f0c-8110-b42ff0c99557",
             "Value": {
                 "id": "8af9fc2e-3545-4544-9eb6-96adb913a90e",
-                "resourcePath": "scripts\\scr_MDK_Spawn\\scr_MDK_Spawn.yy",
+                "resourcePath": "scripts\\scr_MDK_Chase\\scr_MDK_Chase.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "1ca9a23e-2091-433f-9810-3b025c2e28e9",
+            "Value": {
+                "id": "4260d10c-8b69-4697-9683-4dde268d1db2",
+                "resourcePath": "views\\1ca9a23e-2091-433f-9810-3b025c2e28e9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1cade506-b727-4175-9b3b-027092f05e60",
             "Value": {
                 "id": "fc1765b3-11b7-4a00-b034-4e8e7064652a",
@@ -220,6 +228,14 @@
                 "id": "eba91230-6fbb-4404-b05b-88dbda4f29d8",
                 "resourcePath": "views\\2cb489b5-16e7-4cc1-ab3b-0893f0848708.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2ef33d36-c4f3-47d5-a89f-a2d2ff6bccf2",
+            "Value": {
+                "id": "0161a9c8-d915-4db8-b30b-537f5f32f790",
+                "resourcePath": "scripts\\scr_MDK_Idle\\scr_MDK_Idle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -887,6 +903,14 @@
             }
         },
         {
+            "Key": "b94637a2-c799-43e2-a253-3e1ddc37d717",
+            "Value": {
+                "id": "77b0e7d3-f9bd-443c-8e36-7076a51ea316",
+                "resourcePath": "scripts\\scr_MDK_Attack\\scr_MDK_Attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "be622995-b49e-4412-a3e2-0c93b34aef0b",
             "Value": {
                 "id": "7c074600-dbd7-4cd7-9075-aaf89697b96b",
@@ -932,6 +956,14 @@
                 "id": "7ceaf9a9-db59-4184-81fe-75da73dacc18",
                 "resourcePath": "objects\\obj_Player_Mechanic\\obj_Player_Mechanic.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c57fe82e-10af-4d79-8488-85148880c8f9",
+            "Value": {
+                "id": "fc9c1a68-b79f-435f-b767-ebeab49a5a76",
+                "resourcePath": "scripts\\scr_Player_EnemyWithinRange\\scr_Player_EnemyWithinRange.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1282,6 +1314,7 @@
         "7f5a18bc-a019-4ee7-9d1c-00fd76d9c243",
         "324a730f-6b24-4a79-b6a3-ac389f692637",
         "f4f3d0e0-90dd-4404-9cd4-e22372fd5cfa",
+        "c57fe82e-10af-4d79-8488-85148880c8f9",
         "61d87885-9ce0-44f7-96b8-dec2529b38d4",
         "b57ac316-7cfe-40f2-8b93-72db9b01945f",
         "e1a272ca-7747-4469-98c3-b4ef97880330",
@@ -1303,6 +1336,8 @@
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",
         "44cda7de-bf1c-4609-9e79-d65f0f4fffc4",
         "0910f216-a1d6-4f0c-8110-b42ff0c99557",
+        "2ef33d36-c4f3-47d5-a89f-a2d2ff6bccf2",
+        "b94637a2-c799-43e2-a253-3e1ddc37d717",
         "faa63cef-560f-4541-96b0-0a20d510ed8f"
     ],
     "tutorial": ""
