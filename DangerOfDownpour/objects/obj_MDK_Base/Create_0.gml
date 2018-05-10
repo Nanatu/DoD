@@ -8,7 +8,8 @@ enum MDK_States{
 	chase,
 	attack	
 }
-var target = noone;
+target = noone;
+huntress = noone;
 state = MDK_States.idle;
 attackCD = 60;
 off_from_player = 0;

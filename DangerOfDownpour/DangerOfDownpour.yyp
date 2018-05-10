@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "85d2489f-b213-45e7-8b2d-61539be2d5d8",
+            "Value": {
+                "id": "9a13dad0-0987-4864-9289-14f5c67841c0",
+                "resourcePath": "scripts\\scr_MDK_WithinRangeOfPlayer\\scr_MDK_WithinRangeOfPlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "88051482-569b-4cbc-88f4-acb21984e2d9",
             "Value": {
                 "id": "0ec7423b-9100-462f-8cee-e16881f6deea",
@@ -1338,6 +1346,7 @@
         "0910f216-a1d6-4f0c-8110-b42ff0c99557",
         "2ef33d36-c4f3-47d5-a89f-a2d2ff6bccf2",
         "b94637a2-c799-43e2-a253-3e1ddc37d717",
+        "85d2489f-b213-45e7-8b2d-61539be2d5d8",
         "faa63cef-560f-4541-96b0-0a20d510ed8f"
     ],
     "tutorial": ""
