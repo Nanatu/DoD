@@ -2,14 +2,14 @@
 x += (xTo-x)/15;
 y += (yTo-y)/15;
 
-if (!instance_exists(obj_Player))
+if (!instance_exists(obj_Character))
 {
 follow = noone;
 }
 
-if (instance_exists(obj_Player))
+if (instance_exists(obj_Character))
 {
-	follow = instance_nearest(x,y,obj_Player);
+	follow = instance_nearest(x,y,obj_Character);
 }
 
 if (follow != noone)
