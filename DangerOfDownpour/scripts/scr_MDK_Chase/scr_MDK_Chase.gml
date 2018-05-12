@@ -1,5 +1,5 @@
 if(scr_Player_EnemyWithinRange(180)){
-	if(scr_Player_EnemyWithinRange(32)){
+	if(scr_Player_EnemyWithinRange(32) && attackCD <= 0){
 		state = MDK_States.attack;
 		return;
 	}
@@ -13,4 +13,7 @@ if(scr_Player_EnemyWithinRange(180)){
 	}
 	hsp = sign(image_xscale) * (walksp +1);
 	scr_Enemy_CollisionAndMovement();
+}
+else{
+	state = MDK_States.idle;
 }

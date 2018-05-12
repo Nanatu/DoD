@@ -8,4 +8,6 @@ if(attackTimer <= .1*room_speed){
 else{
 	instance_destroy(hit);
 	state = MDK_States.chase;
+	attackTimer = 0;
+	attackCD = 60;
 }
