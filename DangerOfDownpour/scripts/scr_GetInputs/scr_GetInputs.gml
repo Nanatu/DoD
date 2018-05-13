@@ -16,7 +16,7 @@ if(gamepad_is_connected(0)){
 	key_abilityThree = gamepad_button_check(0, gp_face1);
 	key_abilityFour = gamepad_button_check(0, gp_face4); 
 }
-
+else
 {
 //Player Movement Input
 key_left = keyboard_check(vk_left);
