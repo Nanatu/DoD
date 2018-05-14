@@ -3,6 +3,20 @@
 //	General Script for getting player input
 //
 
+if(gamepad_is_connected(0)){
+	//Player Movement Input
+	key_left = gamepad_button_check(0, gp_padl);
+	key_right = gamepad_button_check(0, gp_padr);
+	key_jump = gamepad_button_check(0, gp_padu);
+	key_down = gamepad_button_check(0, gp_padd);
+
+	//Player Ability Input
+	key_abilityOne = gamepad_button_check(0, gp_face3);
+	key_abilityTwo = gamepad_button_check(0, gp_face2);
+	key_abilityThree = gamepad_button_check(0, gp_face1);
+	key_abilityFour = gamepad_button_check(0, gp_face4); 
+}
+else
 {
 //Player Movement Input
 key_left = keyboard_check(vk_left);
