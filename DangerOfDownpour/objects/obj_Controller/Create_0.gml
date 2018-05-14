@@ -10,4 +10,4 @@ enum currentCharacter
 	Huntress,
 }
 
-global.characterType = noone;
+global.characterType = currentCharacter.Gunslinger;
