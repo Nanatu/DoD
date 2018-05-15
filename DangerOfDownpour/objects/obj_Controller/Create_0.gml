@@ -11,3 +11,4 @@ enum currentCharacter
 }
 
 global.characterType = noone;
+global.paused = false;

@@ -22,6 +22,7 @@ if(gamepad_is_connected(0)){
 	
 	//Player interact inputs
 	key_select = gamepad_button_check(0, gp_face3);
+	key_pause = gamepad_button_check(0, gp_start);
 }
 else
 {
@@ -39,5 +40,6 @@ key_abilityFour = keyboard_check(ord("R"));
 
 //Player interact inputs
 key_select = keyboard_check(ord("T"));
+key_pause  = keyboard_check(vk_enter);
 
 }
