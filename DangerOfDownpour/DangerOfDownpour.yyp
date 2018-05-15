@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "76ff9a65-0708-4e1d-ba5f-985545441151",
+            "Value": {
+                "id": "b7aead2e-561e-4894-a9fe-96dad3ed7192",
+                "resourcePath": "sprites\\spr_testAbil1\\spr_testAbil1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "776b57c5-4dba-4421-bb2d-fcc985e5d9fd",
             "Value": {
                 "id": "2d134ea6-8ccc-41d5-89bc-674056000736",
@@ -700,6 +708,14 @@
                 "id": "61ab7ba9-1487-4d9e-9cf4-eef2badb729d",
                 "resourcePath": "views\\8cd4addb-fe9e-4a36-bc7c-5d104ee34318.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8dd2b930-3637-4ee9-bada-c4142e7dff1c",
+            "Value": {
+                "id": "22de8852-150c-4c4f-a307-ec68beaf5e83",
+                "resourcePath": "sprites\\spr_testAbil3\\spr_testAbil3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1063,6 +1079,14 @@
             }
         },
         {
+            "Key": "d0853e64-16d6-4e73-bfd2-3f8dd7d9f1a3",
+            "Value": {
+                "id": "52f8f19c-52ac-4da8-86bf-a09d9b156a32",
+                "resourcePath": "sprites\\spr_testAbil2\\spr_testAbil2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d0ad6cf2-4f9e-444e-a6a6-25902664e9a0",
             "Value": {
                 "id": "d50a519d-be39-4a5d-9cdf-bc10675c3b58",
@@ -1100,6 +1124,14 @@
                 "id": "35140184-95f8-4501-aafc-0c7e6af9b24d",
                 "resourcePath": "objects\\obj_PlayerSelect_Marksman\\obj_PlayerSelect_Marksman.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d82d6bcc-6a51-4e9f-badd-0fc03eb1693f",
+            "Value": {
+                "id": "384d3a24-9503-40ee-b7d9-4dd9b6612660",
+                "resourcePath": "sprites\\spr_testAbil4\\spr_testAbil4.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
