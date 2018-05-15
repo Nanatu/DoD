@@ -4,17 +4,24 @@
 //
 
 if(gamepad_is_connected(0)){
+	
+	//gamepad setup
+	gamepad_set_axis_deadzone(0, 0.5);
+	
 	//Player Movement Input
-	key_left = gamepad_button_check(0, gp_padl);
-	key_right = gamepad_button_check(0, gp_padr);
-	key_jump = gamepad_button_check(0, gp_padu);
-	key_down = gamepad_button_check(0, gp_padd);
+	key_left = gamepad_button_check(0, gp_padl) || gamepad_axis_value(0, gp_axislh) < 0;
+	key_right = gamepad_button_check(0, gp_padr) || gamepad_axis_value(0, gp_axislh) > 0;
+	key_jump = gamepad_button_check(0, gp_face1);
+	key_down = gamepad_button_check(0, gp_padd) || gamepad_axis_value(0, gp_axislv) < 0;
 
 	//Player Ability Input
-	key_abilityOne = gamepad_button_check(0, gp_face3);
-	key_abilityTwo = gamepad_button_check(0, gp_face2);
-	key_abilityThree = gamepad_button_check(0, gp_face1);
-	key_abilityFour = gamepad_button_check(0, gp_face4); 
+	key_abilityOne = gamepad_button_check(0, gp_shoulderrb);
+	key_abilityTwo = gamepad_button_check(0, gp_shoulderlb);
+	key_abilityThree = gamepad_button_check(0, gp_shoulderr);
+	key_abilityFour = gamepad_button_check(0, gp_shoulderl); 
+	
+	//Player interact inputs
+	key_select = gamepad_button_check(0, gp_face3);
 }
 else
 {
@@ -29,5 +36,8 @@ key_abilityOne = keyboard_check(ord("Q"));
 key_abilityTwo = keyboard_check(ord("W"));
 key_abilityThree = keyboard_check(ord("E"));
 key_abilityFour = keyboard_check(ord("R")); 
+
+//Player interact inputs
+key_select = keyboard_check(ord("T"));
 
 }
