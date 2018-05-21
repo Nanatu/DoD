@@ -9,10 +9,21 @@
 {
 	
 fireCD = max(0, fireCD-1);
+if (fireCD == 0)
+{
+	obj_GUIController.abil1CD = false;
+}
+
+dodgeCD = max(0, dodgeCD-1);
+if (dodgeCD == 0)
+{
+	obj_GUIController.abil3CD = false;
+}
 
 //Shoot One
 if (key_abilityOne && fireCD <= 0)
 {
+	obj_GUIController.abil1CD = true;
 var tx, wall, target;
 	if (facing == sign(1)) { tx = room_width; }
 	else             { tx = 0; }
@@ -42,6 +53,7 @@ fireCD = 40;
 
 if (key_abilityTwo) && (fireCD <= 0)
 {
+	obj_GUIController.abil2CD = true;
 	var targets;
 	targets = scr_CollisionCircleList(x,y,300,all,false,true);
 	size = ds_list_size(targets);
@@ -64,8 +76,10 @@ if (key_abilityTwo) && (fireCD <= 0)
 	
 }
 
-if (key_abilityThree)
+if (key_abilityThree && dodgeCD <= 0)
 {
+	obj_GUIController.abil3CD = true;
+	dodgeCD = 60;
 state = marksmanStates.backflip;	
 }
 

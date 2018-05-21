@@ -9,14 +9,32 @@
 {
 	
 fireCD = max(0, fireCD-1);
+if (fireCD == 0)
+{
+	obj_GUIController.abil1CD = false;
+	obj_GUIController.abil2CD = false;
+}
+
 missileCD = max(0, missileCD-1);
+if (missileCD == 0)
+{
+	obj_GUIController.abil4CD = false;
+}
+
 dodgeCD = max(0, dodgeCD-1);
+if (dodgeCD == 0)
+{
+	obj_GUIController.abil3CD = false;
+}
+
 dodgeTime = max(0, dodgeTime-1);
+
 
 //Shoot One
 //if (key_abilityOne) && (fireCD <= 0)
 if (key_abilityOne && fireCD <= 0)
 {
+	obj_GUIController.abil1CD = true;
 var tx, wall, target;
 	if (facing == sign(1)) { tx = room_width; }
 	else             { tx = 0; }
@@ -66,6 +84,7 @@ var tx, wall, target;
 //Run this when FMJs are loaded
 if (key_abilityTwo) && (fireCD<= 0)
 {
+	obj_GUIController.abil2CD = true;
 	var tx, wall, targets;
 	if (facing == sign(1)) { tx = room_width; }
 	else             { tx = 0; }
@@ -110,14 +129,17 @@ if (key_abilityTwo) && (fireCD<= 0)
 //Dodge
 if(key_abilityThree && dodgeCD <= 0)
 {
-state = gunslingerStates.dodge
-dodgeTime = 15;
-dodgeCD = 60;
+	obj_GUIController.abil3CD = true;
+	state = gunslingerStates.dodge
+	dodgeTime = 15;
+	dodgeCD = 60;
 }
 
 //Shoot homing missile
 if (key_abilityFour && missileCD <= 0)
 {
+		obj_GUIController.abil4CD = true;
+		
 		//inst = instance_create_layer(x, y, "Player", obj_Gunslinger_HomingRocket);
 		var i
 		for (i = 5; i > 0; i--)
@@ -127,21 +149,5 @@ if (key_abilityFour && missileCD <= 0)
 		}
 		missileCD = 50;
 }
-
-//Dodge
-//if(key_dodge && dodgeCD <= 0)
-//{
-//	if(key_left)
-//	{
-//		hsp -= 60;
-//	}
-//	
-//	if (key_right)
-//	{
-//		hsp += 60;
-//	}
-//	dodgeCD = 30;
-//}
-
 
 }
