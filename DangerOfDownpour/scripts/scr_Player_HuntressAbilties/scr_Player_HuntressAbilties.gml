@@ -6,8 +6,21 @@
 {
 	
 crowCD = max(0, crowCD - 1);
+if (crowCD == 0)
+{
+	obj_GUIController.abil2CD = false;
+}
 virusCD = max(0, virusCD - 1);
+if (virusCD == 0)
+{
+	obj_GUIController.abil3CD = false;
+}
 mdkCD = max(0, mdkCD - 1);
+if (mdkCD == 0)
+{
+	obj_GUIController.abil4CD = false;
+}
+
 
 key_abilityOne_Release = keyboard_check_released(ord("Q"));
 key_abilityOne_Pressed = keyboard_check_pressed(ord("Q"));
@@ -50,6 +63,7 @@ spearCharge = 0;
 //Crow Throw
 if (key_abilityTwo && (crowCD == 0))
 {
+	obj_GUIController.abil2CD = true;
 	with (instance_create_layer(x,y-5,"Player",obj_Huntress_Crow))
 			{
 				image_angle = point_direction(x,y,x+other.facing*40,y);
@@ -62,6 +76,7 @@ if (key_abilityTwo && (crowCD == 0))
 //Dragon virus
 if (key_abilityThree && (virusCD == 0))
 {
+	obj_GUIController.abil3CD = true;
 	with (instance_create_layer(x,y-5,"Player",obj_Huntress_Virus))
 			{
 				image_angle = point_direction(x,y,x+other.facing*40,y);
@@ -74,6 +89,7 @@ if (key_abilityThree && (virusCD == 0))
 //MDK
 if (key_abilityFour && (mdkCD == 0))
 {
+	obj_GUIController.abil4CD = true;
 	with(instance_create_layer(x + 32,y,"MDK_MurderLayer",obj_Murder)){
 		
 	}

@@ -9,11 +9,20 @@ key_abilityOne_Pressed = keyboard_check_pressed(ord("Q"));
 key_abilityOne_Release = keyboard_check_released(ord("Q"));
 
 fireCD = max(0, fireCD-1);
+if (fireCD == 0)
+{
+	obj_GUIController.abil1CD = false;
+}
 rivetCD = max(0,rivetCD-1);
+if (rivetCD == 0)
+{
+	obj_GUIController.abil2CD = false;
+}
 
 //Duplex first shot
 if (key_abilityOne_Pressed) && (fireCD <= 0) && !(key_abilityThree)
 {
+	
 for (i = 10; i > 0; i--)
 		{
 		with (instance_create_layer(x,y,"Player",obj_Mechanic_Fletchette))
@@ -29,6 +38,7 @@ barrelOne = false;
 //Duplex first shot AND Jump Jets
 if (key_abilityOne_Pressed) && (fireCD <= 0) && (key_abilityThree)
 {
+	
 for (i = 10; i > 0; i--)
 		{
 with (instance_create_layer(x,y,"Player",obj_Mechanic_Fletchette))
@@ -46,6 +56,7 @@ barrelOne = false;
 //Duplex second shot
 if (key_abilityOne_Release) && (fireCD <= 0) && (barrelOne == false) && !(key_abilityThree)
 {
+obj_GUIController.abil1CD = true;
 
 for (i = 10; i > 0; i--)
 		{
@@ -63,6 +74,7 @@ barrelOne = true;
 //Duplex second shot AND Jump jets
 if (key_abilityOne_Release) && (fireCD <= 0) && (barrelOne == false) && (key_abilityThree)
 {
+obj_GUIController.abil1CD = true;
 
 for (i = 10; i > 0; i--)
 		{
@@ -81,6 +93,7 @@ barrelOne = true;
 //Rivets
 if (key_abilityTwo && rivetCD == 0)
 {
+	obj_GUIController.abil2CD = true;
 	state = mechanicStates.rivet;
 	
 }

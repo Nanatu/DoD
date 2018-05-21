@@ -10,5 +10,6 @@ script_execute(scr_Player_General_Init);
 
 //Initials
 fireCD = 50;
+dodgeCD = 60;
 ammo = 5;
 backflipTime = 8;
