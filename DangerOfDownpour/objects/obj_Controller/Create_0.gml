@@ -8,6 +8,7 @@ enum currentCharacter
 	Marksman,
 	Mechanic,
 	Huntress,
+	LRB,
 }
 
 global.characterType = currentCharacter.Gunslinger;
