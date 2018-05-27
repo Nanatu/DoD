@@ -36,7 +36,7 @@ if (!instance_exists(obj_Player))
 	if (global.characterType == currentCharacter.LRB)
 	{
 		instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y,"Player",obj_Player_LRB)
-		show_debug_message("PLAYER TYPE IS LOST RECLAMATION BOT");
+		show_debug_message("PLAYER TYPE IS LOST RECLAIMER BOT");
 		//instance_deactivate_object(obj_PlayerSpawn);
 	}
 }
