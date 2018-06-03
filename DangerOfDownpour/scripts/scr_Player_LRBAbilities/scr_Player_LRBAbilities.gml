@@ -6,6 +6,8 @@
 
 //TODO: define energy and direction of attacks
 
+{
+
 if (key_abilityOne)
 {
 	with instance_create_layer(x+(facing*32),y,"Player",obj_LRB_Firewall)
@@ -16,7 +18,7 @@ if (key_abilityOne)
 
 if (key_abilityTwo)
 {
-	targets = scr_CollisionLineAll(x, y, facing*(x+100), y, all, false, true);
+	targets = scr_CollisionLineAll(x, y, x + -facing * 50, y, all, false, true);
 	if (targets != noone)
 	{	
 		size = ds_list_size(targets);
@@ -37,7 +39,7 @@ if (key_abilityTwo)
 	ds_list_destroy(targets);
 	}
 	
-	targets = scr_CollisionLineAll(x, y, -facing*(x+100), y, all, false, true);
+	targets = scr_CollisionLineAll(x, y, x + facing * 50, y, all, false, true);
 	if (targets != noone)
 	{	
 		size = ds_list_size(targets);
@@ -75,4 +77,6 @@ if (key_abilityFour)
 	{
 	image_xscale= other.facing	
 	}
+}
+
 }
