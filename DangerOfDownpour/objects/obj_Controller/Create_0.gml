@@ -9,6 +9,7 @@ enum currentCharacter
 	Mechanic,
 	Huntress,
 	LRB,
+	Beyonder,
 }
 
 global.characterType = currentCharacter.Gunslinger;

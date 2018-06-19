@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "2bcefd78-dd9a-471a-8c1e-bb4cec7f2914",
+            "Value": {
+                "id": "b859c0e7-b593-4737-b9ab-f8067c9c2269",
+                "resourcePath": "objects\\obj_Player_Beyonder\\obj_Player_Beyonder.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2cb489b5-16e7-4cc1-ab3b-0893f0848708",
             "Value": {
                 "id": "eba91230-6fbb-4404-b05b-88dbda4f29d8",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "3a4ea9ba-c355-4f06-a142-afa0d6782619",
+            "Value": {
+                "id": "56317394-3f9d-4017-8cd4-b8b0ca774c1d",
+                "resourcePath": "views\\3a4ea9ba-c355-4f06-a142-afa0d6782619.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3aa7ad67-926a-449c-8e86-df4bebb1f7ac",
             "Value": {
                 "id": "eb10ec8b-adf3-45b9-90d8-a3d1117259f4",
@@ -447,6 +463,14 @@
             }
         },
         {
+            "Key": "4a589b3e-d08d-4bec-b8a7-da7a39468468",
+            "Value": {
+                "id": "35fce483-cbdb-4d13-ab35-537d113f6f4d",
+                "resourcePath": "sprites\\spr_Beyonder_Sight\\spr_Beyonder_Sight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d014d1d-4699-401d-8f0c-7ec07f183ca0",
             "Value": {
                 "id": "5cbd5ef1-179a-4e15-b556-a12ec548fa15",
@@ -476,6 +500,14 @@
                 "id": "625772ce-f088-4501-96b6-815450880d58",
                 "resourcePath": "objects\\obj_Enemy\\obj_Enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "54d1cbc8-c081-4a27-a36f-9805b2a47684",
+            "Value": {
+                "id": "325366ef-a3cd-4ebc-b782-53ffecd6a397",
+                "resourcePath": "scripts\\scr_Player_BeyonderAbilities\\scr_Player_BeyonderAbilities.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -524,6 +556,14 @@
                 "id": "fd3eb9e8-2292-4494-a79a-32a17964eada",
                 "resourcePath": "scripts\\scr_Player_General_Init\\scr_Player_General_Init.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "667df737-a397-4cb6-b632-211a31071cb0",
+            "Value": {
+                "id": "d441e58d-c05b-480a-b412-701cef4301be",
+                "resourcePath": "views\\667df737-a397-4cb6-b632-211a31071cb0.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -703,10 +743,26 @@
             }
         },
         {
+            "Key": "7e6c7589-580f-473e-a63e-65293bc60de0",
+            "Value": {
+                "id": "4fa367ec-8e1d-4a2d-9007-e24480e1fed6",
+                "resourcePath": "objects\\obj_PlayerSelect_Beyonder\\obj_PlayerSelect_Beyonder.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7ecca0cf-f0cf-4ab2-bdd6-e44327e2c54e",
             "Value": {
                 "id": "a2ae2a79-e321-4f07-95c3-5e3be2339b38",
                 "resourcePath": "sprites\\spr_Enemy_Grinner\\spr_Enemy_Grinner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7efc507a-b41f-4454-aea9-09b47dd4185d",
+            "Value": {
+                "id": "0222164a-c673-4da4-b6c0-93ad33907059",
+                "resourcePath": "sprites\\spr_Player_Beyonder\\spr_Player_Beyonder.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -927,6 +983,14 @@
             }
         },
         {
+            "Key": "a436eff1-42ef-4be3-bf34-018ac7426f17",
+            "Value": {
+                "id": "9ceba498-9879-4317-afdd-a9bc452c6b4b",
+                "resourcePath": "sprites\\spr_Beyonder_Fissure\\spr_Beyonder_Fissure.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a4569493-ad8b-4f5a-9ea1-e1cab8f1f9d3",
             "Value": {
                 "id": "7d32c563-5ebb-4b34-9263-658205cfec16",
@@ -1012,6 +1076,14 @@
                 "id": "55fef246-dba9-4617-b6fc-a0a7f9603038",
                 "resourcePath": "objects\\obj_Controller\\obj_Controller.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b13270b3-fc27-427d-9a63-eaf80dd8c385",
+            "Value": {
+                "id": "0f9a0709-730e-484c-b849-13c4af342f78",
+                "resourcePath": "views\\b13270b3-fc27-427d-9a63-eaf80dd8c385.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1172,6 +1244,14 @@
                 "id": "fc9c1a68-b79f-435f-b767-ebeab49a5a76",
                 "resourcePath": "scripts\\scr_Player_EnemyWithinRange\\scr_Player_EnemyWithinRange.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c59d2e09-ef4d-45b5-ac98-582f721a6b4f",
+            "Value": {
+                "id": "76e1e6f4-ecc1-4e35-8de4-26a431f0f029",
+                "resourcePath": "objects\\obj_Beyonder_Sight\\obj_Beyonder_Sight.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1388,6 +1468,14 @@
                 "id": "9a11f594-420d-4684-bc76-4d65f4a2eae5",
                 "resourcePath": "sprites\\spr_Hit\\spr_Hit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9410208-9fa0-4892-8494-1e9f7bfc3a44",
+            "Value": {
+                "id": "616bcca6-f3c1-4c1a-ad3e-bfeab0f6acd7",
+                "resourcePath": "objects\\obj_Beyonder_Select_Spawner\\obj_Beyonder_Select_Spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1616,6 +1704,7 @@
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",
         "44cda7de-bf1c-4609-9e79-d65f0f4fffc4",
         "03ef1def-9a71-42b3-a481-4d384c707a94",
+        "54d1cbc8-c081-4a27-a36f-9805b2a47684",
         "0910f216-a1d6-4f0c-8110-b42ff0c99557",
         "2ef33d36-c4f3-47d5-a89f-a2d2ff6bccf2",
         "b94637a2-c799-43e2-a253-3e1ddc37d717",

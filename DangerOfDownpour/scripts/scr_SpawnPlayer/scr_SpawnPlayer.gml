@@ -39,4 +39,10 @@ if (!instance_exists(obj_Player))
 		show_debug_message("PLAYER TYPE IS LOST RECLAIMER BOT");
 		//instance_deactivate_object(obj_PlayerSpawn);
 	}
+	if (global.characterType == currentCharacter.Beyonder)
+	{
+		instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y,"Player",obj_Player_Beyonder)
+		show_debug_message("PLAYER TYPE IS BEYONDER");
+		//instance_deactivate_object(obj_PlayerSpawn);
+	}
 }

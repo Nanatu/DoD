@@ -8,7 +8,8 @@
         "6a28f00b-fe75-4478-a17e-53f164deeca9",
         "4422db21-b83f-4f75-b0ca-68be08dcf158",
         "9c44987a-910f-4485-898a-cc9cdc0d6d04",
-        "fee7c314-a378-404f-958d-6fd8e7a2db70"
+        "fee7c314-a378-404f-958d-6fd8e7a2db70",
+        "e9410208-9fa0-4892-8494-1e9f7bfc3a44"
     ],
     "filterType": "GMObject",
     "folderName": "SelectSpawner",
