@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "11b40fe7-4983-4336-86a8-65de59163b94",
+            "Value": {
+                "id": "9a4c9d4a-5f09-4589-87a2-cd2725125095",
+                "resourcePath": "sprites\\spr_Beyonder_Rift\\spr_Beyonder_Rift.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11f8a1a1-adca-4c85-9b5a-89eabc3d4d95",
             "Value": {
                 "id": "8c4552c7-0e6f-4314-95d2-61ed46c689dc",
@@ -220,6 +228,14 @@
                 "id": "f4222a63-689f-4f89-9997-ebd5a89ac7f2",
                 "resourcePath": "scripts\\scr_EnemyState_Chase\\scr_EnemyState_Chase.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "20f58b6b-8338-4777-8b27-4e6a1ddbf5f8",
+            "Value": {
+                "id": "a55b98bf-3505-44a0-95e7-21ff97034b8e",
+                "resourcePath": "objects\\obj_Beyonder_Fissure\\obj_Beyonder_Fissure.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1539,6 +1555,14 @@
             "Value": {
                 "id": "2670cca0-8d1e-465c-b522-9463cadd6dda",
                 "resourcePath": "objects\\obj_Gunslinger_Select_Spawner\\obj_Gunslinger_Select_Spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f3afa9a9-da84-40fb-8543-e8ded2e6a807",
+            "Value": {
+                "id": "fe4bc514-56d5-4711-a350-b843f5a59f5b",
+                "resourcePath": "objects\\obj_Beyonder_Rift\\obj_Beyonder_Rift.yy",
                 "resourceType": "GMObject"
             }
         },
