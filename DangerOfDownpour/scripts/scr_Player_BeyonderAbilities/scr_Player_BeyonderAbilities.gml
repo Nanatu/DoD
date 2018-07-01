@@ -18,7 +18,43 @@ if (key_abilityTwo)
 
 if (key_abilityThree)
 {
-	instance_create_layer(x,y,"Player", obj_Beyonder_Sight);
+	//Far Right
+	with(instance_create_layer(x,y,"Player", obj_Beyonder_Sight))
+	{
+		follow = other.id;
+		x = other.x;
+		y = other.y;
+		offsetX = 32;
+		offsetY = -32;
+	}
+	//Middle Right
+	with(instance_create_layer(x,y,"Player", obj_Beyonder_Sight))
+	{
+		follow = other.id;
+		x = other.x;
+		y = other.y;
+		offsetX = 16;
+		offsetY = -40;
+	}
+	
+	//Far Left
+	with(instance_create_layer(x,y,"Player", obj_Beyonder_Sight))
+	{
+		follow = other.id;
+		x = other.x;
+		y = other.y;
+		offsetX = -32;
+		offsetY = -32;
+	}
+	//Middle left
+	with(instance_create_layer(x,y,"Player", obj_Beyonder_Sight))
+	{
+		follow = other.id;
+		x = other.x;
+		y = other.y;
+		offsetX = -16;
+		offsetY = -40;
+	}
 }
 
 if (key_abilityFour)
