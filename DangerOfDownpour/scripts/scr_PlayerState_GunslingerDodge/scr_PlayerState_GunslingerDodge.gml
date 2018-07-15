@@ -2,6 +2,7 @@
 //	
 //	Script describing the dodge state of the Gunslinger character
 //
+
 {
 	
 dodgeTime = max(0, dodgeTime-1);

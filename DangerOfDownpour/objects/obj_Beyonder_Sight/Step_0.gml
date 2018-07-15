@@ -4,6 +4,8 @@
 //y = follow.y + offsetY;
 //}
 
+timeAlive --;
+
 xTo = follow.x + offsetX;
 yTo = follow.y + offsetY;
 	
@@ -26,4 +28,9 @@ if (distance_to_object(target) <= 100)
 else
 {
 	targetInRange = false;
+}
+
+if timeAlive <= 0
+{
+	instance_destroy();	
 }

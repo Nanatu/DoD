@@ -3,7 +3,6 @@
 //	Script describing the Marksman Backflip ability
 //
 
-
 {
 	
 	vsp = -jump_power-2;

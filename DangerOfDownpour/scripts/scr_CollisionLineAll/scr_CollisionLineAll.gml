@@ -17,6 +17,7 @@
 //      obj         object to check for collision (or all), real
 //      prec        true for precise collision checking, bool
 //      notme       true to ignore the calling instance, bool
+//
 {
     var x1,y1,x2,y2,obj,prec,notme,dsid,i;
     x1 = argument0;

@@ -18,6 +18,7 @@
 //      object      which objects to look for (or all), real
 //      prec        if true, use precise collision checking, bool
 //      notme       if true, ignore the calling instance, bool
+//
 {
     var ox,oy,dx,dy,object,prec,notme,sx,sy,inst,i;
     ox = argument0;

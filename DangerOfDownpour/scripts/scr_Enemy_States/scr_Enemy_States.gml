@@ -1,8 +1,13 @@
 ///scr_Enemy_States
-enum enemyStates
+//
 {
-	idle,
-wander,
-chase,
-attack
+	
+	enum enemyStates
+	{
+		idle,
+		wander,
+		chase,
+		attack
+	}
+
 }

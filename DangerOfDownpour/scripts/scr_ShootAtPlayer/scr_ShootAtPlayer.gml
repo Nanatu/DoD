@@ -11,6 +11,7 @@
 //		playerX, playerY	player position at trigger
 //		selfX, selfY		calling objects position at time of trigger
 //		bullet				the bullet object being used
+//
 {
 	var playerX, playerY, selfX, selfY, bullet;
 	playerX = argument0;
