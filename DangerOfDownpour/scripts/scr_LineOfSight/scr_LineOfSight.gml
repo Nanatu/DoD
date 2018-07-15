@@ -13,12 +13,13 @@
 	target = argument0;
 	if target != noone
 	{
-		wall = scr_CollisionLineFirst(x, y, target.x, target.y, obj_Wall, false, true);
 //Raycast target
-	if (!wall)
-	{
-		return  true;	
-	}
+		wall = scr_CollisionLineFirst(x, y, target.x, target.y, obj_Wall, false, true);
+
+		if (!wall)
+		{
+			return  true;	
+		}
 		else return false;
 	}
 }

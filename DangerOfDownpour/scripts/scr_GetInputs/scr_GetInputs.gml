@@ -24,7 +24,7 @@
 //Player interact inputs
 	key_select = gamepad_button_check(0, gp_face3);
 	}
-		else
+	else
 	{
 //Player Movement Input
 	key_left = keyboard_check(vk_left);

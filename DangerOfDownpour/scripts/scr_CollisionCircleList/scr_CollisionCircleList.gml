@@ -24,13 +24,16 @@
     prec = argument4;
     notme = argument5;
     dsid = ds_list_create();
-    with (obj) {
-        if (!notme || id != other.id) {
+    with (obj)
+	{
+        if (!notme || id != other.id)
+		{
             i = collision_circle(x1,y1,radius,id,prec,false);
             if (i != noone) ds_list_add(dsid,i);
         }
     }
-    if (ds_list_empty(dsid)) {
+    if (ds_list_empty(dsid))
+	{
         ds_list_destroy(dsid);
         dsid = noone;
     }

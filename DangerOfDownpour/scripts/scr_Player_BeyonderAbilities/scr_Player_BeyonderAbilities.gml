@@ -2,7 +2,7 @@
 //	
 //	Script describing the Beyonder character's abilities
 //	Includes upkeep
-//
+//TODO: Fissure and Rift
 
 {
 	fissureCD = max(0, fissureCD-1);

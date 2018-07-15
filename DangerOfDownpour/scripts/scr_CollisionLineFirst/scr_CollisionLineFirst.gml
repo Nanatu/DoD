@@ -33,7 +33,8 @@
     inst = collision_line(ox,oy,dx,dy,object,prec,notme);
     if (inst != noone)
 	{
-        while ((abs(sx) >= 1) || (abs(sy) >= 1)) {
+        while ((abs(sx) >= 1) || (abs(sy) >= 1))
+		{
             sx /= 2;
             sy /= 2;
             i = collision_line(ox,oy,dx,dy,object,prec,notme);
@@ -42,7 +43,9 @@
                 dx -= sx;
                 dy -= sy;
                 inst = i;
-            }else{
+            }
+			else
+			{
                 dx += sx;
                 dy += sy;
             }
