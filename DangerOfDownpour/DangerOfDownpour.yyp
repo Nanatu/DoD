@@ -250,7 +250,7 @@
             "Key": "23534945-e6bf-4f4d-9d26-c62f373e0edf",
             "Value": {
                 "id": "1241bbfe-fc7c-4862-b37c-fdd86a3c7bf8",
-                "resourcePath": "sprites\\spr_Player_Mechanic\\spr_Player_Mechanic.yy",
+                "resourcePath": "sprites\\spr_Player_Mechanic_Crouching\\spr_Player_Mechanic_Crouching.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -267,6 +267,14 @@
             "Value": {
                 "id": "b423b35c-5632-4548-afa0-ce03db01ba55",
                 "resourcePath": "sprites\\spr_Marksman_BackflipExplosion\\spr_Marksman_BackflipExplosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "24c498bb-dddc-45af-850e-a40e9d7fe4e4",
+            "Value": {
+                "id": "df2edd00-7efc-44e1-b264-54a74490d83f",
+                "resourcePath": "sprites\\spr_Player_Mechanic\\spr_Player_Mechanic.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -407,6 +415,14 @@
             }
         },
         {
+            "Key": "3cfd26c4-a9fb-436c-ba18-21f8cf22418f",
+            "Value": {
+                "id": "1e953168-d1b5-460b-a2bc-5953f937e7be",
+                "resourcePath": "sprites\\spr_Player_Gunslinger\\spr_Player_Gunslinger.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3dd34d16-b8d1-4af6-9818-c500092d6394",
             "Value": {
                 "id": "020624c6-8846-4f0e-9763-8b65609cec96",
@@ -428,6 +444,14 @@
                 "id": "7b46705c-2dc6-4be4-948f-fc32ea91d1f3",
                 "resourcePath": "objects\\obj_Wall\\obj_Wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "402b4c7e-8a7b-4fb7-a062-2c83f77ea1c6",
+            "Value": {
+                "id": "4ec86579-697d-4275-8138-d63c523162f1",
+                "resourcePath": "sprites\\spr_Player_Marksman\\spr_Player_Marksman.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -572,6 +596,14 @@
                 "id": "fd3eb9e8-2292-4494-a79a-32a17964eada",
                 "resourcePath": "scripts\\scr_Player_General_Init\\scr_Player_General_Init.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6479479b-cca1-4728-9d44-ec0f86559dff",
+            "Value": {
+                "id": "c9f7592d-1c4d-4f91-b2b9-e2998d3dfa20",
+                "resourcePath": "sprites\\spr_Player_Huntress_Crouching\\spr_Player_Huntress_Crouching.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -724,6 +756,14 @@
                 "id": "048c41c7-b519-4c4a-b0a6-2902478d1475",
                 "resourcePath": "views\\783a2204-c395-4221-a828-597a08496e26.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "79414af0-eeb0-4849-890a-d56460653f0f",
+            "Value": {
+                "id": "5ad8a8b8-6934-451b-a6a6-fbf4ec4092e7",
+                "resourcePath": "sprites\\spr_Player_Beyonder_Crouching\\spr_Player_Beyonder_Crouching.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1034,7 +1074,7 @@
             "Key": "a5c29db2-cafd-4fa2-93f5-5236856a7fac",
             "Value": {
                 "id": "dacdfbc9-329e-4acd-a508-5f28745222eb",
-                "resourcePath": "sprites\\spr_Player_Gunslinger\\spr_Player_Gunslinger.yy",
+                "resourcePath": "sprites\\spr_Player_Gunslinger_Crouch\\spr_Player_Gunslinger_Crouch.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1314,7 +1354,7 @@
             "Key": "d0ad6cf2-4f9e-444e-a6a6-25902664e9a0",
             "Value": {
                 "id": "d50a519d-be39-4a5d-9cdf-bc10675c3b58",
-                "resourcePath": "sprites\\spr_Player_Marksman\\spr_Player_Marksman.yy",
+                "resourcePath": "sprites\\spr_Player_Marksman_Crouching\\spr_Player_Marksman_Crouching.yy",
                 "resourceType": "GMSprite"
             }
         },

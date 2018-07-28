@@ -10,7 +10,7 @@
 
 	if (key_abilityOne)
 	{
-		with instance_create_layer(x+(facing*32),y,"Player",obj_LRB_Firewall)
+		with instance_create_layer(x+(facing*48),y,"Player",obj_LRB_Firewall)
 		{
 			image_xscale= other.facing	
 		}
@@ -73,7 +73,7 @@
 	if (key_abilityFour)
 	{
 		energy = 0;
-		with instance_create_layer(x+(facing*32),y,"Player",obj_LRB_XOR)
+		with instance_create_layer(x+(facing*48),y,"Player",obj_LRB_XOR)
 		{
 			image_xscale= other.facing	
 		}
