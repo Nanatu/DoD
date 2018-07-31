@@ -5,13 +5,15 @@
 {
 	
 //Move Values
-	state = 0;
+	playerState = 0;
+	characterState = 0;
 	hsp = 0;
 	vsp = 0;
 	grv = 0.6;
 	walksp = 4;
 	facing = sign(hsp);
 	jump_power = 10;
+	crouched = false;
 
 //Health
 	hp = 5;

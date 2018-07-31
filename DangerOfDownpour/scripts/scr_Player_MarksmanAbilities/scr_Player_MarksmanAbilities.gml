@@ -77,7 +77,7 @@
 	{
 		obj_GUIController.abil3CD = true;
 		dodgeCD = 60;
-		state = marksmanStates.backflip;	
+		characterState = marksmanStates.backflip;	
 	}
 //All In The Chamber
 	if (key_abilityFour)

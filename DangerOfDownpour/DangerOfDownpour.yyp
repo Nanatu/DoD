@@ -887,6 +887,14 @@
             }
         },
         {
+            "Key": "87c99ab5-b9f4-4855-955c-7551ed191d84",
+            "Value": {
+                "id": "9dbf3c9a-35f5-4c8b-8ca3-88db9e736c3a",
+                "resourcePath": "scripts\\scr_PlayerState_Crouch\\scr_PlayerState_Crouch.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "88051482-569b-4cbc-88f4-acb21984e2d9",
             "Value": {
                 "id": "0ec7423b-9100-462f-8cee-e16881f6deea",
@@ -900,14 +908,6 @@
                 "id": "8e772043-c366-495f-91c8-2e6f8bbb4996",
                 "resourcePath": "scripts\\scr_Enemy_CollisionAndMovement\\scr_Enemy_CollisionAndMovement.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "8a8ac192-40f2-4702-9325-bcec34647c38",
-            "Value": {
-                "id": "b46b89b1-05b0-4b14-b3ef-e33187673446",
-                "resourcePath": "rooms\\rm_test\\rm_test.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1740,6 +1740,7 @@
         "c6dab3cb-7342-456c-a17c-9e4c7a1af3e1",
         "7597479b-c8f5-4178-974e-8cd8bba5bc60",
         "6913b30d-358a-4a2d-af00-f98185974ebe",
+        "87c99ab5-b9f4-4855-955c-7551ed191d84",
         "be622995-b49e-4412-a3e2-0c93b34aef0b",
         "b5f25e17-fa81-4041-a009-60b5c08a9d21",
         "b860d792-3f4e-44eb-b5a0-bd23347c491e",

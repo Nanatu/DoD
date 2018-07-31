@@ -1,4 +1,4 @@
-/// scr_PlayerState_Normal()
+/// scr_PlayerState_Crouch()
 //	
 //	General script for a player character being in the "Normal" state
 //
@@ -9,10 +9,8 @@ scr_GetInputs();
 
 //Calculate Movement
 move = key_right - key_left;
-hsp = move * walksp;
-vsp = vsp + grv;
-if (hsp != 0) facing = sign(hsp)
-
+if (move == 1) facing = 1
+if (move == -1) = -1
 
 scr_CollisionAndMovement();
 scr_AnimationController();

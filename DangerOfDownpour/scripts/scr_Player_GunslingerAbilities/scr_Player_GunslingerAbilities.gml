@@ -125,7 +125,7 @@
 	if(key_abilityThree && dodgeCD <= 0)
 	{
 		obj_GUIController.abil3CD = true;
-		state = gunslingerStates.dodge
+		characterState = gunslingerStates.dodge
 		dodgeTime = 15;
 		dodgeCD = 60;
 	}

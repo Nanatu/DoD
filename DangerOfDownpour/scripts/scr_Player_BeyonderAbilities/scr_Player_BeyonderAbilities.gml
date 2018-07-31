@@ -36,7 +36,7 @@
 	
 	if (key_abilityOne && fissureCD <= 0)
 	{
-		instance_create_layer(x,y,"Player", obj_Beyonder_Fissure);
+		instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Fissure);
 		fissureCD = 30;
 		obj_GUIController.abil1CD = true;
 	}
@@ -53,7 +53,7 @@
 	if (key_abilityThree && sightCD <= 0)
 	{
 //Far Right Eye
-		with(instance_create_layer(x,y,"Player", obj_Beyonder_Sight))
+		with(instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Sight))
 		{
 			follow = other.id;
 			x = other.x;
@@ -63,7 +63,7 @@
 			timeAlive = 540;
 		}
 //Middle Right Eye
-		with(instance_create_layer(x,y,"Player", obj_Beyonder_Sight))
+		with(instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Sight))
 		{
 			follow = other.id;
 			x = other.x;
@@ -75,7 +75,7 @@
 	
 	
 //Middle Left Eye
-		with(instance_create_layer(x,y,"Player", obj_Beyonder_Sight))
+		with(instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Sight))
 		{
 			follow = other.id;
 			x = other.x;
@@ -86,7 +86,7 @@
 		}
 	
 //Far Left Eye
-		with(instance_create_layer(x,y,"Player", obj_Beyonder_Sight))
+		with(instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Sight))
 		{
 			follow = other.id;
 			x = other.x;
@@ -102,7 +102,7 @@
 
 	if (key_abilityFour && riftCD <= 0)
 	{
-		instance_create_layer(x,y,"Player", obj_Beyonder_Rift);
+		instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Rift);
 		riftCD = 600;
 		obj_GUIController.abil4CD = true;
 	}

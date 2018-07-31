@@ -1,9 +1,9 @@
-if state == gunslingerStates.normal
+if characterState == gunslingerStates.normal
 {
 scr_PlayerState_Normal();
 scr_Player_GunslingerAbilities();
 }
-else if state == gunslingerStates.dodge
+else if characterState == gunslingerStates.dodge
 {
 	scr_PlayerState_GunslingerDodge();
 }

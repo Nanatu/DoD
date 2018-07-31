@@ -34,7 +34,7 @@
 				speed = 30;
 				direction = point_direction(x,y,x+other.facing*40,y + 20);
 			}
-	state = marksmanStates.normal;
+	characterState = marksmanStates.normal;
 	backflipTime = 8;
 	}
 	

@@ -11,7 +11,7 @@ hsp = facing * (walksp * 3);
 vsp = vsp + grv;
 if (dodgeTime <= 0)
 {
-state = gunslingerStates.normal;
+characterState = gunslingerStates.normal;
 walksp = 4;
 }
 scr_CollisionAndMovement();

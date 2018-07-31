@@ -1,9 +1,9 @@
-if state == marksmanStates.normal
+if characterState == marksmanStates.normal
 {
 scr_PlayerState_Normal();
 scr_Player_MarksmanAbilities();
 }
-else if state == marksmanStates.backflip
+else if characterState == marksmanStates.backflip
 {
 scr_PlayerState_MarksmanBackflip();
 }

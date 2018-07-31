@@ -1,9 +1,9 @@
-if state == mechanicStates.normal
+if characterState == mechanicStates.normal
 {
 scr_PlayerState_Normal();
 scr_Player_MechanicAbilities();
 }
-else if state == mechanicStates.rivet
+else if characterState == mechanicStates.rivet
 {
 	scr_PlayerState_MechanicRivet();	
 }
