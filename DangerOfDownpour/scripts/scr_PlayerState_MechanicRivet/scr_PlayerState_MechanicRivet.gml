@@ -25,7 +25,7 @@ if (rivetTime == 0)
 {
 	rivetCD=20;
 	rivetTime=15;
-	state = mechanicStates.normal	
+	characterState = mechanicStates.normal	
 }	
 	scr_CollisionAndMovement();
 }

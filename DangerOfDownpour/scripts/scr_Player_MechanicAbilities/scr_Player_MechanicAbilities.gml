@@ -91,7 +91,7 @@
 	if (key_abilityTwo && rivetCD == 0)
 	{
 		obj_GUIController.abil2CD = true;
-		state = mechanicStates.rivet;
+		characterState = mechanicStates.rivet;
 	}
 
 //Jump Jets
