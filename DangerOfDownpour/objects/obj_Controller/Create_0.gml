@@ -12,4 +12,17 @@ enum currentCharacter
 	Beyonder,
 }
 
+enum animationState
+{
+Idle,
+Run,
+Jump,
+Crouch,
+Fall,
+Ability1,
+Ability2,
+Ability3,
+Ability4
+}
+
 global.characterType = currentCharacter.Gunslinger;

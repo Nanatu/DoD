@@ -1,8 +1,8 @@
 {
-    "id": "87c99ab5-b9f4-4855-955c-7551ed191d84",
+    "id": "14b060ff-d463-435f-b786-d921cd8daa89",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_PlayerState_Crouch",
+    "name": "scr_Mechanic_Load",
     "IsCompatibility": false,
     "IsDnD": false
 }

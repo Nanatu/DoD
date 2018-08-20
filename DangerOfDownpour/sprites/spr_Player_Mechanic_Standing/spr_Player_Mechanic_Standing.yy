@@ -1,12 +1,12 @@
 {
-    "id": "a5c29db2-cafd-4fa2-93f5-5236856a7fac",
+    "id": "1c5a18a2-6a0f-410c-a1e0-9a7ad54fa569",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_Player_Gunslinger_Crouch",
+    "name": "spr_Player_Mechanic_Standing",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 31,
+    "bbox_bottom": 63,
     "bbox_left": 0,
     "bbox_right": 31,
     "bbox_top": 0,
@@ -16,37 +16,37 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "fe07d25f-1dbb-4a09-8076-9e149cf5c667",
+            "id": "1e331bff-1f8d-4471-8168-b7e31da69dbf",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "a5c29db2-cafd-4fa2-93f5-5236856a7fac",
+            "SpriteId": "1c5a18a2-6a0f-410c-a1e0-9a7ad54fa569",
             "compositeImage": {
-                "id": "afb9f096-2549-49f2-9765-0366497f3560",
+                "id": "fe6c478e-6d07-4972-bf6a-1c449255bfd7",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "fe07d25f-1dbb-4a09-8076-9e149cf5c667",
+                "FrameId": "1e331bff-1f8d-4471-8168-b7e31da69dbf",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "7c8f1516-6440-4ce5-a916-659b9dd67c67",
+                    "id": "4b825112-423e-4e40-a406-8e730364e905",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "fe07d25f-1dbb-4a09-8076-9e149cf5c667",
-                    "LayerId": "c6579e8b-0d44-48bf-b8a9-29903d1cb578"
+                    "FrameId": "1e331bff-1f8d-4471-8168-b7e31da69dbf",
+                    "LayerId": "8e7181fe-5574-4e0f-a073-85aee65a5222"
                 }
             ]
         }
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 32,
+    "height": 64,
     "layers": [
         {
-            "id": "c6579e8b-0d44-48bf-b8a9-29903d1cb578",
+            "id": "8e7181fe-5574-4e0f-a073-85aee65a5222",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "a5c29db2-cafd-4fa2-93f5-5236856a7fac",
+            "SpriteId": "1c5a18a2-6a0f-410c-a1e0-9a7ad54fa569",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
@@ -66,5 +66,5 @@
     "type": 0,
     "width": 32,
     "xorig": 16,
-    "yorig": 16
+    "yorig": 32
 }

@@ -15,13 +15,18 @@
 		image_speed = 1;
 		if (hsp == 0)
 		{
-			//sprite_index = spr_Player;
+			sprite_index = animation_List[|animationState.Idle];
 		}
 		else
 		{
-			//sprite_index = spr_PlayerR;
+			sprite_index = animation_List[|animationState.Run];
 		}
 	
+	}
+	
+	if (crouch)
+	{
+	sprite_index = 	animation_List[|animationState.Crouch];
 	}
 
 //Sprite Facing

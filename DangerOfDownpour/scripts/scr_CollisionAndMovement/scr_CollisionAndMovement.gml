@@ -32,5 +32,14 @@
 	}
 	y = y + vsp;
 
+//Crouched
+if (key_down && !key_left && !key_right)
+{
+	crouch = true;
+}
+else
+{
+	crouch = false;
+}
 
 }

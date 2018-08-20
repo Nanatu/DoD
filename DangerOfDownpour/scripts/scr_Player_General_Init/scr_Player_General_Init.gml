@@ -4,8 +4,8 @@
 //
 {
 	
+	
 //Move Values
-	playerState = 0;
 	characterState = 0;
 	hsp = 0;
 	vsp = 0;
@@ -13,9 +13,11 @@
 	walksp = 4;
 	facing = sign(hsp);
 	jump_power = 10;
-	crouched = false;
+	crouch= false;
 
 //Health
 	hp = 5;
+	
+animation_List = ds_list_create()
 
 }

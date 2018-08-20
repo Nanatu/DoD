@@ -7,6 +7,7 @@ enum mechanicStates
 
 //Contains general Move and Health
 script_execute(scr_Player_General_Init);
+script_execute(scr_Mechanic_Load);
 
 //Attack
 fireCD = 50;
