@@ -1,4 +1,6 @@
-//
+/// scr_CameraSetup()
+//	
+//	Script to set up the camera frame
 //
 {
 	

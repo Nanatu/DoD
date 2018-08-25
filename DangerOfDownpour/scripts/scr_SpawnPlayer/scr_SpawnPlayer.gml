@@ -1,4 +1,6 @@
-
+/// scr_SpawnPlayer()
+//	
+//	Script to spawin in proper character type
 //
 {
 	

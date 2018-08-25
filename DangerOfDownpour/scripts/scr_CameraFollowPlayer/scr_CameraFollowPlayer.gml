@@ -1,4 +1,8 @@
-//Moving camera to player, Lower divison == faster camera
+/// scr_Gunslinger_Load()
+//	
+//	Script to have camera follow players location
+//
+//  Moving camera to player, Lower divison == faster camera
 //
 {
 	
