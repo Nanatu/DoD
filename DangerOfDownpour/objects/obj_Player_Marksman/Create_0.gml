@@ -7,6 +7,7 @@ enum marksmanStates
 
 //Contains general Move and Health
 script_execute(scr_Player_General_Init);
+script_execute(scr_Marksman_Load);
 
 //Initials
 fireCD = 50;
