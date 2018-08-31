@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "15c39123-9e95-46cf-bf8e-894acd255ed9",
+            "Value": {
+                "id": "e5e09b0c-6323-454d-a101-be3cbda32d41",
+                "resourcePath": "sprites\\spr_Enemy_Grinner_Running\\spr_Enemy_Grinner_Running.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15fb150c-f496-469f-98b3-dbf79d8dab30",
             "Value": {
                 "id": "d7e75bb3-934c-453f-84a7-f0fb1901709b",
@@ -1620,6 +1628,14 @@
                 "id": "c05f794d-dac9-4ff3-bb10-5cd4fd2d6c1d",
                 "resourcePath": "scripts\\scr_Grinner_IdleState\\scr_Grinner_IdleState.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e3da689f-16d2-49bb-9f8b-18fcd83dd3e3",
+            "Value": {
+                "id": "62ba637d-88d0-474a-b463-183ecb1c584c",
+                "resourcePath": "sprites\\spr_Enemy_Grinner_Standing\\spr_Enemy_Grinner_Standing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

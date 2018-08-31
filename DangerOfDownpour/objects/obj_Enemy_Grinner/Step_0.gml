@@ -70,11 +70,11 @@ else
 	image_speed = 1;
 	if (hsp == 0)
 	{
-		//sprite_index = spr_Enemy;
+		sprite_index = spr_Enemy_Grinner_Standing;
 	}
 	else
 	{
-		//sprite_index = spr_EnemyR;
+		sprite_index = spr_Enemy_Grinner_Running;
 	}
 	
 }
