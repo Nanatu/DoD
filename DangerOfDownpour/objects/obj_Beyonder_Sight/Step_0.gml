@@ -30,6 +30,24 @@ else
 	targetInRange = false;
 }
 
+if (targetInRange && target!= noone && damageTick <= 0)
+{
+with(target)
+{
+hp = hp - 10;	
+}
+}
+
+if (targetInRange)
+{
+damageTick --;	
+}
+
+if (damageTick <= -1)
+{
+damageTick = 10;	
+}
+
 if timeAlive <= 0
 {
 	instance_destroy();	

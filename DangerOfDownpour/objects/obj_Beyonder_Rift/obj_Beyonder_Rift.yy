@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Beyonder_Rift",
     "eventList": [
-        
+        {
+            "id": "64e63603-28b6-4485-a7e5-073e650b218a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "54ce38f7-1ff0-4859-83d3-264e7f6178c6",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "f3afa9a9-da84-40fb-8543-e8ded2e6a807"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Beyonder_Fissure",
     "eventList": [
-        
+        {
+            "id": "41b04c67-ff05-4e35-bb16-982601b3ca95",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "54ce38f7-1ff0-4859-83d3-264e7f6178c6",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "20f58b6b-8338-4777-8b27-4e6a1ddbf5f8"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

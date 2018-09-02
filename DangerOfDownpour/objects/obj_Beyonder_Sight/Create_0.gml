@@ -6,3 +6,4 @@ yTo = 0;
 targetInRange = false;
 target = noone;
 timeAlive = 0;
+damageTick = 10;

@@ -32,17 +32,26 @@
 	{
 		image_alpha = 1;
 		walksp = 4;
+
 	}
 	
 	if (key_abilityOne && fissureCD <= 0)
 	{
-		instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Fissure);
+	
+		with (instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Fissure))
+			{
+				image_angle = point_direction(x,y,x+other.facing*40,y);
+				speed = 20;
+				direction = point_direction(x,y,x+other.facing*40,y);
+			}
 		fissureCD = 30;
 		obj_GUIController.abil1CD = true;
 	}
 
 	if (key_abilityTwo && fadeCD <= 0)
 	{
+		ds_list_destroy(damageList);
+		damageList = ds_list_create();
 		image_alpha = .5;
 		invisTime = 60;
 		walksp = 6;
@@ -102,9 +111,31 @@
 
 	if (key_abilityFour && riftCD <= 0)
 	{
-		instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Rift);
+		
+		with (instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Rift))
+			{
+				image_angle = point_direction(x,y,x+other.facing*40,y);
+				speed = 20;
+				direction = point_direction(x,y,x+other.facing*40,y);
+			}
 		riftCD = 600;
 		obj_GUIController.abil4CD = true;
+	}
+	
+	if (invisTime >= 1)
+	{
+		
+		collideInst = instance_place(x, y, obj_Enemy);
+		{
+			if collideInst != noone
+			{
+		if(ds_list_find_index(damageList, collideInst.id) == -1)
+		{
+		 collideInst.hp = collideInst.hp - 100;
+		 ds_list_add(damageList, collideInst.id);
+		}
+			}
+		}
 	}
 
 }
