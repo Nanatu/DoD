@@ -1479,6 +1479,14 @@
             }
         },
         {
+            "Key": "d0dbb468-6bf0-4174-86b3-e503cdbd2620",
+            "Value": {
+                "id": "37e94da5-94c6-4fea-883e-63e0a39d2d6f",
+                "resourcePath": "objects\\obj_Huntress_SpearExplosion\\obj_Huntress_SpearExplosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d190f4d4-49fc-4953-898a-7bf67bc64d06",
             "Value": {
                 "id": "03af2c2a-d668-4342-9b3d-ee3021c56234",
