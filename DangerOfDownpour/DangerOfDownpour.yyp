@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "14bc8c00-60c3-4a5e-a002-9cf99ff7d897",
+            "Value": {
+                "id": "7439a6c4-4e1e-4c25-a8d4-674ec6d01466",
+                "resourcePath": "views\\14bc8c00-60c3-4a5e-a002-9cf99ff7d897.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "14d1dacf-6a59-47a1-81d5-db3a8a2b2626",
             "Value": {
                 "id": "c06c5e2d-5f4d-41c4-8109-79ffda9e2f27",
@@ -724,6 +732,14 @@
                 "id": "b0ab635a-957d-4720-aa01-16a165638c1c",
                 "resourcePath": "views\\6d16f336-5d57-4451-afb5-e45d4c3585e4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ea44c56-df41-4b2d-a5f2-9df88fceaf39",
+            "Value": {
+                "id": "a524c576-b9ea-49b3-bd01-5cd7862dc807",
+                "resourcePath": "sprites\\spr_Enemy_Grinner_Idle\\spr_Enemy_Grinner_Idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1524,6 +1540,14 @@
                 "id": "2a722f22-2004-4c77-b541-a98e50bf34e8",
                 "resourcePath": "views\\d612a0b9-e4f8-427f-b86a-bae346d71844.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d685b8cb-b8e3-4c1a-bce6-e7ef92864660",
+            "Value": {
+                "id": "c250c96f-7202-4261-9022-baabe1e3067f",
+                "resourcePath": "sprites\\spr_Enemy_Grinner_Attacking\\spr_Enemy_Grinner_Attacking.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
