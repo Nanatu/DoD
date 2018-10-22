@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "3bdb84a1-7d68-4d45-9892-48bad37fa87b",
+            "Value": {
+                "id": "64a4a4af-9fa8-4ed2-a53f-3439d01dd9c0",
+                "resourcePath": "scripts\\scr_Enemy_Grinner_Load\\scr_Enemy_Grinner_Load.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3cfd26c4-a9fb-436c-ba18-21f8cf22418f",
             "Value": {
                 "id": "1e953168-d1b5-460b-a2bc-5953f937e7be",
@@ -668,6 +676,14 @@
                 "id": "d441e58d-c05b-480a-b412-701cef4301be",
                 "resourcePath": "views\\667df737-a397-4cb6-b632-211a31071cb0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "66ab9c19-4e3c-473e-9e57-073b5aaa9596",
+            "Value": {
+                "id": "1cf0a7d0-fe37-41a7-8d43-2c20a1cfb774",
+                "resourcePath": "scripts\\scr_Enemy_AnimationController\\scr_Enemy_AnimationController.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1847,6 +1863,14 @@
             }
         },
         {
+            "Key": "f839e1dc-30c5-427a-8350-7015f1a24e71",
+            "Value": {
+                "id": "73dfb14c-ee6c-456f-a724-71b3405c719b",
+                "resourcePath": "views\\f839e1dc-30c5-427a-8350-7015f1a24e71.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f8c1b486-8ee3-48bf-9859-d5f6d62411c1",
             "Value": {
                 "id": "54d85f40-3025-4f8e-bea9-945cd7a750e7",
@@ -1955,14 +1979,16 @@
         "0ed55985-2e81-4542-acda-28bb2937ee0c",
         "8a4c83fb-4f62-4685-895f-ca701aaae271",
         "e99603d7-a114-43e4-8796-59aa47efbbf5",
-        "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
         "0b86c4e3-2121-453a-8b99-c43cd6397138",
         "371ae587-9c02-400a-a81e-22505da3df8d",
         "1ea44cf0-65f5-444f-bc1d-6b36ba94e162",
+        "a17894be-3adf-427b-b28f-09b773e7a67c",
+        "66ab9c19-4e3c-473e-9e57-073b5aaa9596",
+        "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
         "e328b927-73b2-4934-87ae-122522136f06",
         "56bc5700-f1db-493e-ae18-83656cb6fb1b",
-        "a17894be-3adf-427b-b28f-09b773e7a67c",
         "7199239e-c890-4f22-91bc-e77285ce9512",
+        "3bdb84a1-7d68-4d45-9892-48bad37fa87b",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "4377bc14-0566-40c5-95fd-5762c6ef9789",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",

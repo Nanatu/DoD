@@ -8,6 +8,7 @@ show_debug_message(state);
 
 attackCD = max(0,attackCD-1);
 //attackCD--;
+if (hsp != 0) facing = sign(hsp)
 switch state{
 	case enemyStates.idle:
 	scr_Grinner_IdleState();
@@ -22,3 +23,4 @@ switch state{
 	scr_Grinner_AttackState();
 	break;
 }
+scr_Enemy_AnimationController();

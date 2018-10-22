@@ -9,5 +9,6 @@
 	grv = 0.4;
 	walksp = 2;
 	facing = sign(hsp);
+	attack = false;
 
 }

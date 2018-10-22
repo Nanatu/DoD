@@ -14,15 +14,22 @@ enum currentCharacter
 
 enum animationState
 {
-Idle,
-Run,
-Jump,
-Crouch,
-Fall,
-Ability1,
-Ability2,
-Ability3,
-Ability4
+	Idle,
+	Run,
+	Jump,
+	Crouch,
+	Fall,
+	Ability1,
+	Ability2,
+	Ability3,
+	Ability4
+}
+
+enum enemyAnimationState
+{
+	Idle,
+	Run,
+	Attack,
 }
 
 global.characterType = currentCharacter.Gunslinger;

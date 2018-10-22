@@ -1,0 +1,17 @@
+{
+    "id": "f839e1dc-30c5-427a-8350-7015f1a24e71",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "f839e1dc-30c5-427a-8350-7015f1a24e71",
+    "children": [
+        "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
+        "e328b927-73b2-4934-87ae-122522136f06",
+        "56bc5700-f1db-493e-ae18-83656cb6fb1b",
+        "7199239e-c890-4f22-91bc-e77285ce9512",
+        "3bdb84a1-7d68-4d45-9892-48bad37fa87b"
+    ],
+    "filterType": "GMScript",
+    "folderName": "Grinner",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
