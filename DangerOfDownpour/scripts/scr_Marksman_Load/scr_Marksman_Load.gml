@@ -8,5 +8,10 @@ ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
 ds_list_add(marksman_Animation_List, spr_Player_Marksman_Running);
 ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
 ds_list_add(marksman_Animation_List, spr_Player_Marksman_Crouching);
+ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
+ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
+ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
+ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
+ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
 
 animation_List = marksman_Animation_List;

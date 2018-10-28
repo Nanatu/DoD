@@ -24,9 +24,34 @@
 	
 	}
 	
+	if (key_abilityOne)
+	{
+	}
+	
+	if (key_abilityTwo)
+	{
+	}
+	
+	if (key_abilityThree)
+	{
+		image_speed = 1;
+		sprite_index = animation_List[|animationState.Ability3];
+	}
+	
+	if (key_abilityFour)
+	{
+	}
+	
+	if (falling)
+	{
+		image_speed = 1;
+		sprite_index = animation_List[|animationState.Fall];
+	}
+	
 	if (crouch)
 	{
-	sprite_index = 	animation_List[|animationState.Crouch];
+		image_speed = 1;
+		sprite_index = 	animation_List[|animationState.Crouch];
 	}
 
 //Sprite Facing

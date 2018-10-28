@@ -99,7 +99,7 @@
 	{
 		if !(instance_exists(obj_Mechanic_Jumpjets))
 		{
-			jumpjets = instance_create_layer(x,y+16,"Player",obj_Mechanic_Jumpjets)
+			//jumpjets = instance_create_layer(x,y+16,"Player",obj_Mechanic_Jumpjets)
 		}
 		vsp = -walksp;
 		fuel  = fuel - 1;

@@ -1,8 +1,3 @@
-//obj_Controller
-//ONLY HAVE ON OF THESE
-
-scr_Controller();
-/*
 visible = false;
 enum currentCharacter
 {
@@ -36,4 +31,3 @@ enum enemyAnimationState
 }
 
 global.characterType = currentCharacter.Gunslinger;
-*/

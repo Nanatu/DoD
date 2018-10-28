@@ -13,7 +13,8 @@
 	walksp = 4;
 	facing = sign(hsp);
 	jump_power = 10;
-	crouch= false;
+	crouch = false;
+	falling = false;
 
 //Health
 	hp = 5;

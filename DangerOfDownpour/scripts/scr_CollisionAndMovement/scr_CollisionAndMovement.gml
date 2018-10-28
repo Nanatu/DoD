@@ -42,4 +42,13 @@ else
 	crouch = false;
 }
 
+if (vsp >= 1)
+{
+	falling = true;	
+}
+else
+{
+	falling = false;	
+}
+
 }

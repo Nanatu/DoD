@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "121a6064-cd9b-44db-8d21-421f4aa8dcaf",
+            "Value": {
+                "id": "09e9977b-e0fa-4ade-8e19-b9b1dc5575b8",
+                "resourcePath": "sprites\\spr_Player_Mechanic_Jumping\\spr_Player_Mechanic_Jumping.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "125e5200-292c-402f-996b-e64b7fa29b3f",
             "Value": {
                 "id": "b9aba6cb-bb32-42b3-8b05-d5f254012bab",
@@ -228,14 +236,6 @@
                 "id": "93efcc44-2c61-4cff-aee9-b356f334940a",
                 "resourcePath": "objects\\obj_Player\\obj_Player.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "1c5a18a2-6a0f-410c-a1e0-9a7ad54fa569",
-            "Value": {
-                "id": "f6367751-b2d9-47d2-b377-9b49cadfbd46",
-                "resourcePath": "sprites\\spr_Player_Mechanic_Standing\\spr_Player_Mechanic_Standing.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "33c42eb2-0dd5-4914-bbc5-f3863ad088cc",
+            "Value": {
+                "id": "8ef7e445-ea51-4405-ac93-198eae9dca68",
+                "resourcePath": "sprites\\spr_Player_Mechanic_Falling\\spr_Player_Mechanic_Falling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "347f36a2-7cdc-4620-9419-7caa6723f84e",
             "Value": {
                 "id": "fba43e3d-f42b-4039-827a-22ab10857896",
@@ -572,6 +580,22 @@
                 "id": "5cbd5ef1-179a-4e15-b556-a12ec548fa15",
                 "resourcePath": "objects\\obj_Player_LRB\\obj_Player_LRB.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4edf8813-b49d-4a77-bb84-776f53077831",
+            "Value": {
+                "id": "52f413c6-b262-4226-9803-954af87564ab",
+                "resourcePath": "scripts\\scr_Controller\\scr_Controller.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4fa70b5d-c17f-405a-8ce8-b1b69a6b3758",
+            "Value": {
+                "id": "ffb63990-7656-4fcc-ac75-2a7ad85a55af",
+                "resourcePath": "sprites\\spr_Player_Mechanic_Standing\\spr_Player_Mechanic_Standing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -871,14 +895,6 @@
             }
         },
         {
-            "Key": "7c39c961-7b3f-486e-b88f-a0fd24614aca",
-            "Value": {
-                "id": "1e4093df-c21a-46b9-8713-3cca68e9c44e",
-                "resourcePath": "sprites\\spr_Player_Mechanic_Running\\spr_Player_Mechanic_Running.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7d05eaab-2bf5-4277-91c4-1ad1792ffac9",
             "Value": {
                 "id": "5e04b1f6-961d-4942-9e91-461302c31f26",
@@ -1132,6 +1148,14 @@
                 "id": "9fc78f99-b2d1-4d62-925f-b6ddb7fa6338",
                 "resourcePath": "objects\\obj_LRB_Firewall\\obj_LRB_Firewall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9e7ac263-ecb3-46e6-94ca-e80956337371",
+            "Value": {
+                "id": "4293d22b-fefe-4f37-8478-619db6f3ab03",
+                "resourcePath": "sprites\\spr_Player_Mechanic_Running\\spr_Player_Mechanic_Running.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1847,6 +1871,14 @@
             }
         },
         {
+            "Key": "f64323c3-c726-4e7a-9a8f-34b4efde74c6",
+            "Value": {
+                "id": "13a3b6c3-3cc5-4733-8d13-a59275c0d5bc",
+                "resourcePath": "sprites\\spr_Player_Mechanic_UsingJets\\spr_Player_Mechanic_UsingJets.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f7a5a3e6-32ba-41b1-8296-f630dfdd40e3",
             "Value": {
                 "id": "6d48140f-1939-4736-b549-4a5274c528bd",
@@ -1971,6 +2003,7 @@
         "324a730f-6b24-4a79-b6a3-ac389f692637",
         "f4f3d0e0-90dd-4404-9cd4-e22372fd5cfa",
         "c57fe82e-10af-4d79-8488-85148880c8f9",
+        "4edf8813-b49d-4a77-bb84-776f53077831",
         "61d87885-9ce0-44f7-96b8-dec2529b38d4",
         "b57ac316-7cfe-40f2-8b93-72db9b01945f",
         "e1a272ca-7747-4469-98c3-b4ef97880330",
