@@ -19,9 +19,27 @@
 		}
 		else
 		{
-			sprite_index = animation_List[|animationState.Run];
+			sprite_index = animation_List[|animationState.Running];
 		}
 	
+	}
+	
+	if (rising)
+	{
+		image_speed = 1;
+		sprite_index = animation_List[|animationState.Jumping];
+	}
+	
+	if (falling)
+	{
+		image_speed = 1;
+		sprite_index = animation_List[|animationState.Falling];
+	}
+	
+	if (crouch)
+	{
+		image_speed = 1;
+		sprite_index = 	animation_List[|animationState.Crouching];
 	}
 	
 	if (key_abilityOne)
@@ -40,18 +58,6 @@
 	
 	if (key_abilityFour)
 	{
-	}
-	
-	if (falling)
-	{
-		image_speed = 1;
-		sprite_index = animation_List[|animationState.Fall];
-	}
-	
-	if (crouch)
-	{
-		image_speed = 1;
-		sprite_index = 	animation_List[|animationState.Crouch];
 	}
 
 //Sprite Facing

@@ -14,6 +14,7 @@
 	facing = sign(hsp);
 	jump_power = 10;
 	crouch = false;
+	rising = false;
 	falling = false;
 
 //Health

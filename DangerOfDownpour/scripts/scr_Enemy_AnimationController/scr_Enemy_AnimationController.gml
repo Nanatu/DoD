@@ -19,7 +19,7 @@
 		}
 		else
 		{
-			sprite_index = animation_List[|enemyAnimationState.Run];
+			sprite_index = animation_List[|enemyAnimationState.Running];
 		}
 	
 	}

@@ -13,10 +13,10 @@ enum currentCharacter
 enum animationState
 {
 	Idle,
-	Run,
-	Jump,
-	Crouch,
-	Fall,
+	Running,
+	Jumping,
+	Crouching,
+	Falling,
 	Ability1,
 	Ability2,
 	Ability3,
@@ -26,7 +26,7 @@ enum animationState
 enum enemyAnimationState
 {
 	Idle,
-	Run,
+	Running,
 	Attack,
 }
 
