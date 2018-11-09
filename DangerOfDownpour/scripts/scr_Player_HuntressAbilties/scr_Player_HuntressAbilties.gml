@@ -90,15 +90,15 @@
 	if (key_abilityFour && (mdkCD == 0))
 	{
 		obj_GUIController.abil4CD = true;
-		with(instance_create_layer(x + 32,y,"MDK_MurderLayer",obj_Murder))
+		with(instance_create_layer(x + 32,y,"FrontPlayer",obj_Murder))
 		{	
 			
 		}
-		with(instance_create_layer(x -16,y,"MDK_DeathLayer",obj_Death))
+		with(instance_create_layer(x -16,y,"BehindPlayer",obj_Death))
 		{
 			
 		}
-		with(instance_create_layer(x,y,"MDK_KillLayer",obj_Kill))
+		with(instance_create_layer(x,y,"BehindPlayer",obj_Kill))
 		{
 		
 		}
