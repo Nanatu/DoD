@@ -1,6 +1,6 @@
-if(scr_Enemy_PlayerWithinRange(500)){
+if(scr_Enemy_PlayerWithinRange(400)){
 	//close enough to attack?
-	if(attackCD <= 0 && scr_Enemy_PlayerWithinRange(48)){
+	if(attackCD <= 0 && scr_Enemy_PlayerWithinRange(random_range(140,200))){
 		//time_in_state = 5;
 		state = enemyStates.attack;
 		return;

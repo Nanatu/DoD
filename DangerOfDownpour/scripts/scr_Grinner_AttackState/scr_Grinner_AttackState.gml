@@ -21,14 +21,17 @@ else{
 }
 
 */
+
 attack = true;
 //time_in_state--;
-hsp = image_xscale * (walksp * 3);
+hsp = image_xscale * (walksp * 2.5);
 
 if (image_index > image_number - 1) {
     attack = false;
 	state = enemyStates.chase;
 }
+
+scr_Enemy_CollisionAndMovement();
 /*
 if (time_in_state <= 0)
 {

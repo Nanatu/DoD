@@ -9,4 +9,5 @@ if(time_in_state = 2*room_speed){
 	state = enemyStates.wander;
 	time_in_state = 0;
 }
+scr_Enemy_CollisionAndMovement();
 time_in_state++;

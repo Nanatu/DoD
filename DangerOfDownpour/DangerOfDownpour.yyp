@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "08815ec5-313c-41fa-bd4c-ab633861b349",
-            "Value": {
-                "id": "3fbfe782-3694-45c1-ba79-350ee0c65e71",
-                "resourcePath": "objects\\obj_Enemy_Grinner\\obj_Enemy_Grinner.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0910f216-a1d6-4f0c-8110-b42ff0c99557",
             "Value": {
                 "id": "8af9fc2e-3545-4544-9eb6-96adb913a90e",
@@ -228,6 +220,14 @@
                 "id": "48d685e3-0e6c-40f7-89b8-4e221cb16da3",
                 "resourcePath": "sprites\\spr_GUIController\\spr_GUIController.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1aebb6b9-2136-4bd8-80ad-607bd0dec99b",
+            "Value": {
+                "id": "624720c9-c268-41ef-aaa0-2247764df674",
+                "resourcePath": "rooms\\rm_BaseRoom\\rm_BaseRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "460282f5-541a-446d-9eb1-54cd1518056f",
+            "Value": {
+                "id": "b7e6fd44-96e8-4c8a-b7fd-28347a2777a2",
+                "resourcePath": "rooms\\rm_TestRoom\\rm_TestRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "483bc571-cb50-4a5c-8dce-db5942082e07",
             "Value": {
                 "id": "cc6a7420-57f0-4699-9a32-c56fef11423b",
@@ -634,7 +642,7 @@
             "Key": "5643d71b-f1f7-41d6-b1fd-53c2cd100a2b",
             "Value": {
                 "id": "88faba07-1ed8-4a75-b983-19ba2042598a",
-                "resourcePath": "objects\\obj_test_enemy\\obj_test_enemy.yy",
+                "resourcePath": "objects\\obj_Enemy_Grinner\\obj_Enemy_Grinner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -708,14 +716,6 @@
                 "id": "1cf0a7d0-fe37-41a7-8d43-2c20a1cfb774",
                 "resourcePath": "scripts\\scr_Enemy_AnimationController\\scr_Enemy_AnimationController.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "68123cbf-4b94-4835-bebb-b36ec935e7b7",
-            "Value": {
-                "id": "b5d32a8c-9438-4853-bad1-3cf6a003aa1b",
-                "resourcePath": "rooms\\rm_TestRoom\\rm_TestRoom.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
