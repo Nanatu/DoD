@@ -30,4 +30,6 @@ enum enemyAnimationState
 	Attack,
 }
 
+global.usedTransistion = false;
+
 global.characterType = currentCharacter.Gunslinger;

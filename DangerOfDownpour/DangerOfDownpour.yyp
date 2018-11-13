@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "3357460c-f553-473a-8f27-63ffce1e49ba",
+            "Value": {
+                "id": "d8330677-8e01-4170-9855-896b0c999369",
+                "resourcePath": "rooms\\rm_TransistTest1\\rm_TransistTest1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "335bdc34-b4b3-4ca5-8492-9f6ccee848b1",
             "Value": {
                 "id": "616fb0cc-5fa3-4a5c-bb62-b7e09dfeb4c2",
@@ -1255,6 +1263,14 @@
             }
         },
         {
+            "Key": "a8d745cf-60f5-4167-8317-f8ac8038a261",
+            "Value": {
+                "id": "d163f673-99ad-44bc-bfac-1578e7ffd562",
+                "resourcePath": "scripts\\scr_PlayerTransition\\scr_PlayerTransition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a904dd33-d869-4393-bb29-9f79b1b34962",
             "Value": {
                 "id": "1cfe5d68-f88e-47ff-b908-d6b8c79e3882",
@@ -1495,11 +1511,27 @@
             }
         },
         {
+            "Key": "ca6e002b-f9c7-484a-8ce5-2e0743b44c1c",
+            "Value": {
+                "id": "86ef04ff-99c0-4c9f-a0df-14c2456ce239",
+                "resourcePath": "objects\\obj_RoomTransition\\obj_RoomTransition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "20a3bad2-33ff-4cb2-8137-af7fb8b71a4b",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd5c5cf1-3cd4-41a8-acf2-03f7f8ba0f32",
+            "Value": {
+                "id": "41475d9d-7cd3-4e5a-b33e-55908177e451",
+                "resourcePath": "sprites\\spr_RoomTransitionLeave\\spr_RoomTransitionLeave.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2035,6 +2067,7 @@
         "e15800df-54f5-457b-81dd-1973a0597fe1",
         "faa63cef-560f-4541-96b0-0a20d510ed8f",
         "d6f57862-3347-4004-9705-4e976a099dbc",
+        "a8d745cf-60f5-4167-8317-f8ac8038a261",
         "335bdc34-b4b3-4ca5-8492-9f6ccee848b1",
         "11f8a1a1-adca-4c85-9b5a-89eabc3d4d95",
         "229813c4-63ed-46dd-987c-311b0f9f3d17",
