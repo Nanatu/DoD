@@ -1,6 +1,6 @@
 /// scr_SpawnPlayer()
 //	
-//	Script to spawin in proper character type
+//	Script to spawn in proper character type
 //
 {
 	
@@ -8,46 +8,46 @@
 	{
 		if (global.characterType == currentCharacter.Player)
 		{
-			instance_create_layer(x, y-5,"Player",obj_Player)
+			instance_create_layer(x + (offset*global.lastDirection), y,"Player",obj_Player)
 			show_debug_message("PLAYER TYPE IS DEFAULT");
 			//instance_deactivate_object(obj_PlayerSpawn);
 		}
 	
 		if (global.characterType == currentCharacter.Gunslinger)
 		{
-			instance_create_layer(x, y-5,"Player",obj_Player_Gunslinger)
+			instance_create_layer(x + (offset*global.lastDirection), y,"Player",obj_Player_Gunslinger)
 			show_debug_message("PLAYER TYPE IS GUNSLINGER");
 			//instance_deactivate_object(obj_PlayerSpawn);
 		}
 	
 		if (global.characterType == currentCharacter.Marksman)
 		{
-			instance_create_layer(x, y-5,"Player",obj_Player_Marksman)
+			instance_create_layer(x + (offset*global.lastDirection), y,"Player",obj_Player_Marksman)
 			show_debug_message("PLAYER TYPE IS MARKSMAN");
 			//instance_deactivate_object(obj_PlayerSpawn);
 		}
 	
 		if (global.characterType == currentCharacter.Mechanic)
 		{
-			instance_create_layer(x+64, y-5,"Player",obj_Player_Mechanic)
+			instance_create_layer(x + (offset*global.lastDirection), y,"Player",obj_Player_Mechanic)
 			show_debug_message("PLAYER TYPE IS MECHANIC");
 			//instance_deactivate_object(obj_PlayerSpawn);
 		}
 		if (global.characterType == currentCharacter.Huntress)
 		{
-			instance_create_layer(x, y-5,"Player",obj_Player_Huntress)
+			instance_create_layer(x + (offset*global.lastDirection), y,"Player",obj_Player_Huntress)
 			show_debug_message("PLAYER TYPE IS HUNTRESS");
 			//instance_deactivate_object(obj_PlayerSpawn);
 		}
 		if (global.characterType == currentCharacter.LRB)
 		{
-			instance_create_layer(x, y-5,"Player",obj_Player_LRB)
+			instance_create_layer(x + (offset*global.lastDirection), y,"Player",obj_Player_LRB)
 			show_debug_message("PLAYER TYPE IS LOST RECLAIMER BOT");
 			//instance_deactivate_object(obj_PlayerSpawn);
 		}
 		if (global.characterType == currentCharacter.Beyonder)
 		{
-			instance_create_layer(x, y-5,"Player",obj_Player_Beyonder)
+			instance_create_layer(x + (offset*global.lastDirection), y,"Player",obj_Player_Beyonder)
 			show_debug_message("PLAYER TYPE IS BEYONDER");
 			//instance_deactivate_object(obj_PlayerSpawn);
 		}

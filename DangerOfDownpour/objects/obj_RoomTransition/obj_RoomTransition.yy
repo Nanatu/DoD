@@ -5,16 +5,6 @@
     "name": "obj_RoomTransition",
     "eventList": [
         {
-            "id": "485bf15c-d651-4a93-ae18-22bdfe91b1ce",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "1bbbd3db-c236-4472-a8c0-99981d75a2ba",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "ca6e002b-f9c7-484a-8ce5-2e0743b44c1c"
-        },
-        {
             "id": "083bba1f-0f6e-4352-83b0-11555616f664",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "ca6e002b-f9c7-484a-8ce5-2e0743b44c1c"
+        },
+        {
+            "id": "a1a2932b-0fc2-4425-afe1-001258eaceb1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "ca6e002b-f9c7-484a-8ce5-2e0743b44c1c"
         }
     ],

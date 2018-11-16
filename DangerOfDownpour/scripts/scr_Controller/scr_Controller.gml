@@ -33,3 +33,5 @@ enum enemyAnimationState
 global.usedTransistion = false;
 
 global.characterType = currentCharacter.Gunslinger;
+
+global.lastDirection = 1;
