@@ -319,14 +319,6 @@
             }
         },
         {
-            "Key": "24c498bb-dddc-45af-850e-a40e9d7fe4e4",
-            "Value": {
-                "id": "df2edd00-7efc-44e1-b264-54a74490d83f",
-                "resourcePath": "sprites\\spr_Player_Mechanic\\spr_Player_Mechanic.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "28ee26c3-1762-43ad-8f07-b97c518be7fc",
             "Value": {
                 "id": "3fa28adc-7506-47e8-bd34-db9cb7d10654",
@@ -1351,6 +1343,14 @@
             }
         },
         {
+            "Key": "b47949e8-9db2-464b-9030-a5f6a3d43492",
+            "Value": {
+                "id": "b6ae15af-b6fb-4f70-99f5-06536735a8e3",
+                "resourcePath": "sprites\\spr_Player_Beyonder_Jumping\\spr_Player_Beyonder_Jumping.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b4e9d2bb-f074-4259-b8cb-48d43acc8c25",
             "Value": {
                 "id": "20f51d38-bf57-4cfe-a2dc-cc7462e6815c",
@@ -1780,6 +1780,14 @@
                 "id": "11eee00c-9603-4cfd-964b-468418dafa1e",
                 "resourcePath": "views\\e7ad2165-391d-4fe3-b3ab-05b15e86300c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e8ccd36b-9ec1-4bef-bf0b-df6cf50ca0cf",
+            "Value": {
+                "id": "35c847ce-5d69-4830-a2ac-e63522d03179",
+                "resourcePath": "sprites\\spr_Player_Beyonder_Falling\\spr_Player_Beyonder_Falling.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

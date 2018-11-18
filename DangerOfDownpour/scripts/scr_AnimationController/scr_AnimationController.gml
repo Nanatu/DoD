@@ -15,7 +15,7 @@
 		image_speed = 1;
 		if (hsp == 0)
 		{
-			sprite_index = animation_List[|animationState.Idle];
+			sprite_index = animation_List[|animationState.Standing];
 		}
 		else
 		{

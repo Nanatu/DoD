@@ -12,11 +12,12 @@ enum currentCharacter
 
 enum animationState
 {
-	Idle,
+	Standing,
 	Running,
 	Jumping,
 	Crouching,
 	Falling,
+	Rising,
 	Ability1,
 	Ability2,
 	Ability3,
@@ -34,4 +35,4 @@ global.usedTransistion = false;
 
 global.characterType = currentCharacter.Gunslinger;
 
-global.lastDirection = 1;
+global.lastTransitionDirection = 1;
