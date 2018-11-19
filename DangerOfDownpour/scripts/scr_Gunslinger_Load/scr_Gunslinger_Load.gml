@@ -2,27 +2,29 @@
 //	
 //	Script to load in Gunslinger data
 //
-//	Standing,
-//	Running,
-//	Jumping,
-//	Crouching,
-//	Falling,
-//	Rising,
-//	Ability1,
-//	Ability2,
-//	Ability3,
-//	Ability4
+{
 
-gunslinger_Animation_List = ds_list_create();
-ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
-ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Running);
-ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
-ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Crouching);
-ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
-ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
-ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
-ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
-ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
-ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
+	gunslinger_Animation_List = ds_list_create();
+//	Standing
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
+//	Running
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Running);
+//	Jumping
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
+//	Crouching
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Crouching);
+//	Falling
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
+//	Rising
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
+//	Flinching
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
+//	Ability1-4
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
+	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
 
-animation_List = gunslinger_Animation_List;
+	animation_List = gunslinger_Animation_List;
+
+}

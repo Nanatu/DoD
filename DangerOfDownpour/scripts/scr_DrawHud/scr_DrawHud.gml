@@ -1,6 +1,7 @@
 /// scr_DrawHud()
 //	
 //	Script to draw the players HUD
+//
 {
 
 	draw_sprite(spr_GUI,0,0,0);

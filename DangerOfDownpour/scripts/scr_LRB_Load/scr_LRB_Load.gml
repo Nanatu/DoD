@@ -2,27 +2,29 @@
 //	
 //	Script to load in LRB data
 //
-//	Standing,
-//	Running,
-//	Jumping,
-//	Crouching,
-//	Falling,
-//	Rising,
-//	Ability1,
-//	Ability2,
-//	Ability3,
-//	Ability4
+{
 
-lrb_Animation_List = ds_list_create();
-ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
-ds_list_add(lrb_Animation_List, spr_Player_LRB_Running);
-ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
-ds_list_add(lrb_Animation_List, spr_Player_LRB_Crouching);
-ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
-ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
-ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
-ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
-ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
-ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
+	lrb_Animation_List = ds_list_create();
+//	Standing
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
+//	Running
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Running);
+//	Jumping
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
+//	Crouching
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Crouching);
+//	Falling
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
+//	Rising
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
+//	Flinching
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
+//	Ability 1-4
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
+	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
 
-animation_List = lrb_Animation_List;
+	animation_List = lrb_Animation_List;
+
+}

@@ -2,27 +2,29 @@
 //	
 //	Script to load in Beyonder data
 //
-//	Standing,
-//	Running,
-//	Jumping,
-//	Crouching,
-//	Falling,
-//	Rising,
-//	Ability1,
-//	Ability2,
-//	Ability3,
-//	Ability4
+{
 
-beyonder_Animation_List = ds_list_create();
-ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
-ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Running);
-ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Jumping);
-ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Crouching);
-ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Falling);
-ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
-ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
-ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
-ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
-ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+	beyonder_Animation_List = ds_list_create();
+//	Standing
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+//	Running
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Running);
+//	Jumping
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Jumping);
+//	Crouching
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Crouching);
+//	Falling
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Falling);
+//	Rising
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+//	Flinching
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+//	Ability 1-4
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
 
-animation_List = beyonder_Animation_List;
+	animation_List = beyonder_Animation_List;
+
+}

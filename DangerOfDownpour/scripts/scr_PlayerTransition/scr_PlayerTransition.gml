@@ -1,6 +1,6 @@
-/// scr_SpawnPlayer()
+/// scr_SpawnTransition()
 //	
-//	Script to spawn in proper character type
+//	Script to spawn in proper character type after using a room transition
 //
 {
 	
