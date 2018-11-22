@@ -12,7 +12,10 @@
         "79414af0-eeb0-4849-890a-d56460653f0f",
         "a436eff1-42ef-4be3-bf34-018ac7426f17",
         "4a589b3e-d08d-4bec-b8a7-da7a39468468",
-        "11b40fe7-4983-4336-86a8-65de59163b94"
+        "11b40fe7-4983-4336-86a8-65de59163b94",
+        "bd14722c-33e4-40eb-814b-6944ad05a8c6",
+        "168034fb-2313-4868-a5bc-5f67315eb4fa",
+        "e932e22d-38f1-4557-88ca-7209861f399f"
     ],
     "filterType": "GMSprite",
     "folderName": "Player_Beyonder",
