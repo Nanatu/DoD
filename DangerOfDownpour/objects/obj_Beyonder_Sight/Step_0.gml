@@ -52,3 +52,16 @@ if timeAlive <= 0
 {
 	instance_destroy();	
 }
+
+if (random(1) >= .99)
+	{
+	if (!(image_index > image_number - 1))
+		{
+			image_speed = 1;
+		}
+	}
+	else if(image_index > image_number - 1)
+	{
+	image_index = 0;
+	image_speed = 0;
+	}

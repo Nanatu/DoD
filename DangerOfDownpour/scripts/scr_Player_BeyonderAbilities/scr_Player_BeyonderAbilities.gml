@@ -50,6 +50,7 @@
 
 	if (key_abilityTwo && fadeCD <= 0)
 	{
+		instance_create_layer(x + facing*15,y,"FrontPlayer",obj_Beyonder_Fade);
 		ds_list_destroy(damageList);
 		damageList = ds_list_create();
 		image_alpha = .5;

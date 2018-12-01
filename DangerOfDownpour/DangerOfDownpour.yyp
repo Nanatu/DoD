@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "2f1b4c8c-2acb-4569-a98b-e4a8cd79297c",
+            "Value": {
+                "id": "bc9e1115-300e-418e-8606-ac11e3b98946",
+                "resourcePath": "sprites\\spr_Player_Beyonder_Fade\\spr_Player_Beyonder_Fade.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f5fd44f-ad08-475f-89b2-c76a97c77645",
             "Value": {
                 "id": "3420704f-bf2c-4dbe-b167-d0fc373c6652",
@@ -1172,6 +1180,14 @@
                 "id": "4293d22b-fefe-4f37-8478-619db6f3ab03",
                 "resourcePath": "sprites\\spr_Player_Mechanic_Running\\spr_Player_Mechanic_Running.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9f28662e-9b56-475b-87a2-319ceb2658dc",
+            "Value": {
+                "id": "18b533c4-3ae1-4f84-b9e9-fff5cefd5707",
+                "resourcePath": "objects\\obj_Beyonder_Fade\\obj_Beyonder_Fade.yy",
+                "resourceType": "GMObject"
             }
         },
         {
