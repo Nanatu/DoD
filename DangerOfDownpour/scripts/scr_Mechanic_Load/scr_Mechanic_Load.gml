@@ -16,7 +16,7 @@
 //	Falling
 	ds_list_add(mechanic_Animation_List, spr_Player_Mechanic_Falling);
 //	Rising
-	ds_list_add(mechanic_Animation_List, spr_Player_Mechanic_Standing);
+	ds_list_add(mechanic_Animation_List, spr_Player_Mechanic_Rising);
 //	Flinching
 	ds_list_add(mechanic_Animation_List, spr_Player_Mechanic_Standing);
 //	Ability 1-4

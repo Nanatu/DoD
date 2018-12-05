@@ -7,6 +7,7 @@
 //Jump
 	if (place_meeting(x,y+1,obj_Wall)) && (key_jump)
 	{
+		jumping = true;
 		vsp = -jump_power;
 	}
 
@@ -33,31 +34,32 @@
 	y = y + vsp;
 
 //Crouched
-if (key_down && !key_left && !key_right)
-{
-	crouch = true;
-}
-else
-{
-	crouch = false;
-}
+	if (key_down && !key_left && !key_right)
+	{
+		crouching = true;
+	}
+	else
+	{
+		crouching = false;
+	}
 
-if (vsp <= -1)
-{
-	rising = true;	
-}
-else
-{
-	rising = false;	
-}
+	if (vsp <= -1 && jumping)
+	{
+		rising = true;
+		jumping = false;
+	}
+	else
+	{
+		rising = false;	
+	}
 
-if (vsp >= 1)
-{
-	falling = true;	
-}
-else
-{
-	falling = false;	
-}
+	if (vsp >= 1)
+	{
+		falling = true;	
+	}
+	else
+	{
+		falling = false;	
+	}
 
 }

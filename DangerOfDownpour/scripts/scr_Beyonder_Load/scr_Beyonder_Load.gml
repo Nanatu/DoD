@@ -16,9 +16,9 @@
 //	Falling
 	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Falling);
 //	Rising
-	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Rising);
 //	Flinching
-	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Flinching);
 //	Ability 1-4
 	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
 	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);

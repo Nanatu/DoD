@@ -13,7 +13,8 @@
 	walksp = 4;
 	facing = sign(hsp);
 	jump_power = 10;
-	crouch = false;
+	crouching = false;
+	jumping = false;
 	rising = false;
 	falling = false;
 

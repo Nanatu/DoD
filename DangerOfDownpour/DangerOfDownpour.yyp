@@ -1511,6 +1511,14 @@
             }
         },
         {
+            "Key": "c3954d25-a22b-4bfa-8806-2b1a100bd6a6",
+            "Value": {
+                "id": "bbb3eafd-855a-44c4-8e2d-75c65410868b",
+                "resourcePath": "sprites\\spr_Player_Beyonder_Rising\\spr_Player_Beyonder_Rising.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c49d7185-8383-47c8-b006-b1a99e8f2bfc",
             "Value": {
                 "id": "7ceaf9a9-db59-4184-81fe-75da73dacc18",
@@ -1724,6 +1732,14 @@
                 "id": "2329f90f-0436-4059-ba8d-03ad5c96ed39",
                 "resourcePath": "views\\dd8d578b-e33c-4103-9823-0930403a9d71.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e011fb78-0476-4ba0-903e-f232757c12dd",
+            "Value": {
+                "id": "e9cf7121-f858-402f-8c93-1b607105108a",
+                "resourcePath": "sprites\\spr_Player_Mechanic_Rising\\spr_Player_Mechanic_Rising.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

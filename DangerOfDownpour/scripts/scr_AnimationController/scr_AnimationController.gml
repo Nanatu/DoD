@@ -24,10 +24,16 @@
 	
 	}
 	
-	if (rising)
+	if (jumping)
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Jumping];
+		
+	}
+	if (rising)
+	{
+		image_speed = 1;
+		sprite_index = animation_List[|animationState.Rising];
 	}
 	
 	if (falling)
@@ -36,7 +42,7 @@
 		sprite_index = animation_List[|animationState.Falling];
 	}
 	
-	if (crouch)
+	if (crouching)
 	{
 		image_speed = 1;
 		sprite_index = 	animation_List[|animationState.Crouching];
