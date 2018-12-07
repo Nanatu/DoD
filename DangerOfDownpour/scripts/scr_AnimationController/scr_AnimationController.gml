@@ -4,10 +4,21 @@
 //
 {
 	
+if(control == controlState.inAbility)
+{
+		if(image_index > image_number - 1)
+		{
+		control = controlState.outAbility;	
+		}
+}
+	
+	
+if(control == controlState.outAbility)
+{
 	if (!place_meeting(x,y+1,obj_Wall))
 	{
 		//sprite_index = spr_PlayerA;
-		image_speed = 0;
+		//image_speed = 0;
 		//if(sign(vsp) > 0) image_index = 1; else image_index = 0;
 	}
 	else
@@ -47,13 +58,21 @@
 		image_speed = 1;
 		sprite_index = 	animation_List[|animationState.Crouching];
 	}
+}
 	
-	if (key_abilityOne)
+//Abilities
+	
+	if (key_abilityOne && control == controlState.outAbility)
 	{
+		control = controlState.inAbility;
+		image_speed = 1;
+		sprite_index = animation_List[|animationState.Ability1];
 	}
 	
 	if (key_abilityTwo)
 	{
+		image_speed = 1;
+		sprite_index = animation_List[|animationState.Ability2];
 	}
 	
 	if (key_abilityThree)
@@ -64,6 +83,8 @@
 	
 	if (key_abilityFour)
 	{
+		image_speed = 1;
+		sprite_index = animation_List[|animationState.Ability4];
 	}
 
 //Sprite Facing

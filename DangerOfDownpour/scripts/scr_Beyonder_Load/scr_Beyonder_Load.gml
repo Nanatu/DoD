@@ -20,9 +20,15 @@
 //	Flinching
 	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Flinching);
 //	Ability 1-4
+//	Fissure
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_FIssure);
+//	Fade
+	//Effect called on ability use
 	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+//	Sight
+	//Effect called on ability use
 	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
-	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
+//	Rift
 	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
 
 	animation_List = beyonder_Animation_List;

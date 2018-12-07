@@ -20,6 +20,7 @@
 		}
 		hsp = 0;
 	}
+	
 	x = x + hsp;
 
 //Vertical Collision

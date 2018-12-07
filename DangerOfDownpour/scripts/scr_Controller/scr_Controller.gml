@@ -16,6 +16,12 @@
 		LRB,
 		Beyonder,
 	}
+	
+	enum controlState
+	{
+		inAbility,
+		outAbility
+	}
 
 	enum animationState
 	{

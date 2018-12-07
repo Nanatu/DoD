@@ -767,6 +767,14 @@
             }
         },
         {
+            "Key": "69a12fb9-038b-454e-8571-5267510088c9",
+            "Value": {
+                "id": "e6e2d0c0-2b27-428f-b0bc-61f876166d3f",
+                "resourcePath": "sprites\\sprite81\\sprite81.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a28f00b-fe75-4478-a17e-53f164deeca9",
             "Value": {
                 "id": "1e6aed9b-3da4-4db6-88cf-641b005d0fe7",
@@ -1143,6 +1151,14 @@
             }
         },
         {
+            "Key": "9a230049-6576-4ae2-a8b9-817990a22d97",
+            "Value": {
+                "id": "2eadbbab-3d58-41fc-8a60-e438ea338f1b",
+                "resourcePath": "sprites\\spr_Player_Beyonder_CrouchFIssure\\spr_Player_Beyonder_CrouchFIssure.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9ab31b44-2e88-47f5-a965-0753d24947e8",
             "Value": {
                 "id": "6bec7f8b-6323-4121-bdfd-1029d74d7e30",
@@ -1356,6 +1372,14 @@
                 "id": "6048d21e-6e14-4e82-ade3-ac1b670f010d",
                 "resourcePath": "views\\b133292d-d12c-447c-9950-0415b22d7ef3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b1f7338f-4d7c-47fc-b4b8-c4febc8c32fb",
+            "Value": {
+                "id": "49bb3deb-ee27-4b2e-960e-e38b8ba5a5a4",
+                "resourcePath": "sprites\\spr_Player_Beyonder_FIssure\\spr_Player_Beyonder_FIssure.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -6,10 +6,12 @@
     "children": [
         "7efc507a-b41f-4454-aea9-09b47dd4185d",
         "d190f4d4-49fc-4953-898a-7bf67bc64d06",
+        "b1f7338f-4d7c-47fc-b4b8-c4febc8c32fb",
         "e8ccd36b-9ec1-4bef-bf0b-df6cf50ca0cf",
         "b47949e8-9db2-464b-9030-a5f6a3d43492",
         "e0dab6dd-9e44-4a11-9865-55e2525850ba",
         "79414af0-eeb0-4849-890a-d56460653f0f",
+        "9a230049-6576-4ae2-a8b9-817990a22d97",
         "a436eff1-42ef-4be3-bf34-018ac7426f17",
         "4a589b3e-d08d-4bec-b8a7-da7a39468468",
         "11b40fe7-4983-4336-86a8-65de59163b94",
@@ -17,7 +19,8 @@
         "168034fb-2313-4868-a5bc-5f67315eb4fa",
         "e932e22d-38f1-4557-88ca-7209861f399f",
         "2f1b4c8c-2acb-4569-a98b-e4a8cd79297c",
-        "c3954d25-a22b-4bfa-8806-2b1a100bd6a6"
+        "c3954d25-a22b-4bfa-8806-2b1a100bd6a6",
+        "69a12fb9-038b-454e-8571-5267510088c9"
     ],
     "filterType": "GMSprite",
     "folderName": "Player_Beyonder",

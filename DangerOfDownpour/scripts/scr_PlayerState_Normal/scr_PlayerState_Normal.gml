@@ -13,7 +13,6 @@ hsp = move * walksp;
 vsp = vsp + grv;
 if (hsp != 0) facing = sign(hsp)
 
-
 scr_CollisionAndMovement();
 scr_AnimationController();
 
