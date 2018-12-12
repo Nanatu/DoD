@@ -37,7 +37,7 @@
 	
 	if (key_abilityOne && fissureCD <= 0)
 	{
-	
+		control = controlState.inAbility;
 		with (instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Fissure))
 			{
 				image_angle = point_direction(x,y,x+other.facing*40,y);

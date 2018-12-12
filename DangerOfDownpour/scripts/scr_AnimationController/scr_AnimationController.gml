@@ -62,9 +62,8 @@ if(control == controlState.outAbility)
 	
 //Abilities
 	
-	if (key_abilityOne && control == controlState.outAbility)
+	if (key_abilityOne && control == controlState.inAbility)
 	{
-		control = controlState.inAbility;
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability1];
 	}

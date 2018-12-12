@@ -16,7 +16,7 @@
 //	Falling
 	ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
 //	Rising
-	ds_list_add(huntress_Animation_List, spr_Player_Marksman_Standing);
+	ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
 //	Flinching
 	ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
 //	Ability 1-4
