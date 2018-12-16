@@ -19,6 +19,7 @@
 	rising = false;
 	falling = false;
 
+	
 //Health
 	hp = 5;
 	

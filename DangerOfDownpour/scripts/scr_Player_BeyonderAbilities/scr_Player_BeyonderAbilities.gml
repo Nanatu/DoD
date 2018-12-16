@@ -5,6 +5,9 @@
 //TODO: Fissure and Rift
 
 {
+	var verb;
+	verb = noone;
+	
 	fissureCD = max(0, fissureCD-1);
 	if (fissureCD == 0)
 	{
@@ -37,7 +40,9 @@
 	
 	if (key_abilityOne && fissureCD <= 0)
 	{
+		verb = "Ability1";
 		control = controlState.inAbility;
+		image_index = 0;
 		with (instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Fissure))
 			{
 				image_angle = point_direction(x,y,x+other.facing*40,y);
@@ -138,5 +143,7 @@
 			}
 		}
 	}
+	
+	return verb;
 
 }
