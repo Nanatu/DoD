@@ -3,61 +3,66 @@
 //	General script for character animations and facing switching
 //
 {
-
-
-var verb1,verb2;
-
-verb1 = argument0;
-verb2 = argument1;
 	
+if(control == controlState.inAbility)
+{
+		if(image_index > image_number - 1)
+		{
+		control = controlState.outAbility;	
+		}
+}
 	
 	
 if(control == controlState.outAbility)
 {
-	
-		if (verb1 = "Standing")
+	if (!place_meeting(x,y+1,obj_Wall))
+	{
+		//sprite_index = spr_PlayerA;
+		//image_speed = 0;
+		//if(sign(vsp) > 0) image_index = 1; else image_index = 0;
+	}
+	else
+	{
+		image_speed = 1;
+		if (hsp == 0)
 		{
-				image_speed = 1;
 			sprite_index = animation_List[|animationState.Standing];
 		}
-		if (verb1 = "Running")
+		else
 		{
-				image_speed = 1;
 			sprite_index = animation_List[|animationState.Running];
 		}
 	
+	}
 	
-	
-	if (verb1 == "Jumping")
+	if (jumping)
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Jumping];
 		
 	}
-	if (verb1 == "Rising")
+	if (rising)
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Rising];
 	}
 	
-	if (verb1 == "Falling")
+	if (falling)
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Falling];
 	}
 	
-	if (verb1 == "Crouching")
+	if (crouching)
 	{
 		image_speed = 1;
 		sprite_index = 	animation_List[|animationState.Crouching];
 	}
 }
 	
-
 //Abilities
-else
-{
-	if (verb2 = "Ability1")
+	
+	if (key_abilityOne && control == controlState.inAbility)
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability1];
@@ -80,18 +85,8 @@ else
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability4];
 	}
-}
 
 //Sprite Facing
 	if (hsp != 0) image_xscale = sign(hsp);
-
-	
-if(control == controlState.inAbility)
-{
-		if(image_index > image_number - 1)
-		{
-		control = controlState.outAbility;
-		}
-}
 
 }

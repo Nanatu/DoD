@@ -466,7 +466,7 @@
             "Key": "389d3db3-9e25-4469-b542-beebb8abb44e",
             "Value": {
                 "id": "9cd51fee-6abe-4ea4-b663-ce9b876a99ec",
-                "resourcePath": "scripts\\scr_CollisionAndMovementNEW\\scr_CollisionAndMovementNEW.yy",
+                "resourcePath": "scripts\\scr_CollisionAndMovement\\scr_CollisionAndMovement.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1258,7 +1258,7 @@
             "Key": "a4569493-ad8b-4f5a-9ea1-e1cab8f1f9d3",
             "Value": {
                 "id": "7d32c563-5ebb-4b34-9263-658205cfec16",
-                "resourcePath": "scripts\\scr_AnimationController\\scr_AnimationController.yy",
+                "resourcePath": "scripts\\scr_AnimationControllerOLD\\scr_AnimationControllerOLD.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1802,7 +1802,7 @@
             "Key": "e1a272ca-7747-4469-98c3-b4ef97880330",
             "Value": {
                 "id": "e61e1c79-f6d4-460c-860a-f702aca35b1f",
-                "resourcePath": "scripts\\scr_CollisionAndMovement\\scr_CollisionAndMovement.yy",
+                "resourcePath": "scripts\\scr_CollisionAndMovementOLD\\scr_CollisionAndMovementOLD.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1850,7 +1850,7 @@
             "Key": "e6b727fb-e1cc-4262-b742-152521c643b4",
             "Value": {
                 "id": "16e93799-8cca-4610-97ff-5549fc444bb3",
-                "resourcePath": "scripts\\scr_AnimationControllerNEW\\scr_AnimationControllerNEW.yy",
+                "resourcePath": "scripts\\scr_AnimationController\\scr_AnimationController.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1874,7 +1874,7 @@
             "Key": "e848e819-9976-43e9-94ac-f1b1fdd7a4a8",
             "Value": {
                 "id": "94d81ae5-91d5-4587-9da6-5beb58a3ff15",
-                "resourcePath": "scripts\\scr_PlayerState_NormalNEW\\scr_PlayerState_NormalNEW.yy",
+                "resourcePath": "scripts\\scr_PlayerState_Normal\\scr_PlayerState_Normal.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2055,14 +2055,6 @@
             }
         },
         {
-            "Key": "f8c1b486-8ee3-48bf-9859-d5f6d62411c1",
-            "Value": {
-                "id": "54d85f40-3025-4f8e-bea9-945cd7a750e7",
-                "resourcePath": "scripts\\scr_PlayerState_Normal\\scr_PlayerState_Normal.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f9153132-ead7-46db-ab89-e1b196983dbe",
             "Value": {
                 "id": "f8cdd8bd-7952-4bac-b22e-e19830e79053",
@@ -2144,7 +2136,6 @@
         }
     ],
     "script_order": [
-        "f8c1b486-8ee3-48bf-9859-d5f6d62411c1",
         "e848e819-9976-43e9-94ac-f1b1fdd7a4a8",
         "c6dab3cb-7342-456c-a17c-9e4c7a1af3e1",
         "7597479b-c8f5-4178-974e-8cd8bba5bc60",

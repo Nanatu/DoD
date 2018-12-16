@@ -26,5 +26,7 @@
 	ds_list_add(gunslinger_Animation_List, spr_Player_Gunslinger_Standing);
 
 	animation_List = gunslinger_Animation_List;
+	
+	playerScript = scr_Player_GunslingerAbilities;
 
 }

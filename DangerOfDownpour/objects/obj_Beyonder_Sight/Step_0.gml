@@ -4,6 +4,11 @@
 //y = follow.y + offsetY;
 //}
 
+if (!instance_exists(obj_Player_Beyonder))
+{
+instance_destroy();	
+}
+
 timeAlive --;
 
 xTo = follow.x + offsetX;
@@ -65,3 +70,5 @@ if (random(1) >= .99)
 	image_index = 0;
 	image_speed = 0;
 	}
+	
+	

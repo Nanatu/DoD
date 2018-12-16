@@ -4,6 +4,9 @@
 //	Includes upkeep
 //
 {
+	
+	var verb;
+	verb = noone;
 
 	key_abilityOne_Pressed = keyboard_check_pressed(ord("Q"));
 	key_abilityOne_Release = keyboard_check_released(ord("Q"));
@@ -97,6 +100,7 @@
 //Jump Jets
 	if (key_abilityThree) && (fuel > 0)
 	{
+		verb = "Ability3"
 		if !(instance_exists(obj_Mechanic_Jumpjets))
 		{
 			//jumpjets = instance_create_layer(x,y+16,"Player",obj_Mechanic_Jumpjets)
@@ -108,10 +112,6 @@
 	{
 		fuel = min(50, fuel+1);
 	}
-	if!(key_abilityThree) && (jumpjets != noone)
-	{
-		instance_destroy(jumpjets);
-		jumpjets = noone;
-	}	
 	
+	return verb;
 }

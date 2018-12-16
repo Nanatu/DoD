@@ -26,5 +26,7 @@
 	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
 
 	animation_List = lrb_Animation_List;
+	
+	playerScript = scr_Player_LRBAbilities;
 
 }

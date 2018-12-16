@@ -3,8 +3,7 @@
 //	General script for checking collision and moving player based on inputs
 //
 {
-	var verb;
-	verb = "Standing";
+	
 //Jump
 	if (place_meeting(x,y+1,obj_Wall)) && (key_jump)
 	{
@@ -20,12 +19,8 @@
 			x = x + sign(hsp);
 		}
 		hsp = 0;
-		
 	}
-	if (hsp != 0)
-	{
-	verb = "Running";	
-	}
+	
 	x = x + hsp;
 
 //Vertical Collision
@@ -42,20 +37,30 @@
 //Crouched
 	if (key_down && !key_left && !key_right)
 	{
-		verb = "Crouching";
+		crouching = true;
 	}
-	
+	else
+	{
+		crouching = false;
+	}
 
 	if (vsp <= -1 && jumping)
 	{
-		verb = "Rising";
+		rising = true;
+		jumping = false;
 	}
-	
+	else
+	{
+		rising = false;	
+	}
 
 	if (vsp >= 1)
 	{
-		verb = "Falling";	
+		falling = true;	
 	}
-	
-return verb;
+	else
+	{
+		falling = false;	
+	}
+
 }

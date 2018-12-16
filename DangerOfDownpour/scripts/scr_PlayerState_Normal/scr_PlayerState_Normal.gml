@@ -6,9 +6,11 @@
 {
 	
 scr_GetInputs();
+var verb1,verb2, move;
+
 
 //Calculate Movement
-if (control == controlState.outAbility)
+if (control == controlState.outAbility || vsp != 0)
 {
 move = key_right - key_left;
 }
@@ -20,7 +22,10 @@ hsp = move * walksp;
 vsp = vsp + grv;
 if (hsp != 0) facing = sign(hsp)
 
-scr_CollisionAndMovement();
-scr_AnimationController();
+
+verb1 = scr_CollisionAndMovement();
+verb2 = script_execute(playerScript);
+	
+scr_AnimationController(verb1,verb2);
 
 }

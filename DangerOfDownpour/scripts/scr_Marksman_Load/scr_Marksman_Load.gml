@@ -26,5 +26,7 @@
 	ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
 
 	animation_List = marksman_Animation_List;
+	
+	playerScript = scr_Player_MarksmanAbilities;
 
 }

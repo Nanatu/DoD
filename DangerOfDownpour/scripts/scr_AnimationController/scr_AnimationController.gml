@@ -3,66 +3,60 @@
 //	General script for character animations and facing switching
 //
 {
+
+
+var verb1,verb2;
+
+verb1 = argument0;
+verb2 = argument1;
 	
-if(control == controlState.inAbility)
-{
-		if(image_index > image_number - 1)
-		{
-		control = controlState.outAbility;	
-		}
-}
 	
 	
 if(control == controlState.outAbility)
 {
-	if (!place_meeting(x,y+1,obj_Wall))
-	{
-		//sprite_index = spr_PlayerA;
-		//image_speed = 0;
-		//if(sign(vsp) > 0) image_index = 1; else image_index = 0;
-	}
-	else
-	{
-		image_speed = 1;
-		if (hsp == 0)
+	
+		if (verb1 = "Standing")
 		{
+				image_speed = 1;
 			sprite_index = animation_List[|animationState.Standing];
 		}
-		else
+		if (verb1 = "Running")
 		{
+				image_speed = 1;
 			sprite_index = animation_List[|animationState.Running];
 		}
 	
-	}
 	
-	if (jumping)
+	
+	if (verb1 == "Jumping")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Jumping];
 		
 	}
-	if (rising)
+	if (verb1 == "Rising")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Rising];
 	}
 	
-	if (falling)
+	if (verb1 == "Falling")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Falling];
 	}
 	
-	if (crouching)
+	if (verb1 == "Crouching")
 	{
 		image_speed = 1;
 		sprite_index = 	animation_List[|animationState.Crouching];
 	}
 }
 	
+
 //Abilities
-	
-	if (key_abilityOne && control == controlState.inAbility)
+{
+	if (verb2 = "Ability1")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability1];
@@ -74,7 +68,7 @@ if(control == controlState.outAbility)
 		sprite_index = animation_List[|animationState.Ability2];
 	}
 	
-	if (key_abilityThree)
+	if (verb2 = "Ability3")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability3];
@@ -85,8 +79,18 @@ if(control == controlState.outAbility)
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability4];
 	}
+}
 
 //Sprite Facing
 	if (hsp != 0) image_xscale = sign(hsp);
+
+	
+if(control == controlState.inAbility)
+{
+		if(image_index > image_number - 1)
+		{
+		control = controlState.outAbility;
+		}
+}
 
 }

@@ -1,8 +1,8 @@
 {
-    "id": "e6b727fb-e1cc-4262-b742-152521c643b4",
+    "id": "a4569493-ad8b-4f5a-9ea1-e1cab8f1f9d3",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_AnimationControllerNEW",
+    "name": "scr_AnimationControllerOLD",
     "IsCompatibility": false,
     "IsDnD": false
 }
