@@ -4,7 +4,6 @@
 //
 {
 	
-	
 //Move Values
 	characterState = 0;
 	control = controlState.outAbility;
@@ -14,10 +13,8 @@
 	walksp = 4;
 	facing = sign(hsp);
 	jump_power = 10;
-	crouching = false;
 	jumping = false;
-	rising = false;
-	falling = false;
+	
 
 	
 //Health

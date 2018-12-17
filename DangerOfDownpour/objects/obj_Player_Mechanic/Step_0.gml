@@ -1,7 +1,6 @@
 if characterState == mechanicStates.normal
 {
 scr_PlayerState_Normal();
-scr_Player_MechanicAbilities();
 }
 else if characterState == mechanicStates.rivet
 {

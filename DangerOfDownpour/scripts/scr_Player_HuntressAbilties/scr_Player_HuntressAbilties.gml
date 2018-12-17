@@ -5,6 +5,12 @@
 //
 {
 	
+//Declare Verb
+	var verb;
+	
+//Initialize to constrain
+	verb = noone;	
+	
 	crowCD = max(0, crowCD - 1);
 	if (crowCD == 0)
 	{
@@ -104,5 +110,8 @@
 		}
 		mdkCD = 60* room_speed;
 	}
+	
+//Pass back verb
+	return verb;
 
 }

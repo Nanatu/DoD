@@ -4,77 +4,88 @@
 //
 {
 
+//Verbs declaration
+	var moveVerb,abilityVerb;
 
-var verb1,verb2;
+///Grab Arguments
+	moveVerb = argument0;
+	abilityVerb = argument1;
+	
+//Check control state
+	if(control == controlState.outAbility)
+	{
 
-verb1 = argument0;
-verb2 = argument1;
-	
-	
-	
-if(control == controlState.outAbility)
-{
-	
-		if (verb1 = "Standing")
+//Standing animation
+		if (moveVerb = "Standing")
 		{
-				image_speed = 1;
+			image_speed = 1;
 			sprite_index = animation_List[|animationState.Standing];
 		}
-		if (verb1 = "Running")
+
+//Running animation
+		if (moveVerb = "Running")
 		{
-				image_speed = 1;
+			image_speed = 1;
 			sprite_index = animation_List[|animationState.Running];
 		}
-	
-	
-	
-	if (verb1 == "Jumping")
+
+//Jumping animation
+	if (moveVerb == "Jumping")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Jumping];
 		
 	}
-	if (verb1 == "Rising")
+
+//Rising animation
+	if (moveVerb == "Rising")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Rising];
 	}
 	
-	if (verb1 == "Falling")
+//Falling animation
+	if (moveVerb == "Falling")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Falling];
 	}
-	
-	if (verb1 == "Crouching")
+
+//Crouching animation
+	if (moveVerb == "Crouching")
 	{
 		image_speed = 1;
 		sprite_index = 	animation_List[|animationState.Crouching];
 	}
+	
 }
 	
 
 //Abilities
 {
-	if (verb2 = "Ability1")
+//Ability 1 animation
+	if (abilityVerb = "Ability1")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability1];
 	}
 	
-	if (key_abilityTwo)
+//Ability 2 animation
+	if (abilityVerb = "Ability2")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability2];
 	}
 	
-	if (verb2 = "Ability3")
+//Ability 3 animation	
+	if (abilityVerb = "Ability3")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability3];
 	}
 	
-	if (key_abilityFour)
+//Ability 4 animation	
+	if (abilityVerb = "Ability4")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability4];
@@ -84,13 +95,13 @@ if(control == controlState.outAbility)
 //Sprite Facing
 	if (hsp != 0) image_xscale = sign(hsp);
 
-	
-if(control == controlState.inAbility)
-{
+//Check Control state
+	if(control == controlState.inAbility)
+	{
 		if(image_index > image_number - 1)
 		{
-		control = controlState.outAbility;
+			control = controlState.outAbility;
 		}
-}
+	}
 
 }

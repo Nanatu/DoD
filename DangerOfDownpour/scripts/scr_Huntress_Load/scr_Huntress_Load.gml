@@ -27,6 +27,6 @@
 
 	animation_List = huntress_Animation_List;
 	
-	playerScript = scr_Player_HuntressAbilities;
+	playerScript = scr_Player_HuntressAbilties;
 
 }

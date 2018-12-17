@@ -8,6 +8,12 @@
 //		Hold to load in several bullets, basic attack fires all
 {
 	
+//Declare Verb
+	var verb;
+	
+//Initialize to constrain
+	verb = noone;
+	
 	fireCD = max(0, fireCD-1);
 	if (fireCD == 0)
 	{
@@ -84,6 +90,8 @@
 	{
 
 	}
-
+	
+//Pass back verb
+	return verb;
 
 }

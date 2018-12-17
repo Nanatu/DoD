@@ -5,15 +5,25 @@
 
 {
 	
-dodgeTime = max(0, dodgeTime-1);
-hsp = facing * (walksp * 3);
-//commented out == rocket boots, commented in == dodge roll
-vsp = vsp + grv;
-if (dodgeTime <= 0)
-{
-characterState = gunslingerStates.normal;
-walksp = 4;
-}
-scr_CollisionAndMovement();
+	dodgeTime = max(0, dodgeTime-1);
+//Modify speed
+	hsp = facing * (walksp * 3);
+	//commented out == rocket boots, commented in == dodge roll
+
+//Gravity
+	if (vsp < 10)
+	{
+		vsp = vsp + grv;
+	}
+	
+//Check dodgeTime and exit State
+	if (dodgeTime <= 0)
+	{
+		characterState = gunslingerStates.normal;
+		walksp = 4;
+	}
+	
+//Run script to maintain physics
+	scr_CollisionAndMovement();
 
 }

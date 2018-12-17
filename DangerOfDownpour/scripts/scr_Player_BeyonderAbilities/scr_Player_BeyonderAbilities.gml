@@ -5,7 +5,11 @@
 //TODO: Fissure and Rift
 
 {
+	
+//Declare Verb
 	var verb;
+	
+//Initialize to constrain
 	verb = noone;
 	
 	fissureCD = max(0, fissureCD-1);
@@ -43,6 +47,7 @@
 		verb = "Ability1";
 		control = controlState.inAbility;
 		image_index = 0;
+		
 		with (instance_create_layer(x,y,"FrontPlayer", obj_Beyonder_Fissure))
 			{
 				image_angle = point_direction(x,y,x+other.facing*40,y);
@@ -143,7 +148,8 @@
 			}
 		}
 	}
-	
+
+//Pass back verb
 	return verb;
 
 }

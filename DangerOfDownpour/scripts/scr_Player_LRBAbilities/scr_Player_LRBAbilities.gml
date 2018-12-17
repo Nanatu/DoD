@@ -7,6 +7,12 @@
 //TODO: define energy and direction of attacks
 
 {
+	
+//Declare Verb
+	var verb;
+	
+//Initialize to constrain
+	verb = noone;
 
 	if (key_abilityOne)
 	{
@@ -79,4 +85,7 @@
 		}
 	}
 
+//Pass back verb
+	return verb;
+	
 }

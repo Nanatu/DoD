@@ -5,7 +5,10 @@
 //
 {
 	
+//Declare Verb
 	var verb;
+	
+//Initialize to constrain
 	verb = noone;
 
 	key_abilityOne_Pressed = keyboard_check_pressed(ord("Q"));
@@ -113,5 +116,7 @@
 		fuel = min(50, fuel+1);
 	}
 	
+//Pass back verb
 	return verb;
+	
 }

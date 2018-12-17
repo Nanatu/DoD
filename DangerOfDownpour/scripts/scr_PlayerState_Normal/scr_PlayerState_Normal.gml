@@ -4,28 +4,45 @@
 //
 
 {
-	
-scr_GetInputs();
-var verb1,verb2, move;
+
+//Grab controller input
+	scr_GetInputs();
+//Verbs for animator and player movement
+	var moveVerb, abilityVerb, move;
 
 
 //Calculate Movement
-if (control == controlState.outAbility || vsp != 0)
-{
-move = key_right - key_left;
-}
-else
-{
-move = 0;
-}
-hsp = move * walksp;
-vsp = vsp + grv;
-if (hsp != 0) facing = sign(hsp)
-
-
-verb1 = scr_CollisionAndMovement();
-verb2 = script_execute(playerScript);
+	if (control == controlState.outAbility || vsp != 0)
+	{
+		move = key_right - key_left;
+	}
+	else
+	{
+		move = 0;
+	}
 	
-scr_AnimationController(verb1,verb2);
+//Calculate horizontal movement
+	hsp = move * walksp
+	
+//Gravity
+	if (vsp < 10)
+	{
+		vsp = vsp + grv;
+	}
+	
+//Change facing
+	if (hsp != 0)
+	{
+		facing = sign(hsp)
+	}
+
+//Get movement Verb
+	moveVerb = scr_CollisionAndMovement();
+	
+//Get Ability Verb, should override moveVerb
+	abilityVerb = script_execute(playerScript);
+	
+//Run animator with verbs
+	scr_AnimationController(moveVerb,abilityVerb);
 
 }

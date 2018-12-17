@@ -7,6 +7,13 @@
 //TODO: Reload, FMJs to mod basic attack
 
 {
+	
+//Declare Verb
+	var verb;
+	
+//Initialize to constrain
+	verb = noone;
+	
 	fireCD = max(0, fireCD-1);
 	if (fireCD == 0)
 	{
@@ -144,5 +151,8 @@
 		}
 		missileCD = 50;
 	}
+	
+//Pass back verb
+	return verb;	
 
 }
