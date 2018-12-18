@@ -5,6 +5,7 @@
 {
 	var verb;
 	verb = "Standing";
+	
 //Jump
 	if (place_meeting(x,y+1,obj_Wall)) && (key_jump)
 	{
