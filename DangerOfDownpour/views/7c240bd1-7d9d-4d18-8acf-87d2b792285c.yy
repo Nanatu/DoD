@@ -11,7 +11,9 @@
         "03ef1def-9a71-42b3-a481-4d384c707a94",
         "54d1cbc8-c081-4a27-a36f-9805b2a47684",
         "1ca9a23e-2091-433f-9810-3b025c2e28e9",
-        "e15800df-54f5-457b-81dd-1973a0597fe1"
+        "e15800df-54f5-457b-81dd-1973a0597fe1",
+        "52deafb9-3d5e-4641-9aa7-8534680ba172",
+        "0ebe66d9-6c6d-4a14-a743-6dca94173d82"
     ],
     "filterType": "GMScript",
     "folderName": "Character Scripts",

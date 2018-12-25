@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0ebe66d9-6c6d-4a14-a743-6dca94173d82",
+            "Value": {
+                "id": "e238d689-3fe1-4158-b5d3-d4a5151b8bf1",
+                "resourcePath": "scripts\\scr_Beyonder_SightDraw\\scr_Beyonder_SightDraw.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0ed55985-2e81-4542-acda-28bb2937ee0c",
             "Value": {
                 "id": "3f08b6ce-4ea5-47a0-939d-364fec445b9e",
@@ -636,6 +644,14 @@
                 "id": "ffb63990-7656-4fcc-ac75-2a7ad85a55af",
                 "resourcePath": "sprites\\spr_Player_Mechanic_Standing\\spr_Player_Mechanic_Standing.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "52deafb9-3d5e-4641-9aa7-8534680ba172",
+            "Value": {
+                "id": "a7d285b3-0d30-4900-bd86-45c155d9302c",
+                "resourcePath": "scripts\\scr_Beyonder_Sight\\scr_Beyonder_Sight.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2184,6 +2200,8 @@
         "b94637a2-c799-43e2-a253-3e1ddc37d717",
         "85d2489f-b213-45e7-8b2d-61539be2d5d8",
         "e15800df-54f5-457b-81dd-1973a0597fe1",
+        "52deafb9-3d5e-4641-9aa7-8534680ba172",
+        "0ebe66d9-6c6d-4a14-a743-6dca94173d82",
         "faa63cef-560f-4541-96b0-0a20d510ed8f",
         "d6f57862-3347-4004-9705-4e976a099dbc",
         "a8d745cf-60f5-4167-8317-f8ac8038a261",
