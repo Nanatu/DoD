@@ -8,7 +8,7 @@
 //Grab controller input
 	scr_GetInputs();
 //Verbs for animator and player movement
-	var moveVerb, abilityVerb, move;
+	var moveVerb, actionVerb, move;
 
 
 //Calculate Movement
@@ -40,9 +40,17 @@
 	moveVerb = scr_CollisionAndMovement();
 	
 //Get Ability Verb, should override moveVerb
-	abilityVerb = script_execute(playerScript);
+	actionVerb = script_execute(playerScript);
+	
+	if (takenDamage == true)
+	{
+		actionVerb = "Flinching";
+		control = controlState.inAbility;
+		image_index = 0;
+		takenDamage = false;
+	}
 	
 //Run animator with verbs
-	scr_AnimationController(moveVerb,abilityVerb);
+	scr_AnimationController(moveVerb,actionVerb);
 
 }

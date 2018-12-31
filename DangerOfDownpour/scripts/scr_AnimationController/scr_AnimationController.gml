@@ -5,11 +5,11 @@
 {
 
 //Verbs declaration
-	var moveVerb,abilityVerb;
+	var moveVerb,actionVerb;
 
 ///Grab Arguments
 	moveVerb = argument0;
-	abilityVerb = argument1;
+	actionVerb = argument1;
 	
 //Check control state
 	if(control == controlState.outAbility)
@@ -61,35 +61,43 @@
 }
 	
 
-//Abilities
+//Abilities and Flinch
 {
 //Ability 1 animation
-	if (abilityVerb = "Ability1")
+	if (actionVerb = "Ability1")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability1];
 	}
 	
 //Ability 2 animation
-	if (abilityVerb = "Ability2")
+	if (actionVerb = "Ability2")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability2];
 	}
 	
 //Ability 3 animation	
-	if (abilityVerb = "Ability3")
+	if (actionVerb = "Ability3")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability3];
 	}
 	
 //Ability 4 animation	
-	if (abilityVerb = "Ability4")
+	if (actionVerb = "Ability4")
 	{
 		image_speed = 1;
 		sprite_index = animation_List[|animationState.Ability4];
 	}
+	
+//Ability 4 animation	
+	if (actionVerb = "Flinching")
+	{
+		image_speed = 1;
+		sprite_index = animation_List[|animationState.Flinching];
+	}
+
 }
 
 //Sprite Facing

@@ -14,8 +14,7 @@
 	facing = sign(hsp);
 	jump_power = 10;
 	jumping = false;
-	
-
+	takenDamage = false;
 	
 //Health
 	hp = 5;

@@ -21,7 +21,7 @@
 	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Flinching);
 //	Ability 1-4
 //	Fissure
-	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_FIssure);
+	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Fissure);
 //	Fade
 	//Effect called on ability use
 	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
