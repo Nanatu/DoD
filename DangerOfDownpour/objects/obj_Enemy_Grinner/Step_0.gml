@@ -6,6 +6,14 @@ if(instance_exists(obj_Player)){
 
 show_debug_message(state);
 
+
+if (takenDamage == true)
+	{
+		state = enemyStates.flinch		
+		takenDamage = false;
+	}
+	
+	
 attackCD = max(0,attackCD-1);
 //attackCD--;
 if (hsp != 0) facing = sign(hsp)
@@ -22,5 +30,8 @@ switch state{
 	case enemyStates.attack:
 	scr_Grinner_AttackState();
 	break;
+	case enemyStates.flinch:
+	scr_Grinner_FlinchState();
+	break;
 }
-scr_Enemy_AnimationController();
+//scr_Enemy_AnimationController();

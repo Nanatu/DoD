@@ -47,9 +47,10 @@
 //Enum for enemy animation states
 	enum enemyAnimationState
 	{
-		Idle,
+		Standing,
 		Running,
-		Attack,
+		Attacking,
+		Flinching
 	}
 
 //Check if player used a level transition

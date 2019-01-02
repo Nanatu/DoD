@@ -1,6 +1,7 @@
 with (other)
 {
-	hp--;	
+	hp--;
+	takenDamage = true;	
 }
 
 instance_destroy();

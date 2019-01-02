@@ -1,3 +1,7 @@
+var moveVerb,actionVerb;
+actionVerb = noone;
+moveVerb = noone;
+
 if(scr_Enemy_PlayerWithinRange(400)){
 	//close enough to attack?
 	if(attackCD <= 0 && scr_Enemy_PlayerWithinRange(random_range(140,200))){
@@ -13,7 +17,10 @@ if(scr_Enemy_PlayerWithinRange(400)){
 		image_xscale = 1;
 	}
 	hsp = sign(image_xscale) * (walksp +1);
-	scr_Enemy_CollisionAndMovement();
+	
+	
+moveVerb = scr_Enemy_CollisionAndMovementNEW();
+scr_Enemy_AnimationControllerNEW(moveVerb,actionVerb);
 }
 else{
 	state = enemyStates.idle;

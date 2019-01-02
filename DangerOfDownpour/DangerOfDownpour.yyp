@@ -834,7 +834,7 @@
             "Key": "6ea44c56-df41-4b2d-a5f2-9df88fceaf39",
             "Value": {
                 "id": "a524c576-b9ea-49b3-bd01-5cd7862dc807",
-                "resourcePath": "sprites\\spr_Enemy_Grinner_Idle\\spr_Enemy_Grinner_Idle.yy",
+                "resourcePath": "sprites\\spr_Enemy_Grinner_Standing\\spr_Enemy_Grinner_Standing.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -876,6 +876,14 @@
                 "id": "a37ce239-9844-492f-8a87-0d8a5965087e",
                 "resourcePath": "views\\726719a9-81b2-40ca-90b9-d8ff2338864c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "73dde14e-e468-4a96-9f36-6c5759d8a3b0",
+            "Value": {
+                "id": "ad585e54-6587-4466-9999-442c7fd21a7e",
+                "resourcePath": "scripts\\scr_Enemy_AnimationControllerNEW\\scr_Enemy_AnimationControllerNEW.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1092,6 +1100,14 @@
                 "id": "61ab7ba9-1487-4d9e-9cf4-eef2badb729d",
                 "resourcePath": "views\\8cd4addb-fe9e-4a36-bc7c-5d104ee34318.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8d02d343-9330-42ff-9677-ad910c8a1f7e",
+            "Value": {
+                "id": "ba266bea-8d70-4059-9023-a35648051ce2",
+                "resourcePath": "scripts\\scr_Enemy_CollisionAndMovementNEW\\scr_Enemy_CollisionAndMovementNEW.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1842,7 +1858,7 @@
             "Key": "e3da689f-16d2-49bb-9f8b-18fcd83dd3e3",
             "Value": {
                 "id": "62ba637d-88d0-474a-b463-183ecb1c584c",
-                "resourcePath": "sprites\\spr_Enemy_Grinner_Standing\\spr_Enemy_Grinner_Standing.yy",
+                "resourcePath": "sprites\\spr_Enemy_Grinner_StandingCHANGE\\spr_Enemy_Grinner_StandingCHANGE.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2157,6 +2173,14 @@
                 "resourcePath": "views\\ff3d5ebe-7cbf-4970-9c27-5087672c4459.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ff9c15c4-3968-42b1-963a-48b8cafbfa5a",
+            "Value": {
+                "id": "5d008a9a-9feb-4354-8710-abfc3487c63f",
+                "resourcePath": "scripts\\scr_Grinner_FlinchState\\scr_Grinner_FlinchState.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -2178,17 +2202,20 @@
         "e294f5e8-ca17-450a-a96e-1610318ff64d",
         "0ed55985-2e81-4542-acda-28bb2937ee0c",
         "8a4c83fb-4f62-4685-895f-ca701aaae271",
+        "8d02d343-9330-42ff-9677-ad910c8a1f7e",
         "e99603d7-a114-43e4-8796-59aa47efbbf5",
         "0b86c4e3-2121-453a-8b99-c43cd6397138",
         "371ae587-9c02-400a-a81e-22505da3df8d",
         "1ea44cf0-65f5-444f-bc1d-6b36ba94e162",
         "a17894be-3adf-427b-b28f-09b773e7a67c",
         "66ab9c19-4e3c-473e-9e57-073b5aaa9596",
+        "73dde14e-e468-4a96-9f36-6c5759d8a3b0",
         "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
         "e328b927-73b2-4934-87ae-122522136f06",
         "56bc5700-f1db-493e-ae18-83656cb6fb1b",
         "7199239e-c890-4f22-91bc-e77285ce9512",
         "3bdb84a1-7d68-4d45-9892-48bad37fa87b",
+        "ff9c15c4-3968-42b1-963a-48b8cafbfa5a",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "4377bc14-0566-40c5-95fd-5762c6ef9789",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",

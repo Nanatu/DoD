@@ -30,75 +30,75 @@
 		}
 
 //Jumping animation
-	if (moveVerb == "Jumping")
-	{
-		image_speed = 1;
-		sprite_index = animation_List[|animationState.Jumping];
+		if (moveVerb == "Jumping")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|animationState.Jumping];
 		
-	}
+		}
 
 //Rising animation
-	if (moveVerb == "Rising")
-	{
-		image_speed = 1;
-		sprite_index = animation_List[|animationState.Rising];
-	}
+		if (moveVerb == "Rising")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|animationState.Rising];
+		}
 	
 //Falling animation
-	if (moveVerb == "Falling")
-	{
-		image_speed = 1;
-		sprite_index = animation_List[|animationState.Falling];
-	}
+		if (moveVerb == "Falling")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|animationState.Falling];
+		}
 
 //Crouching animation
-	if (moveVerb == "Crouching")
-	{
-		image_speed = 1;
-		sprite_index = 	animation_List[|animationState.Crouching];
-	}
+		if (moveVerb == "Crouching")
+		{
+			image_speed = 1;
+			sprite_index = 	animation_List[|animationState.Crouching];
+		}
 	
-}
+	}
 	
 
 //Abilities and Flinch
-{
-//Ability 1 animation
-	if (actionVerb = "Ability1")
 	{
-		image_speed = 1;
-		sprite_index = animation_List[|animationState.Ability1];
-	}
+//Ability 1 animation
+		if (actionVerb = "Ability1")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|animationState.Ability1];
+		}
 	
 //Ability 2 animation
-	if (actionVerb = "Ability2")
-	{
-		image_speed = 1;
-		sprite_index = animation_List[|animationState.Ability2];
-	}
+		if (actionVerb = "Ability2")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|animationState.Ability2];
+		}
 	
 //Ability 3 animation	
-	if (actionVerb = "Ability3")
-	{
-		image_speed = 1;
-		sprite_index = animation_List[|animationState.Ability3];
-	}
-	
-//Ability 4 animation	
-	if (actionVerb = "Ability4")
-	{
-		image_speed = 1;
-		sprite_index = animation_List[|animationState.Ability4];
-	}
-	
-//Ability 4 animation	
-	if (actionVerb = "Flinching")
-	{
-		image_speed = 1;
-		sprite_index = animation_List[|animationState.Flinching];
-	}
+		if (actionVerb = "Ability3")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|animationState.Ability3];
+		}
 
-}
+//Ability 4 animation	
+		if (actionVerb = "Ability4")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|animationState.Ability4];
+		}
+	
+//Ability 4 animation	
+		if (actionVerb = "Flinching")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|animationState.Flinching];
+		}
+
+	}
 
 //Sprite Facing
 	if (hsp != 0) image_xscale = sign(hsp);

@@ -10,5 +10,7 @@
 	walksp = 2;
 	facing = sign(hsp);
 	attack = false;
+	control = false;
+	takenDamage = false;
 
 }

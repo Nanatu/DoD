@@ -15,7 +15,7 @@
 		image_speed = 1;
 		if (hsp == 0)
 		{
-			sprite_index = animation_List[|enemyAnimationState.Idle];
+			sprite_index = animation_List[|enemyAnimationState.Standing];
 		}
 		else
 		{
@@ -25,7 +25,7 @@
 	}
 	if (attack)
 	{
-		sprite_index = animation_List[|enemyAnimationState.Attack];	
+		sprite_index = animation_List[|enemyAnimationState.Attacking];	
 	}
 	
 

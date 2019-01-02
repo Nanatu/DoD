@@ -1,5 +1,8 @@
 ///scr_Grinner_Wander()
 
+var moveVerb,actionVerb;
+actionVerb = noone;
+moveVerb = noone;
 // should i move
 //sprite_index = spr_Enemy_Grinner_Running;
 if(scr_Enemy_PlayerWithinRange(500)){
@@ -27,7 +30,9 @@ if(time_in_state >= 2* room_speed)
 	time_in_state = 0;
 }
 time_in_state++;
-scr_Enemy_CollisionAndMovement();
+moveVerb = scr_Enemy_CollisionAndMovementNEW();
+scr_Enemy_AnimationControllerNEW(moveVerb,actionVerb);
+
 
 // can i move
 

@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 //Init move and gravity
 scr_Enemy_General_Init();
 scr_Enemy_Grinner_Load();

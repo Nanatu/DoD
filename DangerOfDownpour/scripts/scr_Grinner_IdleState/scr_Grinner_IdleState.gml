@@ -1,3 +1,6 @@
+var moveVerb,actionVerb;
+actionVerb = noone;
+moveVerb = noone;
 hsp = 0;
 if(scr_Enemy_PlayerWithinRange(500)){
 	state = enemyStates.chase;
@@ -9,5 +12,6 @@ if(time_in_state = 2*room_speed){
 	state = enemyStates.wander;
 	time_in_state = 0;
 }
-scr_Enemy_CollisionAndMovement();
+moveVerb = scr_Enemy_CollisionAndMovementNEW();
+scr_Enemy_AnimationControllerNEW(moveVerb,actionVerb);
 time_in_state++;

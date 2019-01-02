@@ -1,3 +1,5 @@
+var moveVerb,actionVerb;
+
 /*
 //attack
 if(time_in_state < .1 * room_speed){
@@ -21,7 +23,9 @@ else{
 }
 
 */
-
+var moveVerb,actionVerb;
+actionVerb = noone;
+moveVerb = noone;
 attack = true;
 //time_in_state--;
 hsp = image_xscale * (walksp * 2.5);
@@ -30,8 +34,14 @@ if (image_index > image_number - 1) {
     attack = false;
 	state = enemyStates.chase;
 }
-
-scr_Enemy_CollisionAndMovement();
+else
+{
+	actionVerb = "Attacking";
+		//control = controlState.inAbility;
+		//image_index = 0;
+moveVerb = scr_Enemy_CollisionAndMovementNEW();
+scr_Enemy_AnimationControllerNEW(moveVerb,actionVerb);
+}
 /*
 if (time_in_state <= 0)
 {
