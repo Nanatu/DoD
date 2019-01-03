@@ -36,12 +36,10 @@ if (image_index > image_number - 1) {
 }
 else
 {
-	actionVerb = "Attacking";
-		//control = controlState.inAbility;
-		//image_index = 0;
-moveVerb = scr_Enemy_CollisionAndMovementNEW();
-scr_Enemy_AnimationControllerNEW(moveVerb,actionVerb);
+	actionVerb = "Attacking";	
 }
+
+	return actionVerb;
 /*
 if (time_in_state <= 0)
 {

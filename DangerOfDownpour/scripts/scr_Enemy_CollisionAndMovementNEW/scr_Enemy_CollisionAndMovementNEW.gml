@@ -18,7 +18,7 @@
 		hsp = 0;
 	}
 	
-//Check if moving horizontally, running	
+//Check if moving horizontally, Running	
 	if (hsp != 0)
 	{
 	verb = "Running";	

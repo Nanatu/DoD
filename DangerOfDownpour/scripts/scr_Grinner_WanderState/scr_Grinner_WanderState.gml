@@ -12,28 +12,26 @@ if(scr_Enemy_PlayerWithinRange(500)){
 
 if(time_in_state >= 2* room_speed)
 {
-	var roll = random(10);
+	//var roll = random(10);
 	//chance to idle 
-	if(roll < 5 || hsp == 0)
-	{
-		state = enemyStates.idle;
-		time_in_state = 0;
-		return;
-	}
+	//if(roll < 5 || hsp == 0)
+	//{
+		//state = enemyStates.idle;
+		//time_in_state = 0;
+		//return;
+	//}
 	
 	//change direction
-	else if(roll >=6){
+	//else if(roll >=6){
 		//sprite_index = spr_Enemy_Grinner_Running;
-		hsp = (-1)*hsp;
+		hsp =  irandom_range(-1,1)*walksp; 
 		image_xscale = sign(image_xscale)*(-1);
-	}
+	//}
 	time_in_state = 0;
 }
 time_in_state++;
-moveVerb = scr_Enemy_CollisionAndMovementNEW();
-scr_Enemy_AnimationControllerNEW(moveVerb,actionVerb);
 
-
+return actionVerb;
 // can i move
 
 

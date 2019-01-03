@@ -18,10 +18,9 @@ if(scr_Enemy_PlayerWithinRange(400)){
 	}
 	hsp = sign(image_xscale) * (walksp +1);
 	
-	
-moveVerb = scr_Enemy_CollisionAndMovementNEW();
-scr_Enemy_AnimationControllerNEW(moveVerb,actionVerb);
 }
 else{
 	state = enemyStates.idle;
 }
+
+return actionVerb;
