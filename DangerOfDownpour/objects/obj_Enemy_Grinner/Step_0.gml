@@ -13,8 +13,8 @@ show_debug_message(state);
 
 if (takenDamage == true)
 	{
-		state = enemyStates.flinch		
-		takenDamage = false;
+		state = enemyStates.flinch;
+		image_index = 0;
 	}
 	
 	

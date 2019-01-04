@@ -56,6 +56,7 @@
 		if(image_index > image_number - 1)
 		{
 			control = controlState.outAbility;
+			state = enemyStates.idle;
 		}
 	}
 

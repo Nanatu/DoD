@@ -3,7 +3,9 @@ actionVerb = noone;
 moveVerb = noone;
 
 actionVerb = "Flinching";
-
-state = enemyStates.idle;
+takenDamage = false;	
+control = controlState.inAbility
+hsp = 0;
+//state = enemyStates.idle;
 
 return actionVerb;

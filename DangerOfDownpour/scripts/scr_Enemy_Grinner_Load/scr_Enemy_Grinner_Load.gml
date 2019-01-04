@@ -14,6 +14,6 @@ ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Running);
 ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Attacking);
 
 //Flinching
-ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Standing);
+ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Flinching);
 
 animation_List = grinner_Animation_List;

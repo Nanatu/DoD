@@ -719,6 +719,14 @@
             }
         },
         {
+            "Key": "5b06a667-587e-47df-abf0-1872399aa2b4",
+            "Value": {
+                "id": "bf1b2d7e-7407-4985-920a-4e4327c01045",
+                "resourcePath": "sprites\\spr_Enemy_Grinner_Flinching\\spr_Enemy_Grinner_Flinching.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5d7aed4b-697b-4b06-9fd3-998961c7092c",
             "Value": {
                 "id": "c91a4162-af46-4cfa-816b-087d440508d8",

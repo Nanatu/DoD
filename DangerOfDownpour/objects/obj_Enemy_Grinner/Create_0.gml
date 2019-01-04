@@ -13,6 +13,8 @@ hitfrom = 0;
 target = noone;
 targetVisible = false;
 
+control = controlState.inAbility;
+
 attackCD = 0;
 
 state = enemyStates.idle;
