@@ -3,17 +3,19 @@
 //	Script to load in Grinner data
 //
 
-grinner_Animation_List = ds_list_create();
+//Instantiate list
+	grinner_Animation_List = ds_list_create();
 //Standing
-ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Standing);
+	ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Standing);
 
 //Running
-ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Running);
+	ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Running);
 
 //Attacking
-ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Attacking);
+	ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Attacking);
 
 //Flinching
-ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Flinching);
+	ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Flinching);
 
-animation_List = grinner_Animation_List;
+//Set object list to built ds_list
+	animation_List = grinner_Animation_List;

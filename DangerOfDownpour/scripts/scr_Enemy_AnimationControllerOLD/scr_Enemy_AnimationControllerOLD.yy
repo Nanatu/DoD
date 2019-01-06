@@ -1,8 +1,8 @@
 {
-    "id": "8d02d343-9330-42ff-9677-ad910c8a1f7e",
+    "id": "66ab9c19-4e3c-473e-9e57-073b5aaa9596",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_Enemy_CollisionAndMovementNEW",
+    "name": "scr_Enemy_AnimationControllerOLD",
     "IsCompatibility": false,
     "IsDnD": false
 }

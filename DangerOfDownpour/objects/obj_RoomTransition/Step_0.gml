@@ -1,4 +1,4 @@
-if (place_meeting(x,y, obj_Player))
+if (place_meeting(x,y, obj_Character))
 {
 global.usedTransistion = true;
 room_goto(targetRoom);	

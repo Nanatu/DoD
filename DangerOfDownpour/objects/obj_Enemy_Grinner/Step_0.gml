@@ -40,6 +40,6 @@ switch state{
 	actionVerb = scr_Grinner_FlinchState();
 	break;
 }
-moveVerb = scr_Enemy_CollisionAndMovementNEW();
-scr_Enemy_AnimationControllerNEW(moveVerb,actionVerb);
-//scr_Enemy_AnimationController();
+moveVerb = scr_Enemy_CollisionAndMovement();
+scr_Enemy_AnimationController(moveVerb,actionVerb);
+

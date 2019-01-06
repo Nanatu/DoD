@@ -4,32 +4,60 @@
 //
 {
 	
-	if (!place_meeting(x,y+1,obj_Wall))
+	//Verbs declaration
+	var moveVerb,actionVerb;
+
+///Grab Arguments
+	moveVerb = argument0;
+	actionVerb = argument1;
+	
+//Check control state
+	if(control == controlState.outAbility)
 	{
-		//sprite_index = spr_PlayerA;
-		image_speed = 0;
-		//if(sign(vsp) > 0) image_index = 1; else image_index = 0;
-	}
-	else
-	{
-		image_speed = 1;
-		if (hsp == 0)
+		
+//Standing animation
+		if (moveVerb = "Standing")
 		{
+			image_speed = 1;
 			sprite_index = animation_List[|enemyAnimationState.Standing];
 		}
-		else
+
+//Running animation
+		if (moveVerb = "Running")
 		{
+			image_speed = 1;
 			sprite_index = animation_List[|enemyAnimationState.Running];
 		}
-	
 	}
-	if (attack)
+
+//Abilities and Flinch
 	{
-		sprite_index = animation_List[|enemyAnimationState.Attacking];	
-	}
+//Ability 1 animation
+		if (actionVerb = "Attacking")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|enemyAnimationState.Attacking];
+		}
 	
+//Ability 4 animation	
+		if (actionVerb = "Flinching")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|enemyAnimationState.Flinching];
+		}
+	}
 
 //Sprite Facing
 	if (hsp != 0) image_xscale = sign(hsp);
+	
+//Check Control state
+	if(control == controlState.inAbility)
+	{
+		if(image_index > image_number - 1)
+		{
+			control = controlState.outAbility;
+			state = enemyStates.idle;
+		}
+	}
 
 }

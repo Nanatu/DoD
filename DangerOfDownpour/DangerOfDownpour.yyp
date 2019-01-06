@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "02dd325d-3f8b-4e33-99cd-71b38629ab36",
+            "Value": {
+                "id": "23718d76-5eab-4690-9676-22ffd1396504",
+                "resourcePath": "scripts\\scr_Grinner_WanderState\\scr_Grinner_WanderState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "03ef1def-9a71-42b3-a481-4d384c707a94",
             "Value": {
                 "id": "381b848c-4c80-452d-b4cf-fcbda58290a9",
@@ -770,7 +778,7 @@
             "Key": "66ab9c19-4e3c-473e-9e57-073b5aaa9596",
             "Value": {
                 "id": "1cf0a7d0-fe37-41a7-8d43-2c20a1cfb774",
-                "resourcePath": "scripts\\scr_Enemy_AnimationController\\scr_Enemy_AnimationController.yy",
+                "resourcePath": "scripts\\scr_Enemy_AnimationControllerOLD\\scr_Enemy_AnimationControllerOLD.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -874,7 +882,7 @@
             "Key": "7199239e-c890-4f22-91bc-e77285ce9512",
             "Value": {
                 "id": "c32e3425-3587-454d-bdb8-8fd630a5c76e",
-                "resourcePath": "scripts\\scr_Grinner_AttackState\\scr_Grinner_AttackState.yy",
+                "resourcePath": "scripts\\scr_Grinner_AttackStateOLD\\scr_Grinner_AttackStateOLD.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -890,7 +898,7 @@
             "Key": "73dde14e-e468-4a96-9f36-6c5759d8a3b0",
             "Value": {
                 "id": "ad585e54-6587-4466-9999-442c7fd21a7e",
-                "resourcePath": "scripts\\scr_Enemy_AnimationControllerNEW\\scr_Enemy_AnimationControllerNEW.yy",
+                "resourcePath": "scripts\\scr_Enemy_AnimationController\\scr_Enemy_AnimationController.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1018,7 +1026,7 @@
             "Key": "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
             "Value": {
                 "id": "8ff238cd-2928-4d1e-853e-104e97afce2c",
-                "resourcePath": "scripts\\scr_Grinner_WanderState\\scr_Grinner_WanderState.yy",
+                "resourcePath": "scripts\\scr_Grinner_WanderStateOLD\\scr_Grinner_WanderStateOLD.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1090,7 +1098,7 @@
             "Key": "8a4c83fb-4f62-4685-895f-ca701aaae271",
             "Value": {
                 "id": "8e772043-c366-495f-91c8-2e6f8bbb4996",
-                "resourcePath": "scripts\\scr_Enemy_CollisionAndMovement\\scr_Enemy_CollisionAndMovement.yy",
+                "resourcePath": "scripts\\scr_Enemy_CollisionAndMovementOLD\\scr_Enemy_CollisionAndMovementOLD.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1114,7 +1122,7 @@
             "Key": "8d02d343-9330-42ff-9677-ad910c8a1f7e",
             "Value": {
                 "id": "ba266bea-8d70-4059-9023-a35648051ce2",
-                "resourcePath": "scripts\\scr_Enemy_CollisionAndMovementNEW\\scr_Enemy_CollisionAndMovementNEW.yy",
+                "resourcePath": "scripts\\scr_Enemy_CollisionAndMovement\\scr_Enemy_CollisionAndMovement.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1556,6 +1564,14 @@
                 "id": "7aa9fb92-0ca6-4656-a1dc-dcd09de9f8dc",
                 "resourcePath": "sprites\\spr_Player_Huntress_VirusSpread\\spr_Player_Huntress_VirusSpread.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bf5409d9-cc4a-43f6-9006-b4cd75f7676d",
+            "Value": {
+                "id": "8a555084-f143-4ddc-8a2e-c6ca5a3e55dd",
+                "resourcePath": "scripts\\scr_Grinner_AttackState\\scr_Grinner_AttackState.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2219,9 +2235,11 @@
         "66ab9c19-4e3c-473e-9e57-073b5aaa9596",
         "73dde14e-e468-4a96-9f36-6c5759d8a3b0",
         "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
+        "02dd325d-3f8b-4e33-99cd-71b38629ab36",
         "e328b927-73b2-4934-87ae-122522136f06",
         "56bc5700-f1db-493e-ae18-83656cb6fb1b",
         "7199239e-c890-4f22-91bc-e77285ce9512",
+        "bf5409d9-cc4a-43f6-9006-b4cd75f7676d",
         "3bdb84a1-7d68-4d45-9892-48bad37fa87b",
         "ff9c15c4-3968-42b1-963a-48b8cafbfa5a",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",

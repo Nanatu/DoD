@@ -1,8 +1,8 @@
 {
-    "id": "bf5409d9-cc4a-43f6-9006-b4cd75f7676d",
+    "id": "7199239e-c890-4f22-91bc-e77285ce9512",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_Grinner_AttackState",
+    "name": "scr_Grinner_AttackStateOLD",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-layerName = "MDK_DeathLayer";
+layerName = "BehindPlayer";

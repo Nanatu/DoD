@@ -1,11 +1,15 @@
-var moveVerb,actionVerb;
-actionVerb = noone;
-moveVerb = noone;
+///scr_Grinner_Idlestate
+//
 
-actionVerb = "Flinching";
-takenDamage = false;	
-control = controlState.inAbility
-hsp = 0;
-//state = enemyStates.idle;
+//Verbs for Animation Controlller
+	var moveVerb,actionVerb;
+	actionVerb = noone;
+	moveVerb = noone;
+//Setting up flinch and stopping movement
+	actionVerb = "Flinching";
+	takenDamage = false;	
+	control = controlState.inAbility
+	hsp = 0;
 
-return actionVerb;
+//Return verb
+	return actionVerb;

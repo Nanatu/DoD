@@ -2,6 +2,9 @@
 //
 {
 	
+	var verb;
+	verb = "Standing";	
+ 
 //Gravity
 	vsp = vsp + grv;
 
@@ -14,6 +17,13 @@
 		}
 		hsp = 0;
 	}
+	
+//Check if moving horizontally, Running	
+	if (hsp != 0)
+	{
+	verb = "Running";	
+	}
+	
 	x = x + hsp;
 
 //Vertical Collision
@@ -27,4 +37,5 @@
 	}
 	y = y + vsp;
 
+return verb;
 }
