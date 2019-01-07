@@ -2,12 +2,14 @@
 //	
 //	General script describing events for a player characters death
 //
-
+var deathSprite = argument0;
 {
 	
-	if (hp <= 0)
+	with instance_create_layer(x,y,"Enemy",obj_Enemy_Death)
 	{
-		instance_destroy();
+		image_xscale = other.image_xscale;
+		sprite_index = deathSprite;
 	}
+	instance_destroy();
 
 }

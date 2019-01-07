@@ -9,7 +9,8 @@
         "d685b8cb-b8e3-4c1a-bce6-e7ef92864660",
         "6ea44c56-df41-4b2d-a5f2-9df88fceaf39",
         "15c39123-9e95-46cf-bf8e-894acd255ed9",
-        "5b06a667-587e-47df-abf0-1872399aa2b4"
+        "5b06a667-587e-47df-abf0-1872399aa2b4",
+        "f25df728-e0cb-4b11-9495-8534e4bf1fe7"
     ],
     "filterType": "GMSprite",
     "folderName": "Grinner",

@@ -16,6 +16,7 @@
 
 //Flinching
 	ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Flinching);
-
+	
+deathSprite = spr_Enemy_Grinner_Death;
 //Set object list to built ds_list
 	animation_List = grinner_Animation_List;

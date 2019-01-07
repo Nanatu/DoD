@@ -1103,6 +1103,14 @@
             }
         },
         {
+            "Key": "8b41ef24-883f-44ad-89ad-526e824bae33",
+            "Value": {
+                "id": "a83ba24e-0924-4e3f-b149-b9b7ec07c888",
+                "resourcePath": "objects\\obj_Enemy_Death\\obj_Enemy_Death.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8cd2a70c-8534-476d-946a-d8a13ca79e55",
             "Value": {
                 "id": "d29239db-05eb-4942-8358-1e29b53fd7fd",
@@ -2028,6 +2036,14 @@
                 "id": "be591996-3345-42ba-9010-e962e4e6f93e",
                 "resourcePath": "objects\\obj_Huntress_Virus\\obj_Huntress_Virus.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f25df728-e0cb-4b11-9495-8534e4bf1fe7",
+            "Value": {
+                "id": "40167410-0f44-46d4-a729-ba2a60140c1b",
+                "resourcePath": "sprites\\spr_Enemy_Grinner_Death\\spr_Enemy_Grinner_Death.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

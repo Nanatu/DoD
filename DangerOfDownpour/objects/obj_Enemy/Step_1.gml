@@ -1,2 +1,5 @@
 //Death check
-scr_Enemy_Death();
+	if (hp <= 0)
+	{
+		scr_Enemy_Death(deathSprite);
+	}

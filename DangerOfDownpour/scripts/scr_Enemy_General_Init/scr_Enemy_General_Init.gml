@@ -12,5 +12,6 @@
 	attack = false;
 	control = false;
 	takenDamage = false;
-
+	deathSprite = noone;
+	
 }
