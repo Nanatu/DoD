@@ -16,6 +16,8 @@
 			return;
 		}
 		//chase to within range
+		if (x < (target.x - 16) || x > (target.x + 16))
+		{
 		if(target.x < x)
 		{
 			facing = -1;
@@ -23,6 +25,7 @@
 		else
 		{
 			facing = 1;
+		}
 		}
 		hsp = facing * (walksp + 1);
 	}

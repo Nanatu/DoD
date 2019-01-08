@@ -5,13 +5,13 @@
 	var moveVerb,actionVerb;
 	actionVerb = noone;
 	moveVerb = noone;
-	attack = true;
+	//attack = true;
 	hsp = facing * (walksp * 2.5);
-
+	attackCD = 60;
 //Check if grinner should leave state
 	if (image_index > image_number - 1)
 	{
-		attack = false;
+		//attack = false;
 		state = enemyStates.chase;
 	}
 	else
