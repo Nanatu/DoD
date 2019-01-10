@@ -1,4 +1,4 @@
-/// scr_Grinner_Load()
+///scr_Grinner_Load()
 //	
 //	Script to load in Grinner data
 //
@@ -17,6 +17,7 @@
 //Flinching
 	ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Flinching);
 	
-deathSprite = spr_Enemy_Grinner_Death;
+//Death Spriter
+	deathSprite = spr_Enemy_Grinner_Death;
 //Set object list to built ds_list
 	animation_List = grinner_Animation_List;

@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "01db9038-c0c5-4ce3-b6b4-7c2bf126817b",
+            "Value": {
+                "id": "a90e1ac8-033e-4af3-8dcd-890fc6d5df19",
+                "resourcePath": "sprites\\spr_Enemy_Gunner_Standing\\spr_Enemy_Gunner_Standing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02dd325d-3f8b-4e33-99cd-71b38629ab36",
             "Value": {
                 "id": "23718d76-5eab-4690-9676-22ffd1396504",
@@ -99,6 +107,14 @@
             "Value": {
                 "id": "8af9fc2e-3545-4544-9eb6-96adb913a90e",
                 "resourcePath": "scripts\\scr_MDK_Chase\\scr_MDK_Chase.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0a68d90d-132e-426b-8932-5d33280a6213",
+            "Value": {
+                "id": "4ff5e0b7-0f30-43b0-894c-ac37289bc12c",
+                "resourcePath": "scripts\\scr_Gunner_FlinchState\\scr_Gunner_FlinchState.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -295,6 +311,14 @@
             }
         },
         {
+            "Key": "1d7bd43b-a398-4579-bdb2-bb3edf7647e9",
+            "Value": {
+                "id": "aa2093ad-82ef-4d30-a526-cbdcfe966f51",
+                "resourcePath": "scripts\\scr_Gunner_IdleState\\scr_Gunner_IdleState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1ea44cf0-65f5-444f-bc1d-6b36ba94e162",
             "Value": {
                 "id": "f4222a63-689f-4f89-9997-ebd5a89ac7f2",
@@ -339,6 +363,14 @@
             "Value": {
                 "id": "b423b35c-5632-4548-afa0-ce03db01ba55",
                 "resourcePath": "sprites\\spr_Marksman_BackflipExplosion\\spr_Marksman_BackflipExplosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "23e850d5-2f42-4bdb-8d29-99ed507cd77d",
+            "Value": {
+                "id": "6cecc7b2-9b62-44b3-9aac-b7f82018665c",
+                "resourcePath": "sprites\\spr_Enemy_Gunner_Running\\spr_Enemy_Gunner_Running.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -735,6 +767,14 @@
             }
         },
         {
+            "Key": "5b42e273-1d47-4865-8a6c-f7630845653b",
+            "Value": {
+                "id": "34a7c554-36ae-4e02-9b80-376cbf744667",
+                "resourcePath": "scripts\\scr_Gunner_WanderState\\scr_Gunner_WanderState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5d7aed4b-697b-4b06-9fd3-998961c7092c",
             "Value": {
                 "id": "c91a4162-af46-4cfa-816b-087d440508d8",
@@ -747,6 +787,14 @@
             "Value": {
                 "id": "fd3eb9e8-2292-4494-a79a-32a17964eada",
                 "resourcePath": "scripts\\scr_Player_General_Init\\scr_Player_General_Init.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "62152f0f-d152-43c1-b698-b9e8d85d97aa",
+            "Value": {
+                "id": "4ef0cebf-2b86-46a0-a63c-a8a40b94895f",
+                "resourcePath": "scripts\\scr_Gunner_StepEvent\\scr_Gunner_StepEvent.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1031,6 +1079,14 @@
             }
         },
         {
+            "Key": "7fd792f3-a5e9-4af9-a80e-a81a79da7fc2",
+            "Value": {
+                "id": "1c60a736-c0e8-4da4-b113-556f5a9029da",
+                "resourcePath": "sprites\\spr_Enemy_Gunner_Attacking\\spr_Enemy_Gunner_Attacking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "81c42758-db27-4bad-840f-52f70e399aca",
             "Value": {
                 "id": "121d96ea-8ac3-496d-9bda-4d2e561cdc84",
@@ -1063,6 +1119,14 @@
             }
         },
         {
+            "Key": "85a79f03-8a3f-4d30-b345-f2c56f56edb3",
+            "Value": {
+                "id": "02682992-6787-43ab-b83f-5154903da818",
+                "resourcePath": "views\\85a79f03-8a3f-4d30-b345-f2c56f56edb3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "85d2489f-b213-45e7-8b2d-61539be2d5d8",
             "Value": {
                 "id": "9a13dad0-0987-4864-9289-14f5c67841c0",
@@ -1090,7 +1154,7 @@
             "Key": "88051482-569b-4cbc-88f4-acb21984e2d9",
             "Value": {
                 "id": "0ec7423b-9100-462f-8cee-e16881f6deea",
-                "resourcePath": "sprites\\spr_Gunner\\spr_Gunner.yy",
+                "resourcePath": "sprites\\spr_Enemy_Gunner\\spr_Enemy_Gunner.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1108,6 +1172,14 @@
                 "id": "a83ba24e-0924-4e3f-b149-b9b7ec07c888",
                 "resourcePath": "objects\\obj_Enemy_Death\\obj_Enemy_Death.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8c5bd5db-feb9-4232-90ed-b35a2fc24af0",
+            "Value": {
+                "id": "fcb5b99b-d902-4ff6-8cd5-247784a500bf",
+                "resourcePath": "sprites\\spr_Enemy_Gunner_Death\\spr_Enemy_Gunner_Death.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1239,6 +1311,14 @@
             }
         },
         {
+            "Key": "9bba77ea-f622-41aa-8a4a-5a578456fda5",
+            "Value": {
+                "id": "bb01ad97-4dce-43b5-8849-1f5bf47bba28",
+                "resourcePath": "scripts\\scr_Gunner_AttackState\\scr_Gunner_AttackState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9c44987a-910f-4485-898a-cc9cdc0d6d04",
             "Value": {
                 "id": "486d589b-f49c-4b3b-bc76-266928109a55",
@@ -1347,6 +1427,14 @@
             "Value": {
                 "id": "dacdfbc9-329e-4acd-a508-5f28745222eb",
                 "resourcePath": "sprites\\spr_Player_Gunslinger_Crouching\\spr_Player_Gunslinger_Crouching.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6597d98-a535-47d4-9d08-73dceaca2c31",
+            "Value": {
+                "id": "6cb83f04-c5f2-4ee2-a8da-ff778a2dfb42",
+                "resourcePath": "sprites\\spr_Enemy_Gunner_Flinching\\spr_Enemy_Gunner_Flinching.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1663,6 +1751,14 @@
             }
         },
         {
+            "Key": "cb1ccc6b-b274-49ca-88e0-f0f66c5895b3",
+            "Value": {
+                "id": "b6b59447-c9f3-47a5-9f2c-743cb140892d",
+                "resourcePath": "scripts\\scr_Grinner_StepEvent\\scr_Grinner_StepEvent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "20a3bad2-33ff-4cb2-8137-af7fb8b71a4b",
@@ -1911,6 +2007,14 @@
             }
         },
         {
+            "Key": "e665a47e-0dab-40dc-afa8-5fbab6766d35",
+            "Value": {
+                "id": "4bd38403-243d-4055-afcb-103d49b7e1d6",
+                "resourcePath": "scripts\\scr_Gunner_ChaseState\\scr_Gunner_ChaseState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e6b727fb-e1cc-4262-b742-152521c643b4",
             "Value": {
                 "id": "16e93799-8cca-4610-97ff-5549fc444bb3",
@@ -2007,6 +2111,14 @@
             }
         },
         {
+            "Key": "ebc93864-774b-4d72-97a5-20bcc7211940",
+            "Value": {
+                "id": "cc609530-61de-4c2b-82be-e1e2347c6841",
+                "resourcePath": "scripts\\scr_Enemy_Gunner_Load\\scr_Enemy_Gunner_Load.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ed67f437-5a1d-4d2f-880d-259497848879",
             "Value": {
                 "id": "cee71256-4204-4a79-ab25-4d5ab046ee1b",
@@ -2052,6 +2164,14 @@
                 "id": "daf87254-1a78-436a-9526-c870cc4ad243",
                 "resourcePath": "objects\\obj_Character\\obj_Character.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f34ab596-7ce2-4703-87aa-cad1e9720a05",
+            "Value": {
+                "id": "8b36745c-b9c6-43a1-bbc2-b803be94a667",
+                "resourcePath": "views\\f34ab596-7ce2-4703-87aa-cad1e9720a05.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2250,14 +2370,20 @@
         "a17894be-3adf-427b-b28f-09b773e7a67c",
         "66ab9c19-4e3c-473e-9e57-073b5aaa9596",
         "73dde14e-e468-4a96-9f36-6c5759d8a3b0",
-        "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
+        "3bdb84a1-7d68-4d45-9892-48bad37fa87b",
+        "cb1ccc6b-b274-49ca-88e0-f0f66c5895b3",
         "02dd325d-3f8b-4e33-99cd-71b38629ab36",
         "e328b927-73b2-4934-87ae-122522136f06",
         "56bc5700-f1db-493e-ae18-83656cb6fb1b",
-        "7199239e-c890-4f22-91bc-e77285ce9512",
         "bf5409d9-cc4a-43f6-9006-b4cd75f7676d",
-        "3bdb84a1-7d68-4d45-9892-48bad37fa87b",
         "ff9c15c4-3968-42b1-963a-48b8cafbfa5a",
+        "ebc93864-774b-4d72-97a5-20bcc7211940",
+        "62152f0f-d152-43c1-b698-b9e8d85d97aa",
+        "1d7bd43b-a398-4579-bdb2-bb3edf7647e9",
+        "5b42e273-1d47-4865-8a6c-f7630845653b",
+        "e665a47e-0dab-40dc-afa8-5fbab6766d35",
+        "9bba77ea-f622-41aa-8a4a-5a578456fda5",
+        "0a68d90d-132e-426b-8932-5d33280a6213",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "4377bc14-0566-40c5-95fd-5762c6ef9789",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",
@@ -2285,7 +2411,9 @@
         "11f8a1a1-adca-4c85-9b5a-89eabc3d4d95",
         "229813c4-63ed-46dd-987c-311b0f9f3d17",
         "e1a272ca-7747-4469-98c3-b4ef97880330",
-        "a4569493-ad8b-4f5a-9ea1-e1cab8f1f9d3"
+        "a4569493-ad8b-4f5a-9ea1-e1cab8f1f9d3",
+        "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
+        "7199239e-c890-4f22-91bc-e77285ce9512"
     ],
     "tutorial": ""
 }
