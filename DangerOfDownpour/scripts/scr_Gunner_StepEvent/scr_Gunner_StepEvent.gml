@@ -20,6 +20,7 @@ if (takenDamage == true)
 	
 	
 attackCD = max(0,attackCD-1);
+fireCD = max(0,fireCD-1);
 //attackCD--;
 if (hsp != 0) facing = sign(hsp)
 

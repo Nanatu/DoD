@@ -1047,6 +1047,14 @@
             }
         },
         {
+            "Key": "7ef2f544-fbce-4a3b-9126-7b33c7c99bd0",
+            "Value": {
+                "id": "b82ff11f-ef39-4698-818d-140842e0fd93",
+                "resourcePath": "views\\7ef2f544-fbce-4a3b-9126-7b33c7c99bd0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7efc507a-b41f-4454-aea9-09b47dd4185d",
             "Value": {
                 "id": "0222164a-c673-4da4-b6c0-93ad33907059",
@@ -1695,6 +1703,14 @@
             }
         },
         {
+            "Key": "c37eb47b-b612-4af2-b0ff-14def4783237",
+            "Value": {
+                "id": "d2ea7352-de6c-4a5e-9a3d-edec01fe386b",
+                "resourcePath": "objects\\obj_Gunner\\obj_Gunner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c3954d25-a22b-4bfa-8806-2b1a100bd6a6",
             "Value": {
                 "id": "bbb3eafd-855a-44c4-8e2d-75c65410868b",
@@ -1914,7 +1930,7 @@
             "Key": "dc324137-28a8-4e6c-8c5b-09519f6a2277",
             "Value": {
                 "id": "bbe41525-ec25-498d-b1f7-55aa180cd3c5",
-                "resourcePath": "objects\\obj_Gunner\\obj_Gunner.yy",
+                "resourcePath": "objects\\obj_GunnerOLD\\obj_GunnerOLD.yy",
                 "resourceType": "GMObject"
             }
         },

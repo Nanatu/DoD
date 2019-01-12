@@ -5,10 +5,11 @@
 	var moveVerb,actionVerb;
 	actionVerb = noone;
 	moveVerb = noone;
+	hsp = 0;
 	//attack = true;
-	if (target != noone)
+	if (target != noone && fireCD <= 0)
 	{
-		if ((point_distance(x,y,target.x,target.y) < 300) && (fireCD < 1) && targetVisible)
+		if ((point_distance(x,y,target.x,target.y) < 300) && targetVisible)
 		{
 			scr_ShootAtPlayer(target.x,y,x,y,obj_Bullet);
 			fireCD = 30;
