@@ -2002,7 +2002,7 @@
             "Key": "e3da689f-16d2-49bb-9f8b-18fcd83dd3e3",
             "Value": {
                 "id": "62ba637d-88d0-474a-b463-183ecb1c584c",
-                "resourcePath": "sprites\\spr_Enemy_Grinner_StandingCHANGE\\spr_Enemy_Grinner_StandingCHANGE.yy",
+                "resourcePath": "sprites\\spr_Enemy_Grinner_idling\\spr_Enemy_Grinner_idling.yy",
                 "resourceType": "GMSprite"
             }
         },

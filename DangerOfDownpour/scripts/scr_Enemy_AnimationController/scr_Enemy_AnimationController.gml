@@ -21,7 +21,7 @@
 			image_speed = 1;
 			sprite_index = animation_List[|enemyAnimationState.Standing];
 		}
-
+		
 //Running animation
 		if (moveVerb = "Running")
 		{
@@ -30,7 +30,7 @@
 		}
 	}
 
-//Abilities and Flinch
+//Abilities and Flinching and Idling
 	{
 //Ability 1 animation
 		if (actionVerb = "Attacking")
@@ -45,7 +45,15 @@
 			image_speed = 1;
 			sprite_index = animation_List[|enemyAnimationState.Flinching];
 		}
+		
+//Idling animation
+		if (actionVerb = "Idling")
+		{
+			image_speed = 1;
+			sprite_index = animation_List[|enemyAnimationState.Idling];
+		}
 	}
+	
 
 //Sprite Facing
 	if (hsp != 0) image_xscale = sign(hsp);

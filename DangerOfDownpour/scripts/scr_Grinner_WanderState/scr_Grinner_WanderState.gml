@@ -6,6 +6,7 @@
 	actionVerb = noone;
 	moveVerb = noone;
 
+	
 //Check if target is in range and in sight
 	if(scr_Enemy_PlayerWithinRange(500))
 	{

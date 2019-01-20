@@ -7,7 +7,10 @@
 	grinner_Animation_List = ds_list_create();
 //Standing
 	ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Standing);
-
+	
+//Idling
+	ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_idling);
+	
 //Running
 	ds_list_add(grinner_Animation_List, spr_Enemy_Grinner_Running);
 

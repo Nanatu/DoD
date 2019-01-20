@@ -48,6 +48,7 @@
 	enum enemyAnimationState
 	{
 		Standing,
+		Idling,
 		Running,
 		Attacking,
 		Flinching

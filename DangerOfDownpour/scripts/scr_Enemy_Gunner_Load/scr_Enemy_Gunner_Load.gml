@@ -8,6 +8,9 @@
 	
 //Standing
 	ds_list_add(gunner_Animation_List, spr_Enemy_Gunner_Standing);
+	
+//Idling
+	ds_list_add(gunner_Animation_List, spr_Enemy_Gunner_Standing);
 
 //Running
 	ds_list_add(gunner_Animation_List, spr_Enemy_Gunner_Running);
