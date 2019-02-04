@@ -17,8 +17,9 @@
 	takenDamage = false;
 	
 //Health
-	hp = 5;
+	hp = 20;
 	
-animation_List = ds_list_create()
+//Animation list for all characters
+	animation_List = ds_list_create()
 
 }

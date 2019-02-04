@@ -24,3 +24,5 @@
 	deathSprite = spr_Enemy_Grinner_Death;
 //Set object list to built ds_list
 	animation_List = grinner_Animation_List;
+//Damage list for one time damage
+	damageList = ds_list_create();
