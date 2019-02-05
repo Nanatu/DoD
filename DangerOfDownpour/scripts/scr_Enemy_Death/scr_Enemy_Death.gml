@@ -9,6 +9,7 @@ var deathSprite = argument0;
 	{
 		image_xscale = other.image_xscale;
 		sprite_index = deathSprite;
+		instance_create_layer(x,y,"Player",obj_ShinePickup)
 	}
 	instance_destroy();
 

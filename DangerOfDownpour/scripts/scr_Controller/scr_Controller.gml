@@ -63,5 +63,8 @@
 
 //Keep character facing
 	global.lastTransitionDirection = 1;
+	
+//Current currency player has in inventory	
+	global.currentShineAmount = 0;
 
 }

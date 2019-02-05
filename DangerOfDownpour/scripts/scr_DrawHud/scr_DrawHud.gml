@@ -57,5 +57,7 @@
 		draw_sprite_ext(spr_testCD,1,display_get_gui_width()/2 + 96,display_get_gui_height()-40,
 		1,1,1,c_white,.5);
 	}
-
+	
+//TEMP: Draw shine amount
+	draw_text(30,30, "Shine " + string(global.currentShineAmount));
 }

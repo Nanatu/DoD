@@ -18,6 +18,7 @@
 	if(scr_Enemy_PlayerWithinRange(500))
 	{
 		state = enemyStates.chase;
+		//control = controlState.outAbility
 		return;
 	}
 
