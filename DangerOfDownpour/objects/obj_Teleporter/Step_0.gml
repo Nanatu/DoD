@@ -3,6 +3,7 @@ key_select = keyboard_check(ord("T"));
 
 if (key_select && selected)
 {
+	global.usedTransistion = false;
 	room_goto(targetRoom);
 }
 
