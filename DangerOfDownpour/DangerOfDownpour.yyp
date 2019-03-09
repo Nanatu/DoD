@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "41ccd2c3-10e5-4d71-bdc8-3da46f9581ac",
+            "Value": {
+                "id": "67db33eb-a924-4b80-bd46-5fa523540cc4",
+                "resourcePath": "sprites\\spr_BreakableWall\\spr_BreakableWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "426c1089-2fc6-480c-b716-f1c4415e22b7",
             "Value": {
                 "id": "e06c602c-d007-4c92-ac78-25f85b71d0fb",
@@ -1020,6 +1028,14 @@
                 "id": "5ad8a8b8-6934-451b-a6a6-fbf4ec4092e7",
                 "resourcePath": "sprites\\spr_Player_Beyonder_Crouching\\spr_Player_Beyonder_Crouching.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7bcc5652-7e34-4a2f-8a1e-05424208c4b3",
+            "Value": {
+                "id": "fd24fb7b-d4f1-4d2c-808c-df8e9ca5f9b3",
+                "resourcePath": "objects\\obj_BreakableWall\\obj_BreakableWall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1500,14 +1516,6 @@
                 "id": "d163f673-99ad-44bc-bfac-1578e7ffd562",
                 "resourcePath": "scripts\\scr_PlayerTransition\\scr_PlayerTransition.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "a904dd33-d869-4393-bb29-9f79b1b34962",
-            "Value": {
-                "id": "1cfe5d68-f88e-47ff-b908-d6b8c79e3882",
-                "resourcePath": "objects\\obj_WallTEST\\obj_WallTEST.yy",
-                "resourceType": "GMObject"
             }
         },
         {
