@@ -16,3 +16,11 @@ if (timer <= 0)
 	}	
 	y = y + vsp;
 }
+
+with instance_place(x,y,obj_Wall)
+{
+		if (other.breaksWalls)
+		{
+			instance_destroy();
+		}
+}
