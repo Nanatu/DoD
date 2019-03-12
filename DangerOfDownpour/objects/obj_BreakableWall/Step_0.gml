@@ -1,3 +1,8 @@
+if (numOfBreakThroughs <= 0)
+	{
+		instance_destroy(other);
+	}
+
 if place_meeting(x,y-1,obj_Player)
 {
 	stable = false;
@@ -19,8 +24,9 @@ if (timer <= 0)
 
 with instance_place(x,y,obj_Wall)
 {
-		if (other.breaksWalls)
+		if ((other.breaksWalls == true) && (other.numOfBreakThroughs > 0))
 		{
 			instance_destroy();
 		}
+		other.numOfBreakThroughs--;
 }
