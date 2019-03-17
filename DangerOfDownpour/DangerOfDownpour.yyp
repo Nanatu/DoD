@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "295873ff-031c-40e1-bf06-c52f27905903",
+            "Value": {
+                "id": "7aebec4a-b9a7-4b9d-a22e-e6792f787727",
+                "resourcePath": "objects\\obj_FallingWall\\obj_FallingWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2bcefd78-dd9a-471a-8c1e-bb4cec7f2914",
             "Value": {
                 "id": "b859c0e7-b593-4737-b9ab-f8067c9c2269",
@@ -2188,6 +2196,14 @@
                 "id": "cee71256-4204-4a79-ab25-4d5ab046ee1b",
                 "resourcePath": "views\\ed67f437-5a1d-4d2f-880d-259497848879.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f05e8110-474d-4e02-8331-af127702bdbd",
+            "Value": {
+                "id": "ef937837-3e24-40c4-9e74-ec115e249a95",
+                "resourcePath": "sprites\\spr_FallingWall\\spr_FallingWall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
