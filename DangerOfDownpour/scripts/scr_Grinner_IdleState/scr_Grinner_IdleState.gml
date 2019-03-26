@@ -19,7 +19,7 @@
 	{
 		state = enemyStates.chase;
 		//control = controlState.outAbility
-		return;
+		return actionVerb;
 	}
 
 //Go to wander state

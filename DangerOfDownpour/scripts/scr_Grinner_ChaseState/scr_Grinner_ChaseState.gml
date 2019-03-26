@@ -35,6 +35,7 @@
 	else
 	{
 		state = enemyStates.idle;
+	
 	}
 
 //Return verb
