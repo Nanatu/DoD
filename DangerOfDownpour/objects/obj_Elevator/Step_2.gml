@@ -24,20 +24,18 @@ if place_meeting(x,y-1, obj_Player)
 }
 else
 {
-hasPlayerOn = false;	
+	hasPlayerOn = false;	
 }
 
 if (hasPlayerOn)
 {
-	
-	vsp = -4;
+	vsp = -3;
+}
 
 with instance_place(x,y,obj_Player)
 {
-	y = (instance_place(x,y,obj_Elevator).y)-36;
-}
-
-
+	canJump = true;
+	y = other.y-32;
 }
 
 //Vertical actual

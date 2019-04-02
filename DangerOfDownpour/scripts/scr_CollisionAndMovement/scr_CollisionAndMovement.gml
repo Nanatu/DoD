@@ -7,7 +7,13 @@
 	verb = "Standing";
 	
 //Jump
-	if (place_meeting(x,y+1,obj_Wall)) && (key_jump)
+if(place_meeting(x,y+1,obj_Wall)) || (place_meeting(x,y+1,obj_Elevator))
+{
+canJump = true;	
+}
+else {canJump = false}
+
+	if ((canJump) && (key_jump))
 	{
 		jumping = true;
 		verb = "Jumping";
