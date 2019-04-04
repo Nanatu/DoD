@@ -7,11 +7,14 @@
 	verb = "Standing";
 	
 //Jump
-if(place_meeting(x,y+1,obj_Wall)) || (place_meeting(x,y+1,obj_Elevator))
-{
-canJump = true;	
-}
-else {canJump = false}
+	if(place_meeting(x,y+1,obj_Wall))
+	{
+		canJump = true;	
+	}
+	else
+	{
+		canJump = false
+	}
 
 	if ((canJump) && (key_jump))
 	{
@@ -46,7 +49,7 @@ else {canJump = false}
 	{
 		
 //Get as close to wall as possible vertically
-		while (!place_meeting(x,y+sign(vsp),obj_Wall))
+		while ((!place_meeting(x,y+sign(vsp),obj_Wall)))
 		{
 			y = y + sign(vsp);
 		}

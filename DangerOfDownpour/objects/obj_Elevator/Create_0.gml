@@ -1,3 +1,3 @@
-grv = 0.2;
+grv = 0.1;
 vsp = 0;
 hasPlayerOn = false;

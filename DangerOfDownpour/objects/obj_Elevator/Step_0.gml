@@ -1,7 +1,7 @@
 if(!hasPlayerOn)
 {
 //Gravity
-	if (vsp < 10)
+	if (vsp < 4)
 	{
 		vsp = vsp + grv;
 	}
@@ -32,11 +32,23 @@ if (hasPlayerOn)
 	vsp = -3;
 }
 
-with instance_place(x,y,obj_Player)
+//ith instance_place(x,y,obj_Player)
+//{
+//	canJump = true;
+	//y = other.y-43;
+//}
+
+if (place_meeting(x,y+1, obj_Platform) || place_meeting(x,y-1, obj_Platform))
+	{
+		vsp = 0;
+		hsp = 0;
+	}
+	
+	//Vertical actual
+	y = y + vsp;
+	
+	with instance_place(x,y,obj_Player)
 {
 	canJump = true;
 	y = other.y-32;
 }
-
-//Vertical actual
-	y = y + vsp;
