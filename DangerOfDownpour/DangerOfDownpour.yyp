@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "1d7d118f-2b21-40c9-be94-51d864308bcb",
+            "Value": {
+                "id": "d9c118bf-0ea0-4a01-9f71-b73fbb5b2f31",
+                "resourcePath": "sprites\\spr_interactPrompt\\spr_interactPrompt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ea44cf0-65f5-444f-bc1d-6b36ba94e162",
             "Value": {
                 "id": "f4222a63-689f-4f89-9997-ebd5a89ac7f2",
@@ -692,6 +700,14 @@
                 "id": "35fce483-cbdb-4d13-ab35-537d113f6f4d",
                 "resourcePath": "sprites\\spr_Beyonder_Sight\\spr_Beyonder_Sight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b87b87f-3922-4055-935d-1302cba5f9c2",
+            "Value": {
+                "id": "f3b20f35-12b8-4513-ad28-316d487f6c91",
+                "resourcePath": "objects\\obj_interactPrompt\\obj_interactPrompt.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1756,6 +1772,14 @@
                 "id": "7aa9fb92-0ca6-4656-a1dc-dcd09de9f8dc",
                 "resourcePath": "sprites\\spr_Player_Huntress_VirusSpread\\spr_Player_Huntress_VirusSpread.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bf48e7ec-4add-4cee-8264-44a14a0155a1",
+            "Value": {
+                "id": "aae8bd96-c332-48b9-9d2a-d6c272efb49a",
+                "resourcePath": "views\\bf48e7ec-4add-4cee-8264-44a14a0155a1.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

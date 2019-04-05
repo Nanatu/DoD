@@ -1,3 +1,4 @@
+prompt = noone;
 offset = 100;
 selected = false;
 image_speed = 1;
