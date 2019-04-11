@@ -1,1 +1,2 @@
 selected = false;
+prompt = noone;

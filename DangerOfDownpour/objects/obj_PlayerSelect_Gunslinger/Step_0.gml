@@ -10,7 +10,17 @@ if (key_select && selected)
 
 if !place_meeting(x,y,obj_Player)
 {
-	selected = false;	
+	selected = false;
+	if (prompt != noone)
+	{
+		instance_destroy(prompt.id);
+		prompt = noone;
+	}
+}
+
+if (selected && prompt == noone)
+{
+	prompt = instance_create_layer(x,y-64,"GUI", obj_interactPrompt);
 }
 
 if(instance_exists(obj_Player_Gunslinger))
