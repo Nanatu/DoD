@@ -1,12 +1,12 @@
 menuX = x;
 menuY = y;
-buttonHeight = 5;
+buttonHeight = 32;
 
 // Buttons
 	button[0] = "New Game";
-	button[0] = "Load Game";
-	button[0] = "Options";
-	button[0] = "Exit";
+	button[1] = "Load Game";
+	button[2] = "Options";
+	button[3] = "Exit";
 buttons = array_length_1d(button);
 
 menuIndex = 0;
