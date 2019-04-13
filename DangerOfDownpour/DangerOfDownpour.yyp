@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "1b61c7b8-b85f-4f23-9f41-ef6f172f85c1",
+            "Value": {
+                "id": "05abb93c-fd68-4f2a-8902-2e889dad11aa",
+                "resourcePath": "views\\1b61c7b8-b85f-4f23-9f41-ef6f172f85c1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1bbbd3db-c236-4472-a8c0-99981d75a2ba",
             "Value": {
                 "id": "93efcc44-2c61-4cff-aee9-b356f334940a",
@@ -395,6 +403,14 @@
             "Value": {
                 "id": "3fa28adc-7506-47e8-bd34-db9cb7d10654",
                 "resourcePath": "sprites\\spr_Enemy\\spr_Enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "29169625-a997-4bbb-a18a-43522b8253d7",
+            "Value": {
+                "id": "a22fc014-ee67-4da1-80a6-bf680e879c64",
+                "resourcePath": "sprites\\spr_Player_Mechanic_CrouchShoot\\spr_Player_Mechanic_CrouchShoot.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1874,7 +1890,7 @@
             "Key": "c8f0bbe3-1fb1-4e70-9963-a24d6b0b14a0",
             "Value": {
                 "id": "2abb51d9-f105-4545-beb9-a486e4f06a4f",
-                "resourcePath": "objects\\obj_Menu\\obj_Menu.yy",
+                "resourcePath": "objects\\obj_MainMenu\\obj_MainMenu.yy",
                 "resourceType": "GMObject"
             }
         },

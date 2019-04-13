@@ -57,6 +57,11 @@
 			image_speed = 1;
 			sprite_index = 	animation_List[|animationState.Crouching];
 		}
+		if (moveVerb == "Crouching" && actionVerb == "CrouchAttack")
+		{
+			image_speed = 1;
+			sprite_index = 	animation_List[|animationState.CrouchAttack];
+		}
 	
 	}
 	
@@ -91,7 +96,7 @@
 			sprite_index = animation_List[|animationState.Ability4];
 		}
 	
-//Ability 4 animation	
+//Flinching animation	
 		if (actionVerb = "Flinching")
 		{
 			image_speed = 1;

@@ -38,6 +38,10 @@
 				direction = point_direction(x,y,x+other.facing*40,y+random_range(-5, 3));
 			}
 		}
+		if (key_down)
+			{
+			verb = "CrouchAttack";
+			}
 	barrelOne = false;
 	}
 
@@ -72,6 +76,10 @@
 			direction = point_direction(x,y,x+other.facing*40,y+random_range(-5, 3));
 		}
 	}
+	if (key_down)
+			{
+			verb = "CrouchAttack";
+			}
 	fireCD = 20;
 	barrelOne = true;
 	}

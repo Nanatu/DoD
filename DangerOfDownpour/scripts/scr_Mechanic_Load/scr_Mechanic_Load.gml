@@ -24,6 +24,8 @@
 	ds_list_add(mechanic_Animation_List, spr_Player_Mechanic_Standing);
 	ds_list_add(mechanic_Animation_List, spr_Player_Mechanic_UsingJets);
 	ds_list_add(mechanic_Animation_List, spr_Player_Mechanic_Standing);
+// Crouch Attack
+	ds_list_add(mechanic_Animation_List, spr_Player_Mechanic_CrouchShoot);
 
 	animation_List = mechanic_Animation_List;
 	

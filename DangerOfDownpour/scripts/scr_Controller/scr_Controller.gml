@@ -41,7 +41,8 @@
 		Ability1,
 		Ability2,
 		Ability3,
-		Ability4
+		Ability4,
+		CrouchAttack
 	}
 
 //Enum for enemy animation states
