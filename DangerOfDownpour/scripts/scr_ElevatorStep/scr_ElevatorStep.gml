@@ -68,8 +68,23 @@
 			y = platform.y;
 			vsp = 0;
 			activated = false;
+			if (prompt != noone)
+			{
+				instance_destroy(prompt.id);
+				prompt = noone;
+			}
 		}
 	}
+//	Check if player is below elevator and stop upward momentum.
+	if (obj_Player.y > y)
+	{
+		activated = false;
+		if (vsp < 0)
+		{
+			vsp = 0;	
+		}
+	}
+	
 //	Vertical actual
 	y = y + vsp;
 //	Keep player above Elevator
