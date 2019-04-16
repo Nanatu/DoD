@@ -31,6 +31,8 @@
 //	Rift
 	ds_list_add(beyonder_Animation_List, spr_Player_Beyonder_Standing);
 
+// Crouch Attack
+
 	animation_List = beyonder_Animation_List;
 	
 	playerScript = scr_Player_BeyonderAbilities;

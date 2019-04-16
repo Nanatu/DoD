@@ -24,6 +24,7 @@
 	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
 	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
 	ds_list_add(lrb_Animation_List, spr_Player_LRB_Standing);
+// Crouch Attack
 
 	animation_List = lrb_Animation_List;
 	

@@ -24,6 +24,7 @@
 	ds_list_add(huntress_Animation_List, spr_Player_Huntress_Standing);
 	ds_list_add(huntress_Animation_List, spr_Player_Huntress_Standing);
 	ds_list_add(huntress_Animation_List, spr_Player_Huntress_Standing);
+// Crouch Attack
 
 	animation_List = huntress_Animation_List;
 	

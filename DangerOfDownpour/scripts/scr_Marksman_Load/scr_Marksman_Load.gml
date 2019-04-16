@@ -24,6 +24,7 @@
 	ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
 	ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
 	ds_list_add(marksman_Animation_List, spr_Player_Marksman_Standing);
+// Crouch Attack
 
 	animation_List = marksman_Animation_List;
 	
