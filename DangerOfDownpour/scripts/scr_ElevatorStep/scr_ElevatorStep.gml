@@ -5,25 +5,7 @@
 {
 //	Select key check
 	key_select = keyboard_check(ord("T"));
-//	Check if Player has stepped off
-	if(!hasPlayerOn)
-	{
-//		Gravity with constraint
-		if (vsp < 4)
-		{
-			vsp = vsp + grv;
-		}
-//		Collision for Elevator in vertical
-		if (place_meeting(x,y+vsp,obj_Wall))
-		{
-//			Get as close to wall as possible vertically
-			while (!place_meeting(x,y+sign(vsp),obj_Wall))
-			{
-				y = y + sign(vsp);
-			}
-			vsp = 0;
-		}
-	}
+
 //	Check one pixel above Elevator for Player
 	if place_meeting(x,y-1, obj_Player)
 	{
@@ -45,7 +27,7 @@
 		selected = false;
 	}
 //	Destroy prompt when not needed
-	if (key_select && selected && !used)
+	if (key_select && selected)
 	{
 		if (prompt != noone)
 		{
@@ -54,6 +36,15 @@
 		}
 		activated = true;	
 	}
+	if (vsp != 0)
+	{
+		if (prompt != noone)
+		{
+			instance_destroy(prompt.id);
+			prompt = noone;
+		}
+	}
+	
 //	Lift if activated
 	if (activated)
 	{
@@ -85,6 +76,39 @@
 		}
 	}
 	
+// Check if Player collides with wall vertically, stop and descend if true
+	with instance_place(x,y-1,obj_Player)
+	{
+		if instance_place(x,y-4,obj_Wall)
+		{
+			other.activated = false;
+			if (other.vsp < 0)
+			{
+				other.vsp = 0;	
+			}
+		}
+	}
+	
+	//	Check if Player has stepped off
+	if(!activated)
+	{
+//		Gravity with constraint
+		if (vsp < 4)
+		{
+			vsp = vsp + grv;
+		}
+//		Collision for Elevator in vertical
+		if (place_meeting(x,y+vsp,obj_Wall))
+		{
+//			Get as close to wall as possible vertically
+			while (!place_meeting(x,y+sign(vsp),obj_Wall))
+			{
+				y = y + sign(vsp);
+			}
+			vsp = 0;
+		}
+	}
+
 //	Vertical actual
 	y = y + vsp;
 //	Keep player above Elevator
@@ -92,4 +116,6 @@
 	{
 		y = other.y-32;
 	}
+	
+	
 }
