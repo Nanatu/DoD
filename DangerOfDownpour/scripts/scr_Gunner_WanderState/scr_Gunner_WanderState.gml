@@ -16,7 +16,6 @@
 //Randomize walking
 	if(time_in_state >= 2* room_speed)
 	{
-	
 		hsp =  irandom_range(-1,1)*walksp; 
 		time_in_state = 0;
 	}

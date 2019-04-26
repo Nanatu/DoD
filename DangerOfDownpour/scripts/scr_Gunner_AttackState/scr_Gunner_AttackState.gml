@@ -9,11 +9,10 @@
 	//attack = true;
 	if (target != noone && fireCD <= 0)
 	{
-		if ((point_distance(x,y,target.x,target.y) < 300) && targetVisible)
+		if (targetVisible && (point_distance(x,y,target.x,target.y) < 300))
 		{
 			scr_ShootAtPlayer(target.x,y,x,y,obj_Bullet);
-			fireCD = 30;
-	
+			fireCD = 60;
 		}
 	}
 //Check if grinner should leave state

@@ -7,7 +7,7 @@
 	moveVerb = noone;
 	hsp = 0;
 	
-	if (random(1) >= .99 && control == controlState.outAbility)
+	if (control == controlState.outAbility && random(1) >= .99)
 	{
 	image_index = 0;
 	actionVerb = "Idling";

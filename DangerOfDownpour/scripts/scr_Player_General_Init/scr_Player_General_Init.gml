@@ -16,6 +16,8 @@
 	jumping = false;
 	takenDamage = false;
 	
+	key_down = 0;
+	
 //Health
 	hp = 20;
 	

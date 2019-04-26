@@ -5,4 +5,3 @@ activated = false;
 selected = false;
 prompt = noone;
 platform = noone;
-used = false;

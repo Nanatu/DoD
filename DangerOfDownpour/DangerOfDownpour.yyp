@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "5d88bfd8-4695-483b-a338-ca7f2d5fa828",
+            "Value": {
+                "id": "df6348a8-69fd-441f-b422-07f0e7c42180",
+                "resourcePath": "sprites\\spr_ShineRotate\\spr_ShineRotate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e5ccb44-e27a-471b-9985-9abc46d42829",
             "Value": {
                 "id": "e34470d9-71a4-43ab-8b38-3aaf7eff46cf",
