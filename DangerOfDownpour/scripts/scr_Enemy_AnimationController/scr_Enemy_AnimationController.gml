@@ -16,14 +16,14 @@
 	{
 		
 //Standing animation
-		if (moveVerb = "Standing")
+		if (moveVerb == "Standing")
 		{
 			image_speed = 1;
 			sprite_index = animation_List[|enemyAnimationState.Standing];
 		}
 		
 //Running animation
-		if (moveVerb = "Running")
+		if (moveVerb == "Running")
 		{
 			image_speed = 1;
 			sprite_index = animation_List[|enemyAnimationState.Running];
@@ -33,21 +33,21 @@
 //Abilities and Flinching and Idling
 	{
 //Ability 1 animation
-		if (actionVerb = "Attacking")
+		if (actionVerb == "Attacking")
 		{
 			image_speed = 1;
 			sprite_index = animation_List[|enemyAnimationState.Attacking];
 		}
 	
 //Ability 4 animation	
-		if (actionVerb = "Flinching")
+		if (actionVerb == "Flinching")
 		{
 			image_speed = 1;
 			sprite_index = animation_List[|enemyAnimationState.Flinching];
 		}
 		
 //Idling animation
-		if (actionVerb = "Idling")
+		if (actionVerb == "Idling")
 		{
 			image_speed = 1;
 			sprite_index = animation_List[|enemyAnimationState.Idling];

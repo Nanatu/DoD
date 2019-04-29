@@ -17,9 +17,10 @@
 //Check if target is in range and in sight
 	if(scr_Enemy_PlayerWithinRange(500))
 	{
+		control = controlState.outAbility
 		state = enemyStates.chase;
 		//control = controlState.outAbility
-		return actionVerb;
+		return actionVerb = noone;
 	}
 
 //Go to wander state
