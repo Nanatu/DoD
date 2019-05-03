@@ -8,7 +8,7 @@ if(instance_exists(obj_Player)){
 	target = instance_nearest(x,y,obj_Player);
 }
 
-show_debug_message(state);
+//show_debug_message(state);
 
 
 if (takenDamage == true)
@@ -21,6 +21,8 @@ if (takenDamage == true)
 attackCD = max(0,attackCD-1);
 //attackCD--;
 if (hsp != 0) facing = sign(hsp)
+
+
 
 //States in scr_Enemy_States
 switch state{

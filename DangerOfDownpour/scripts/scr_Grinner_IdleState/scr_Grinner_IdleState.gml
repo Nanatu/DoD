@@ -15,16 +15,18 @@
 	}
 	
 //Check if target is in range and in sight
-	if(scr_Enemy_PlayerWithinRange(500))
+	if(scr_Enemy_PlayerWithinRange(400))
 	{
+		image_index = 0;
+		control = controlState.outAbility;
 		state = enemyStates.chase;
-		//control = controlState.outAbility
 		return actionVerb;
 	}
 
 //Go to wander state
-	if(time_in_state >= 2*room_speed)
+	if((time_in_state >= 2*room_speed) && (control == controlState.outAbility))
 	{
+		control = controlState.inAbility
 		state = enemyStates.wander;
 		time_in_state = 0;
 	}
