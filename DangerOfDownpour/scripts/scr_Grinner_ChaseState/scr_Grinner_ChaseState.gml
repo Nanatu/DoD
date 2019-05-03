@@ -4,7 +4,7 @@
 //Verbs for Animation Controlller
 	var moveVerb,actionVerb;
 	actionVerb = noone;
-	moveVerb = noone;
+	moveVerb = "Running";
 //Damage list upkeep
 	ds_list_destroy(damageList);
 	damageList = ds_list_create();
