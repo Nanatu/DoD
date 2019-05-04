@@ -1,4 +1,4 @@
-///scr_Grinner_Idlestate
+ ///scr_Grinner_Idlestate
 //
 
 //Verbs for Animation Controlller

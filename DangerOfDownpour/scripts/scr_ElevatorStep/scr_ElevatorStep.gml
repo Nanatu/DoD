@@ -51,9 +51,10 @@
 		vsp = -3;	
 	}
 //	Stop when touching a one way Platform
-	if (y == place_meeting(x,y,obj_Platform) || y > place_meeting(x,y,obj_Platform))
+	if (y > place_meeting(x,y,obj_Platform))
 	{
-		platform = instance_place(x,y,obj_Platform);
+		
+		platform = instance_place(x,y+16,obj_Platform);
 		if (platform != noone)
 		{
 			y = platform.y;
