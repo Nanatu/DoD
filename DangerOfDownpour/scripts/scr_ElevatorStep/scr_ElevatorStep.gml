@@ -48,6 +48,11 @@
 //	Lift if activated
 	if (activated)
 	{
+		if (prompt != noone)
+			{
+				instance_destroy(prompt.id);
+				prompt = noone;
+			}
 		vsp = -3;	
 	}
 //	Stop when touching a one way Platform
@@ -55,9 +60,9 @@
 	{
 		
 		platform = instance_place(x,y+16,obj_Platform);
-		if (platform != noone)
+		if (platform != noone && (y <= platform.y-16))
 		{
-			y = platform.y;
+			y = platform.y-16;
 			vsp = 0;
 			activated = false;
 			if (prompt != noone)
@@ -66,6 +71,7 @@
 				prompt = noone;
 			}
 		}
+		
 	}
 //	Check if player is below elevator and stop upward momentum.
 	if (obj_Player.y > y)
