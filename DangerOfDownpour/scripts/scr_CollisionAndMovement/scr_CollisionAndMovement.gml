@@ -66,13 +66,13 @@
 	}
 	
 //Rising check
-	if (vsp <= -1 && jumping)
+	if (vsp <= -1.5 && jumping)
 	{
 		verb = "Rising";
 	}
 	
 //Falling check
-	if (vsp >= 1)
+	if (vsp >= 1.5)
 	{
 		verb = "Falling";	
 	}
