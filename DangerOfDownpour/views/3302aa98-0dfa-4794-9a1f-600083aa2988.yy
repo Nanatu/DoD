@@ -10,7 +10,7 @@
         "6913b30d-358a-4a2d-af00-f98185974ebe"
     ],
     "filterType": "GMScript",
-    "folderName": "States",
+    "folderName": "Generic Player States",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

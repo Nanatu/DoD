@@ -22,7 +22,7 @@
 	}
 	
 //Calculate horizontal movement
-	hsp = move * walksp
+	hsp = move * walksp;
 	
 //Gravity
 	if (vsp < 10)

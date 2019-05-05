@@ -575,6 +575,22 @@
             }
         },
         {
+            "Key": "37c82c1c-8088-4ca1-b83c-ae31f0e3cefc",
+            "Value": {
+                "id": "5df6b75f-0f9f-4c17-8f93-e69efeee63d9",
+                "resourcePath": "sprites\\spr_Button\\spr_Button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3863849f-a909-44f8-be9c-429192663aa2",
+            "Value": {
+                "id": "6e05517d-0706-4910-b027-8c9c9dd8873e",
+                "resourcePath": "objects\\obj_Button\\obj_Button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "389d3db3-9e25-4469-b542-beebb8abb44e",
             "Value": {
                 "id": "9cd51fee-6abe-4ea4-b663-ce9b876a99ec",
@@ -1012,6 +1028,14 @@
                 "id": "b0ab635a-957d-4720-aa01-16a165638c1c",
                 "resourcePath": "views\\6d16f336-5d57-4451-afb5-e45d4c3585e4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ea16801-3709-42e1-ab2c-c74f928d8464",
+            "Value": {
+                "id": "d81d8775-6f96-494d-99b3-603c2ac6ff40",
+                "resourcePath": "scripts\\scr_Approach\\scr_Approach.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1532,6 +1556,14 @@
                 "id": "3a3a4177-d584-417e-b849-31507c0fb0ee",
                 "resourcePath": "sprites\\spr_Mechanic_JumpJets\\spr_Mechanic_JumpJets.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a13acde8-8f7d-4d54-b445-b1047188b54f",
+            "Value": {
+                "id": "872b3880-9bfb-4896-8c9a-7560c236a96b",
+                "resourcePath": "views\\a13acde8-8f7d-4d54-b445-b1047188b54f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2603,6 +2635,7 @@
         "324a730f-6b24-4a79-b6a3-ac389f692637",
         "f4f3d0e0-90dd-4404-9cd4-e22372fd5cfa",
         "c57fe82e-10af-4d79-8488-85148880c8f9",
+        "6ea16801-3709-42e1-ab2c-c74f928d8464",
         "61d87885-9ce0-44f7-96b8-dec2529b38d4",
         "b57ac316-7cfe-40f2-8b93-72db9b01945f",
         "389d3db3-9e25-4469-b542-beebb8abb44e",
