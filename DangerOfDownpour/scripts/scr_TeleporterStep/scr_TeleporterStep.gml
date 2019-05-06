@@ -9,6 +9,7 @@
 	if (key_select && selected)
 	{
 		global.usedTransistion = false;
+		scr_SlideTransition(TRANS_MODE.INTRO);
 		room_goto(targetRoom);
 	}
 //	Creat prompt

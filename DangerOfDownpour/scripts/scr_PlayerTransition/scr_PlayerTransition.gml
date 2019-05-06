@@ -3,7 +3,7 @@
 //	Script to spawn in proper character type after using a room transition
 //
 {
-	
+	scr_SlideTransition(TRANS_MODE.GOTO);
 	if (!instance_exists(obj_Player))
 	{
 		if (global.characterType == currentCharacter.Player)

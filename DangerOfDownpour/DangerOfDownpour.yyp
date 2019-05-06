@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "2b45f84d-d1df-4ee1-aa5a-fbc8cd0975f1",
+            "Value": {
+                "id": "2a3f09d9-0533-4de9-bb7c-5edd718bba88",
+                "resourcePath": "scripts\\scr_SlideTransition\\scr_SlideTransition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2bcefd78-dd9a-471a-8c1e-bb4cec7f2914",
             "Value": {
                 "id": "b859c0e7-b593-4737-b9ab-f8067c9c2269",
@@ -2707,6 +2715,7 @@
         "229813c4-63ed-46dd-987c-311b0f9f3d17",
         "4b5572a1-5685-4991-9af6-f81a833b8207",
         "0472a8d2-ecd7-4a15-89b0-60c1f7076bd0",
+        "2b45f84d-d1df-4ee1-aa5a-fbc8cd0975f1",
         "e1a272ca-7747-4469-98c3-b4ef97880330",
         "a4569493-ad8b-4f5a-9ea1-e1cab8f1f9d3",
         "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
