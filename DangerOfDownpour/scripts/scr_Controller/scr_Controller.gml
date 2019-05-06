@@ -58,5 +58,7 @@
 	global.lastTransitionDirection = 1;
 //	Current currency player has in inventory	
 	global.currentShineAmount = 0;
+// Determining to play room transition
+	global.playTransition = false;
 
 }

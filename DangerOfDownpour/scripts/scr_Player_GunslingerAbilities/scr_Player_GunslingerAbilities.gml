@@ -55,7 +55,8 @@
 					{
 						show_debug_message("FOUND ONE ENEMY!");
 						hp = hp - 1;
-						instance_create_layer(x,y,"Player",obj_Hit);
+						flash = 3;
+						//instance_create_layer(x,y,"Player",obj_Hit);
 					}
 				}
 		}

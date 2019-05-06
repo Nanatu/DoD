@@ -13,5 +13,6 @@
 	control = false;
 	takenDamage = false;
 	deathSprite = noone;
+	flash = 0;
 	
 }

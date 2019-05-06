@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "63de91ae-9943-4e38-a210-4f2db8dd69e3",
+            "Value": {
+                "id": "0c9e6fe5-f515-4b3f-bdd7-63b023b22056",
+                "resourcePath": "objects\\obj_TransitionAnimator\\obj_TransitionAnimator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6479479b-cca1-4728-9d44-ec0f86559dff",
             "Value": {
                 "id": "c9f7592d-1c4d-4f91-b2b9-e2998d3dfa20",
@@ -1476,6 +1484,14 @@
                 "id": "ccd0907d-6f4a-4c42-8a5c-2a836f4a8c10",
                 "resourcePath": "sprites\\spr_Player_Gunslinger_Standing\\spr_Player_Gunslinger_Standing.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "987045a0-ede9-45aa-8812-f563a99f682b",
+            "Value": {
+                "id": "7eb8ae4c-0631-4c20-b5d2-555bf0768ed4",
+                "resourcePath": "shaders\\shd_White\\shd_White.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -2625,9 +2641,6 @@
     ],
     "script_order": [
         "e848e819-9976-43e9-94ac-f1b1fdd7a4a8",
-        "c6dab3cb-7342-456c-a17c-9e4c7a1af3e1",
-        "7597479b-c8f5-4178-974e-8cd8bba5bc60",
-        "6913b30d-358a-4a2d-af00-f98185974ebe",
         "be622995-b49e-4412-a3e2-0c93b34aef0b",
         "b5f25e17-fa81-4041-a009-60b5c08a9d21",
         "b860d792-3f4e-44eb-b5a0-bd23347c491e",
@@ -2663,13 +2676,16 @@
         "e665a47e-0dab-40dc-afa8-5fbab6766d35",
         "9bba77ea-f622-41aa-8a4a-5a578456fda5",
         "0a68d90d-132e-426b-8932-5d33280a6213",
-        "e15800df-54f5-457b-81dd-1973a0597fe1",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",
+        "e15800df-54f5-457b-81dd-1973a0597fe1",
         "eb868ed1-3d9b-4213-a2fe-b1a9cbb10024",
+        "c6dab3cb-7342-456c-a17c-9e4c7a1af3e1",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "85fe98ef-e6bf-4847-b254-4e51f61cfca7",
+        "7597479b-c8f5-4178-974e-8cd8bba5bc60",
         "4377bc14-0566-40c5-95fd-5762c6ef9789",
         "14b060ff-d463-435f-b786-d921cd8daa89",
+        "6913b30d-358a-4a2d-af00-f98185974ebe",
         "0910f216-a1d6-4f0c-8110-b42ff0c99557",
         "2ef33d36-c4f3-47d5-a89f-a2d2ff6bccf2",
         "b94637a2-c799-43e2-a253-3e1ddc37d717",
