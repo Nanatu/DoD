@@ -9,8 +9,8 @@
 	if (key_select && selected)
 	{
 		global.usedTransistion = false;
-		scr_SlideTransition(TRANS_MODE.INTRO);
-		room_goto(targetRoom);
+		//room_goto(targetRoom);
+		scr_SlideTransition(TRANS_MODE.GOTO,targetRoom);
 	}
 //	Creat prompt
 	if (selected && prompt == noone)

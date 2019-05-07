@@ -3,7 +3,6 @@
 //	Script to spawin in proper character type
 //
 {
-	
 	if (!instance_exists(obj_Player))
 	{
 		if (global.characterType == currentCharacter.Player)

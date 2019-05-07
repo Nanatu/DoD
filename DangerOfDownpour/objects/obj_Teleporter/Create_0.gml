@@ -6,5 +6,4 @@ var targetRoom;
 if (!global.usedTransistion)
 {
 scr_PlayerTransition();
-scr_SlideTransition(TRANS_MODE.INTRO);
 }
