@@ -3,53 +3,46 @@
 //	Script to spawin in proper character type
 //
 {
+	var characterObj;
+	var characterName;
+	
 	if (!instance_exists(obj_Player))
 	{
-		if (global.characterType == currentCharacter.Player)
+		
+		switch(global.characterType)
 		{
-			instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y-5,"Player",obj_Player)
-			show_debug_message("PLAYER TYPE IS DEFAULT");
-			//instance_deactivate_object(obj_PlayerSpawn);
+			case currentCharacter.Player:
+				characterObj = obj_Player;
+				characterName = "PLAYER";
+				break;
+			case currentCharacter.Gunslinger:
+				characterObj = obj_Player_Gunslinger;
+				characterName = "GUNSLINGER";
+				break;
+			case currentCharacter.Marksman:
+				characterObj = obj_Player_Marksman;
+				characterName = "MARKSMAN";
+				break;
+			case currentCharacter.Mechanic:
+				characterObj = obj_Player_Mechanic;
+				characterName = "MECHANIC";
+				break;
+			case currentCharacter.Huntress:
+				characterObj = obj_Player_Huntress;
+				characterName = "HUNTRESS";
+				break;
+			case currentCharacter.LRB:
+				characterObj = obj_Player_LRB;
+				characterName = "LRB";
+				break; 
+			case currentCharacter.Beyonder:
+				characterObj = obj_Player_Beyonder;
+				characterName = "BEYONDER";
+				break;
 		}
-	
-		if (global.characterType == currentCharacter.Gunslinger)
-		{
-			instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y-5,"Player",obj_Player_Gunslinger)
-			show_debug_message("PLAYER TYPE IS GUNSLINGER");
-			//instance_deactivate_object(obj_PlayerSpawn);
-		}
-	
-		if (global.characterType == currentCharacter.Marksman)
-		{
-			instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y-5,"Player",obj_Player_Marksman)
-			show_debug_message("PLAYER TYPE IS MARKSMAN");
-			//instance_deactivate_object(obj_PlayerSpawn);
-		}
-	
-		if (global.characterType == currentCharacter.Mechanic)
-		{
-			instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y-5,"Player",obj_Player_Mechanic)
-			show_debug_message("PLAYER TYPE IS MECHANIC");
-			//instance_deactivate_object(obj_PlayerSpawn);
-		}
-		if (global.characterType == currentCharacter.Huntress)
-		{
-			instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y-5,"Player",obj_Player_Huntress)
-			show_debug_message("PLAYER TYPE IS HUNTRESS");
-			//instance_deactivate_object(obj_PlayerSpawn);
-		}
-		if (global.characterType == currentCharacter.LRB)
-		{
-			instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y-5,"Player",obj_Player_LRB)
-			show_debug_message("PLAYER TYPE IS LOST RECLAIMER BOT");
-			//instance_deactivate_object(obj_PlayerSpawn);
-		}
-		if (global.characterType == currentCharacter.Beyonder)
-		{
-			instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y-5,"Player",obj_Player_Beyonder)
-			show_debug_message("PLAYER TYPE IS BEYONDER");
-			//instance_deactivate_object(obj_PlayerSpawn);
-		}
+		
+		instance_create_layer(obj_PlayerSpawn.x, obj_PlayerSpawn.y-5,"Player",characterObj)
+		show_debug_message("PLAYER TYPE IS " + characterName);
 	}
 
 }
