@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "04ac4b24-2999-4c71-8a85-4a8db0616c12",
+            "Value": {
+                "id": "2a73ec3a-c3b1-4ee4-8915-7744cbc7e9c9",
+                "resourcePath": "scripts\\scr_StoolToad_WanderState\\scr_StoolToad_WanderState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "05d3f8ea-bd40-44dd-b0b3-bd35f48812a4",
             "Value": {
                 "id": "7d3791ed-a388-4732-8e26-f13e7234c899",
@@ -267,6 +275,14 @@
             "Value": {
                 "id": "8c24fd73-e73c-41cc-8c26-63188763c1c3",
                 "resourcePath": "views\\1aa4f908-ad63-4969-938d-bc2e9d949645.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1ab64e9a-f271-4881-9ccc-e9e85e8e95da",
+            "Value": {
+                "id": "43dc5fe2-6638-4a00-8f7c-dfb841422335",
+                "resourcePath": "views\\1ab64e9a-f271-4881-9ccc-e9e85e8e95da.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -879,6 +895,14 @@
             }
         },
         {
+            "Key": "5ad06494-17e2-40b4-a9df-08abe2598143",
+            "Value": {
+                "id": "a8a14b61-ac97-4e22-a60f-a534fbeeba50",
+                "resourcePath": "scripts\\scr_StoolToad_ChaseState\\scr_StoolToad_ChaseState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5b06a667-587e-47df-abf0-1872399aa2b4",
             "Value": {
                 "id": "bf1b2d7e-7407-4985-920a-4e4327c01045",
@@ -1047,6 +1071,14 @@
             }
         },
         {
+            "Key": "6e77f1d5-0d66-4b48-8bf4-924c472fb1ad",
+            "Value": {
+                "id": "c0f19b31-5f35-4308-b1c6-16cd074d59fc",
+                "resourcePath": "scripts\\scr_StoolToad_FlinchState\\scr_StoolToad_FlinchState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6ea16801-3709-42e1-ab2c-c74f928d8464",
             "Value": {
                 "id": "d81d8775-6f96-494d-99b3-603c2ac6ff40",
@@ -1108,6 +1140,14 @@
                 "id": "a37ce239-9844-492f-8a87-0d8a5965087e",
                 "resourcePath": "views\\726719a9-81b2-40ca-90b9-d8ff2338864c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "733cdd7c-e0e9-4a55-8d2a-ac83973597ce",
+            "Value": {
+                "id": "eb3a57ab-31c8-419e-b4db-3d27db99638e",
+                "resourcePath": "scripts\\scr_StoolToad_IdleState\\scr_StoolToad_IdleState.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1495,6 +1535,14 @@
             }
         },
         {
+            "Key": "96e360fe-13bb-4cd2-b451-3f57b030eb67",
+            "Value": {
+                "id": "4223d294-bf66-448f-a8c3-ae84eaa42f63",
+                "resourcePath": "scripts\\scr_Enemy_StoolToad_Load\\scr_Enemy_StoolToad_Load.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "987045a0-ede9-45aa-8812-f563a99f682b",
             "Value": {
                 "id": "7eb8ae4c-0631-4c20-b5d2-555bf0768ed4",
@@ -1859,6 +1907,14 @@
             "Value": {
                 "id": "f44807d2-17ff-4763-95d4-d6218522e61b",
                 "resourcePath": "scripts\\scr_LineOfSight\\scr_LineOfSight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b8637035-55f5-4996-82ed-452abd673355",
+            "Value": {
+                "id": "5dbdd4b1-0ebd-4187-a5be-4d8c86920ee9",
+                "resourcePath": "scripts\\scr_StoolToad_StepEvent\\scr_StoolToad_StepEvent.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2684,6 +2740,12 @@
         "e665a47e-0dab-40dc-afa8-5fbab6766d35",
         "9bba77ea-f622-41aa-8a4a-5a578456fda5",
         "0a68d90d-132e-426b-8932-5d33280a6213",
+        "04ac4b24-2999-4c71-8a85-4a8db0616c12",
+        "733cdd7c-e0e9-4a55-8d2a-ac83973597ce",
+        "6e77f1d5-0d66-4b48-8bf4-924c472fb1ad",
+        "96e360fe-13bb-4cd2-b451-3f57b030eb67",
+        "b8637035-55f5-4996-82ed-452abd673355",
+        "5ad06494-17e2-40b4-a9df-08abe2598143",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",
         "e15800df-54f5-457b-81dd-1973a0597fe1",
         "eb868ed1-3d9b-4213-a2fe-b1a9cbb10024",
