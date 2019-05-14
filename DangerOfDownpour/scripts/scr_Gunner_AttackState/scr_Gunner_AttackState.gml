@@ -15,6 +15,10 @@
 			fireCD = 60;
 		}
 	}
+	else
+	{
+	state = enemyStates.chase;
+	}
 //Check if grinner should leave state
 	if (image_index > image_number - 1)
 	{

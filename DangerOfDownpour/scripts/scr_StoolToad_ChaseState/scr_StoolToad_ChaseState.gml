@@ -13,11 +13,6 @@
 	{
 		
 //Check if close enough to attack
-		if(attackCD <= 0 && scr_Enemy_PlayerWithinRange(random_range(140,200)))
-		{
-			state = enemyStates.attack;
-			return;
-		}
 		//chase to within range
 		if (x < (target.x - 16) || x > (target.x + 16))
 		{

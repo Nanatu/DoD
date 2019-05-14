@@ -35,7 +35,7 @@ switch state{
 	case enemyStates.chase:
 	actionVerb = scr_StoolToad_ChaseState();
 	break;
-	case enemyStates.attack:
+	//case enemyStates.attack:
 	//actionVerb = scr_StoolToad_AttackState();
 	break;
 	case enemyStates.flinch:
