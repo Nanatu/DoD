@@ -13,19 +13,32 @@
 	
 //Initialize to constrain
 	verb = noone;
-	
+
+//Ability 1
 	fireCD = max(0, fireCD-1);
 	if (fireCD == 0)
 	{
 		obj_GUIController.abil1CD = false;
+	}
+
+//Ability 2
+	if (fmjAmmo == 0)
+	{
+	fmjCD = max(0, fmjCD-1);
+	}
+	if (fmjCD == 0)
+	{
 		obj_GUIController.abil2CD = false;
 	}
+	
+//Ability 3
 	missileCD = max(0, missileCD-1);
 	if (missileCD == 0)
 	{
 		obj_GUIController.abil4CD = false;
 	}
 
+//Ability 4
 	dodgeCD = max(0, dodgeCD-1);
 	if (dodgeCD == 0)
 	{
@@ -35,7 +48,7 @@
 
 //Shoot One
 //if (key_abilityOne) && (fireCD <= 0)
-	if (key_abilityOne && fireCD <= 0)
+	if (key_abilityOne && fireCD <= 0 && (fmjAmmo < 1))
 	{
 		obj_GUIController.abil1CD = true;
 		var tx, wall, target;
@@ -62,31 +75,23 @@
 		}
 		else show_debug_message("NOT FOUND ENEMY!");		
 
-/*
-	target = scr_CollisionLineFirst(x,y,x+room_width*facing,y,all,false,true);
-	with(target)
-	{
-	if (object_is_ancestor(object_index, obj_Enemy))
-		{
-				show_debug_message("FOUND ENEMY!")
-				hp = hp - 1;
-				instance_create_layer(x,y,"Player",obj_Hit);	
-		}
-		else
-		{
-		show_debug_message("DID NOT FIND ENEMY!")
-		}
-	}
-	
-	*/
+
 	fireCD = 10;
+	}
+//Load FMJs
+	if (key_abilityTwo && (fmjCD <= 0))
+	{
+		fmjAmmo = 5;
+		obj_GUIController.abil2CD = true;
+		fmjCD = 120;
 	}
 
 //Shoot Many
 //Run this when FMJs are loaded
-	if (key_abilityTwo) && (fireCD<= 0)
+	if (key_abilityOne && (fireCD <= 0) && (fmjAmmo > 0))
 	{
-		obj_GUIController.abil2CD = true;
+		fmjAmmo = max(0, fmjAmmo - 1);
+		obj_GUIController.abil1CD = true;
 		var tx, wall, targets;
 		if (facing == sign(1)) { tx = room_width; }
 		else             { tx = 0; }
@@ -122,12 +127,6 @@
 			show_debug_message(" NOT FOUND ONE OR MORE ENEMY!");
 		}
 	}
-
-//Load FMJs
-	{
-	
-	}
-
 
 //Dodge
 	if(key_abilityThree && dodgeCD <= 0)

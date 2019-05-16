@@ -10,6 +10,5 @@ hp = 5;
 
 //Attack
 fireCD = 50;
-ammo = 5;
 
 key_down = 0;

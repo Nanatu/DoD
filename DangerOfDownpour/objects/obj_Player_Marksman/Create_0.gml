@@ -12,5 +12,4 @@ script_execute(scr_Marksman_Load);
 //Initials
 fireCD = 50;
 dodgeCD = 60;
-ammo = 5;
 backflipTime = 8;

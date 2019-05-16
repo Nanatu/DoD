@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "080e5113-d1d9-4cfd-b6ba-75ed5b48a763",
+            "Value": {
+                "id": "b31f90d7-9ec9-45b7-8de8-01a7e23a7496",
+                "resourcePath": "scripts\\scr_Mechanic_Create\\scr_Mechanic_Create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0910f216-a1d6-4f0c-8110-b42ff0c99557",
             "Value": {
                 "id": "8af9fc2e-3545-4544-9eb6-96adb913a90e",
@@ -131,6 +139,14 @@
             "Value": {
                 "id": "4ff5e0b7-0f30-43b0-894c-ac37289bc12c",
                 "resourcePath": "scripts\\scr_Gunner_FlinchState\\scr_Gunner_FlinchState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0af2d068-65d2-4399-868a-76a8c1e60071",
+            "Value": {
+                "id": "778a7b41-93ce-4da0-9dcf-770884628587",
+                "resourcePath": "scripts\\scr_Gunslinger_Create\\scr_Gunslinger_Create.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2766,12 +2782,14 @@
         "e15800df-54f5-457b-81dd-1973a0597fe1",
         "eb868ed1-3d9b-4213-a2fe-b1a9cbb10024",
         "c6dab3cb-7342-456c-a17c-9e4c7a1af3e1",
+        "0af2d068-65d2-4399-868a-76a8c1e60071",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "85fe98ef-e6bf-4847-b254-4e51f61cfca7",
         "7597479b-c8f5-4178-974e-8cd8bba5bc60",
         "4377bc14-0566-40c5-95fd-5762c6ef9789",
         "14b060ff-d463-435f-b786-d921cd8daa89",
         "6913b30d-358a-4a2d-af00-f98185974ebe",
+        "080e5113-d1d9-4cfd-b6ba-75ed5b48a763",
         "0910f216-a1d6-4f0c-8110-b42ff0c99557",
         "2ef33d36-c4f3-47d5-a89f-a2d2ff6bccf2",
         "b94637a2-c799-43e2-a253-3e1ddc37d717",
