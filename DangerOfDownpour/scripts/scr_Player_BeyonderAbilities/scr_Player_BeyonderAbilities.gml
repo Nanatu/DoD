@@ -41,7 +41,8 @@
 		walksp = 4;
 
 	}
-	
+
+//Ability 1: Fissure
 	if (key_abilityOne && fissureCD <= 0)
 	{
 		verb = "Ability1";
@@ -58,6 +59,7 @@
 		obj_GUIController.abil1CD = true;
 	}
 
+//Ability 2: Fade
 	if (key_abilityTwo && fadeCD <= 0)
 	{
 		instance_create_layer(x + facing*15,y,"FrontPlayer",obj_Beyonder_Fade);
@@ -70,6 +72,7 @@
 		obj_GUIController.abil2CD = true;
 	}
 
+//Ability 3: Sight
 	if (key_abilityThree && sightCD <= 0)
 	{
 //Far Right Eye
@@ -120,6 +123,7 @@
 		obj_GUIController.abil3CD = true;
 	}
 
+//Ability 4: Rift
 	if (key_abilityFour && riftCD <= 0)
 	{
 		

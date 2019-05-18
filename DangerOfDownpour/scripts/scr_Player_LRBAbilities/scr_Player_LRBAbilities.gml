@@ -14,6 +14,7 @@
 //Initialize to constrain
 	verb = noone;
 
+//Ability 1: Flamer
 	if (key_abilityOne)
 	{
 		with instance_create_layer(x+(facing*48),y,"Player",obj_LRB_Firewall)
@@ -22,6 +23,7 @@
 		}
 	}
 
+//Ability 2: Stomp
 	if (key_abilityTwo)
 	{
 		targets = scr_CollisionLineAll(x, y, x + -facing * 50, y, all, false, true);
@@ -67,6 +69,7 @@
 		}
 	}
 
+//Ability 3: Garbage Collection
 	if (key_abilityThree)
 	{
 		if (energyMax > 0)
@@ -76,6 +79,7 @@
 		//TODO: Heal Code
 	}
 
+//Ability 4: ARC
 	if (key_abilityFour)
 	{
 		energy = 0;

@@ -25,7 +25,7 @@
 		obj_GUIController.abil2CD = false;
 	}
 
-//Duplex first shot
+//Ability 1: Duplex first shot
 	if (key_abilityOne_Pressed) && (fireCD <= 0) && !(key_abilityThree)
 	{
 	
@@ -45,7 +45,7 @@
 	barrelOne = false;
 	}
 
-//Duplex first shot AND Jump Jets
+//Ability 1: Duplex first shot AND Jump Jets
 	if (key_abilityOne_Pressed) && (fireCD <= 0) && (key_abilityThree)
 	{
 	
@@ -63,7 +63,7 @@
 }
 
 
-//Duplex second shot
+//Ability 1: Duplex second shot
 	if (key_abilityOne_Release) && (fireCD <= 0) && (barrelOne == false) && !(key_abilityThree)
 	{
 	obj_GUIController.abil1CD = true;
@@ -84,7 +84,7 @@
 	barrelOne = true;
 	}
 
-//Duplex second shot AND Jump jets
+//Ability 1: Duplex second shot AND Jump jets
 	if (key_abilityOne_Release) && (fireCD <= 0) && (barrelOne == false) && (key_abilityThree)
 	{
 	obj_GUIController.abil1CD = true;
@@ -101,14 +101,14 @@
 	barrelOne = true;
 	}
 
-//Rivets
+//Ability 2: Rivets
 	if (key_abilityTwo && rivetCD == 0)
 	{
 		obj_GUIController.abil2CD = true;
 		characterState = mechanicStates.rivet;
 	}
 
-//Jump Jets
+//Ability 3: Jump Jets
 	if (key_abilityThree) && (fuel > 0)
 	{
 		verb = "Ability3"
@@ -123,6 +123,8 @@
 	{
 		fuel = min(50, fuel+1);
 	}
+	
+//Ability 4
 	
 //Pass back verb
 	return verb;
