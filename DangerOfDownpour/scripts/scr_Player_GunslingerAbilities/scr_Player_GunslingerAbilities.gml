@@ -4,8 +4,6 @@
 //	Includes upkeep
 //
 
-//TODO: Reload, FMJs to mod basic attack
-
 {
 	
 //Declare Verb
@@ -30,21 +28,21 @@
 	{
 		obj_GUIController.abil2CD = false;
 	}
-	
-//Ability 3
-	missileCD = max(0, missileCD-1);
-	if (missileCD == 0)
-	{
-		obj_GUIController.abil4CD = false;
-	}
 
-//Ability 4
+//Ability 3
 	dodgeCD = max(0, dodgeCD-1);
 	if (dodgeCD == 0)
 	{
 		obj_GUIController.abil3CD = false;
 	}
 	dodgeTime = max(0, dodgeTime-1);
+	
+//Ability 4
+	missileCD = max(0, missileCD-1);
+	if (missileCD == 0)
+	{
+		obj_GUIController.abil4CD = false;
+	}
 
 //Shoot One
 //if (key_abilityOne) && (fireCD <= 0)
@@ -114,7 +112,8 @@
 					{
 						show_debug_message("FOUND ONE OR MORE ENEMY!");
 						hp = hp - 1;
-						instance_create_layer(x,y,"Player",obj_Hit);		
+						flash = 3;
+						//instance_create_layer(x,y,"Player",obj_Hit);		
 					}
 				}
 			}

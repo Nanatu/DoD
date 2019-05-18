@@ -27,7 +27,7 @@
 	}
 
 //Shoot One
-	if (key_abilityOne && fireCD <= 0)
+	if (key_abilityOne && fireCD <= 0 && inChamber < 1)
 	{
 		obj_GUIController.abil1CD = true;
 	var tx, wall, target;
@@ -53,6 +53,36 @@
 	}
 		else show_debug_message("NOT FOUND ENEMY!");	
 		fireCD = 40;				
+	}
+	
+//Loaded Chamber
+if (key_abilityOne && fireCD <= 0 && inChamber > 0)
+	{
+		obj_GUIController.abil1CD = true;
+	var tx, wall, target;
+		if (facing == sign(1)) { tx = room_width; }
+			else             { tx = 0; }
+		wall = scr_CollisionLineFirst(x, y, tx, y, obj_Wall, false, true);
+		if (wall != noone)
+		{
+			tx = wall.x - (((wall.sprite_width div 2) + 1) * facing);
+		}
+	target = scr_CollisionLineFirst(x, y, tx, y, obj_Enemy, false, true);
+	if (target != noone)
+	{
+		with(target)
+		{
+			if (object_is_ancestor(object_index, obj_Enemy))
+			{
+				show_debug_message("FOUND ONE ENEMY!");
+				hp = hp - (5*other.inChamber);
+				instance_create_layer(x,y,"Player",obj_Hit);		
+			}
+		}
+	}
+		else show_debug_message("NOT FOUND ENEMY!");	
+		fireCD = 40;
+		inChamber = 0;
 	}
 
 	if (key_abilityTwo) && (fireCD <= 0)
@@ -86,9 +116,21 @@
 		characterState = marksmanStates.backflip;	
 	}
 //All In The Chamber
-	if (key_abilityFour)
+	if (key_abilityFour && inChamber < 1)
 	{
-
+	control = controlState.inAbility;
+	chamberTime++;
+	if (chamberTime >= 30)
+		{
+		preppingToChamber++;
+		chamberTime = 0;
+		}
+	}
+	else if (!key_abilityFour && preppingToChamber > 0)
+	{
+	inChamber = preppingToChamber;
+	preppingToChamber = 0;
+	chamberTime = 0;
 	}
 	
 //Pass back verb

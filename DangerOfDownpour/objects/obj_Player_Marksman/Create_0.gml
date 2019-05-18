@@ -13,3 +13,6 @@ script_execute(scr_Marksman_Load);
 fireCD = 50;
 dodgeCD = 60;
 backflipTime = 8;
+chamberTime = 0;
+inChamber = 0;
+preppingToChamber = 0;
