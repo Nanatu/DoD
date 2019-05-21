@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "2e4257b8-2bce-46cb-a3df-36f154a8951d",
+            "Value": {
+                "id": "2049ee02-8a34-44a0-a210-553a7e48b54c",
+                "resourcePath": "scripts\\scr_InteractHighlightDraw\\scr_InteractHighlightDraw.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2ef33d36-c4f3-47d5-a89f-a2d2ff6bccf2",
             "Value": {
                 "id": "0161a9c8-d915-4db8-b30b-537f5f32f790",
@@ -2822,6 +2830,7 @@
         "4b5572a1-5685-4991-9af6-f81a833b8207",
         "0472a8d2-ecd7-4a15-89b0-60c1f7076bd0",
         "2b45f84d-d1df-4ee1-aa5a-fbc8cd0975f1",
+        "2e4257b8-2bce-46cb-a3df-36f154a8951d",
         "e1a272ca-7747-4469-98c3-b4ef97880330",
         "a4569493-ad8b-4f5a-9ea1-e1cab8f1f9d3",
         "7f600632-f9b2-47e3-9337-3cd4a7fc9f2e",
