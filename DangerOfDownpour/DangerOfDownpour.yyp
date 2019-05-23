@@ -834,7 +834,7 @@
             "Key": "4fa70b5d-c17f-405a-8ce8-b1b69a6b3758",
             "Value": {
                 "id": "ffb63990-7656-4fcc-ac75-2a7ad85a55af",
-                "resourcePath": "sprites\\spr_Player_Mechanic_Standing\\spr_Player_Mechanic_Standing.yy",
+                "resourcePath": "sprites\\spr_Player_Mechanic_StandingOLD\\spr_Player_Mechanic_StandingOLD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1571,6 +1571,14 @@
             "Value": {
                 "id": "ccd0907d-6f4a-4c42-8a5c-2a836f4a8c10",
                 "resourcePath": "sprites\\spr_Player_Gunslinger_Standing\\spr_Player_Gunslinger_Standing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95608f23-5670-434a-9d19-89d01d45ff8a",
+            "Value": {
+                "id": "d0d11bc7-c308-4c8f-a6d2-822d644997a1",
+                "resourcePath": "sprites\\spr_Player_Mechanic_Standing\\spr_Player_Mechanic_Standing.yy",
                 "resourceType": "GMSprite"
             }
         },
