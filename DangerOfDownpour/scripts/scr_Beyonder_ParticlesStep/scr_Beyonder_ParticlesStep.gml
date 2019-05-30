@@ -1,4 +1,4 @@
-part_type_gravity(part_type, 0.07, random_range(50,150));
+part_type_gravity(part_type, 0.05, random_range(50,150));
 
 part_emitter_region(part_system, 
 part_emitter, obj_Player_Beyonder.x-12,obj_Player_Beyonder.x+12, 

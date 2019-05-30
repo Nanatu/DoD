@@ -57,7 +57,7 @@
 			image_speed = 1;
 			sprite_index = 	animation_List[|animationState.Crouching];
 		}
-		if (moveVerb == "Crouching" && actionVerb == "CrouchAttack")
+		if (actionVerb == "CrouchAttack")
 		{
 			image_speed = 1;
 			sprite_index = 	animation_List[|animationState.CrouchAttack];
@@ -102,7 +102,12 @@
 			image_speed = 1;
 			sprite_index = animation_List[|animationState.Flinching];
 		}
-
+//CrouchAttack
+	if (actionVerb == "CrouchAttack")
+		{
+			image_speed = 1;
+			sprite_index = 	animation_List[|animationState.CrouchAttack];
+		}
 	}
 
 //Sprite Facing
