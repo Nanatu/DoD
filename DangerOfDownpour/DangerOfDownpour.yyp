@@ -410,7 +410,7 @@
             "Key": "23534945-e6bf-4f4d-9d26-c62f373e0edf",
             "Value": {
                 "id": "1241bbfe-fc7c-4862-b37c-fdd86a3c7bf8",
-                "resourcePath": "sprites\\spr_Player_Mechanic_Crouching\\spr_Player_Mechanic_Crouching.yy",
+                "resourcePath": "sprites\\spr_Player_Mechanic_CrouchingOLD\\spr_Player_Mechanic_CrouchingOLD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -772,6 +772,14 @@
                 "id": "cc6a7420-57f0-4699-9a32-c56fef11423b",
                 "resourcePath": "objects\\obj_Teleporter\\obj_Teleporter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "48546c85-0f4b-490a-9c95-43ca9321fcc4",
+            "Value": {
+                "id": "1e753855-affb-4825-8e36-fa8b9c6763cf",
+                "resourcePath": "sprites\\spr_Player_Mechanic_Crouching\\spr_Player_Mechanic_Crouching.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2804,9 +2812,9 @@
         "5ad06494-17e2-40b4-a9df-08abe2598143",
         "3670d76c-5be0-4033-a4b2-601867bf4ff5",
         "e15800df-54f5-457b-81dd-1973a0597fe1",
-        "eb868ed1-3d9b-4213-a2fe-b1a9cbb10024",
         "c6dab3cb-7342-456c-a17c-9e4c7a1af3e1",
         "0af2d068-65d2-4399-868a-76a8c1e60071",
+        "eb868ed1-3d9b-4213-a2fe-b1a9cbb10024",
         "d8a71dd7-3a98-49a1-ae48-f7a744b4a19b",
         "85fe98ef-e6bf-4847-b254-4e51f61cfca7",
         "7597479b-c8f5-4178-974e-8cd8bba5bc60",

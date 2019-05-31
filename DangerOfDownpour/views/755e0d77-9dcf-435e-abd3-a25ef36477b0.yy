@@ -15,7 +15,8 @@
         "33c42eb2-0dd5-4914-bbc5-f3863ad088cc",
         "121a6064-cd9b-44db-8d21-421f4aa8dcaf",
         "e011fb78-0476-4ba0-903e-f232757c12dd",
-        "29169625-a997-4bbb-a18a-43522b8253d7"
+        "29169625-a997-4bbb-a18a-43522b8253d7",
+        "48546c85-0f4b-490a-9c95-43ca9321fcc4"
     ],
     "filterType": "GMSprite",
     "folderName": "Player_Mechanic",

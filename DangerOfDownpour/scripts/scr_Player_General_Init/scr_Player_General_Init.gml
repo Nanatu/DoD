@@ -15,6 +15,7 @@
 	jump_power = 10;
 	jumping = false;
 	takenDamage = false;
+	grounded = true;
 	
 	key_down = 0;
 	
@@ -22,6 +23,6 @@
 	hp = 20;
 	
 //Animation list for all characters
-	animation_List = ds_list_create()
+	animation_List = ds_list_create();
 
 }

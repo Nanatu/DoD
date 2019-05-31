@@ -49,7 +49,16 @@
 		image_index = 0;
 		takenDamage = false;
 	}
-	
+
+//Set if player is on the ground
+	if (place_meeting(x,y+1,obj_Wall))
+	{
+		grounded = true;
+	}
+	else
+	{
+		grounded = false;
+	}
 //Run animator with verbs
 	scr_AnimationController(moveVerb,actionVerb);
 
