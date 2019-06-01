@@ -8,7 +8,7 @@
 
 	
 //Check if target is in range and in sight
-	if(scr_Enemy_PlayerWithinRange(500))
+	if(scr_Enemy_PlayerWithinRange(400) || aggressionTimer > 0)
 	{
 		state = enemyStates.chase;
 		return;

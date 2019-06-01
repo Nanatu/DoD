@@ -64,7 +64,7 @@
 				if (object_is_ancestor(object_index, obj_Enemy))
 					{
 						show_debug_message("FOUND ONE ENEMY!");
-						scr_Enemy_TakeDamage(1,3,5,true);
+						scr_Enemy_TakeDamage(1,2,60,true);
 					}
 				}
 		}
@@ -109,9 +109,8 @@
 					if (object_is_ancestor(object_index, obj_Enemy))
 					{
 						show_debug_message("FOUND ONE OR MORE ENEMY!");
-						hp = hp - 1;
-						flash = 3;
-						//instance_create_layer(x,y,"Player",obj_Hit);		
+					scr_Enemy_TakeDamage(1,2,60,true);
+						
 					}
 				}
 			}

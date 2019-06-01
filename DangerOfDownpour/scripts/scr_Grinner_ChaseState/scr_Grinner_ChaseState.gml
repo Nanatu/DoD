@@ -10,7 +10,7 @@
 	ds_list_destroy(damageList);
 	damageList = ds_list_create();
 	
-	if(scr_Enemy_PlayerWithinRange(400) || aggressionTimer)
+	if(scr_Enemy_PlayerWithinRange(500) || (aggressionTimer > 0))
 	{
 		
 //Check if close enough to attack

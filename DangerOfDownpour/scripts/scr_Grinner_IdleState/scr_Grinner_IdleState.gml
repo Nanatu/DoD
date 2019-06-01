@@ -16,7 +16,7 @@
 	}
 	
 //Check if target is in range and in sight
-	if(scr_Enemy_PlayerWithinRange(400))
+	if(scr_Enemy_PlayerWithinRange(400) || aggressionTimer > 0)
 	{
 		image_index = 0;
 		control = controlState.outAbility;

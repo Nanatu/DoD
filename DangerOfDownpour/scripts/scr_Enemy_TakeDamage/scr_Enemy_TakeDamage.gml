@@ -1,10 +1,10 @@
 /// @function scr_Enemy_TakeDamage(damage, flashTime, aggressionTime, flinch)
 //
 /// @description Have enemy object take damage, trigger flash shader, give aggression, and flinch bool.
-/// @param {int} damage The amount of damage to take.
-/// @param {int} flashTime How many frames to flash for damage.
-/// @param {int} aggressionTime How long the target should be aggressive and chase player.
-/// @param {bool} flinch If the Enemy should flinch from the attack.
+/// @param {number} damage The amount of damage to take.
+/// @param {number} flashTime How many frames to flash for damage.
+/// @param {number} aggressionTime How long the target should be aggressive and chase player.
+/// @param {real} flinch If the Enemy should flinch from the attack.
 
 var damage, flashTime, aggressionTime, flinch;
 
@@ -16,5 +16,5 @@ var damage, flashTime, aggressionTime, flinch;
 
 hp = hp - damage;
 flash = flashTime;
-aggressionTimer = aggressionTime;
+aggressionTimer += aggressionTime;
 flinchTrigger = flinch;

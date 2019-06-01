@@ -17,7 +17,8 @@ if (flinchTrigger == true)
 		state = enemyStates.flinch;
 		image_index = 0;
 	}
-	
+
+aggressionTimer = max(0, aggressionTimer-1);
 	
 attackCD = max(0,attackCD-1);
 //attackCD--;

@@ -14,5 +14,6 @@
 	flinchTrigger = false;
 	deathSprite = noone;
 	flash = 0;
+	aggressionTimer = 0;
 	
 }
