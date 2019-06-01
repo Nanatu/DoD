@@ -15,9 +15,13 @@
 	}
 
 //Destroy on contact with Enemy
-	if place_meeting(x,y,obj_Enemy)
+	if instance_place(x,y,obj_Enemy)
 	{
-		instance_destroy();	
+		with instance_place(x,y,obj_Enemy)
+		{
+			scr_Enemy_TakeDamage(1,2,60,true);
+		}
+		instance_destroy();
 	}
 
 //Target and chase nearest Enemy

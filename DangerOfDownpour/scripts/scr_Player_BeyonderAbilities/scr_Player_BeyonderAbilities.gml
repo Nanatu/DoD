@@ -144,11 +144,14 @@
 		{
 			if collideInst != noone
 			{
-		if(ds_list_find_index(damageList, collideInst.id) == -1)
-		{
-		 collideInst.hp = collideInst.hp - 100;
-		 ds_list_add(damageList, collideInst.id);
-		}
+				if(ds_list_find_index(damageList, collideInst.id) == -1)
+				{
+					with collideInst
+					 {
+						scr_Enemy_TakeDamage(100,2,60,true);		 
+					 }
+					 ds_list_add(damageList, collideInst.id);
+				}
 			}
 		}
 	}

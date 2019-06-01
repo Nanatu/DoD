@@ -46,8 +46,8 @@
 			if (object_is_ancestor(object_index, obj_Enemy))
 			{
 				show_debug_message("FOUND ONE ENEMY!");
-				hp = hp - 5;
-				instance_create_layer(x,y,"Player",obj_Hit);		
+				scr_Enemy_TakeDamage(5,2,60,true);
+						
 			}
 		}
 	}
@@ -75,8 +75,8 @@ if (key_abilityOne && fireCD <= 0 && inChamber > 0)
 			if (object_is_ancestor(object_index, obj_Enemy))
 			{
 				show_debug_message("FOUND ONE ENEMY!");
-				hp = hp - (5*other.inChamber);
-				instance_create_layer(x,y,"Player",obj_Hit);		
+
+				scr_Enemy_TakeDamage((5*other.inChamber),2,60,true);		
 			}
 		}
 	}
@@ -101,8 +101,7 @@ if (key_abilityOne && fireCD <= 0 && inChamber > 0)
 				if (object_is_ancestor(object_index, obj_Enemy))
 				{
 					show_debug_message("FOUND ONE OR MORE ENEMY!");
-					hp = hp - 1;
-					instance_create_layer(x,y,"Player",obj_Hit);		
+					scr_Enemy_TakeDamage(5,2,60,true);	
 				}
 				}
 			}

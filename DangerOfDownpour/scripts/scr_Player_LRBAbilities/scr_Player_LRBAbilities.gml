@@ -39,8 +39,7 @@
 					if (object_is_ancestor(object_index, obj_Enemy))
 					{
 						show_debug_message("FOUND ONE OR MORE ENEMY!");
-						hp = hp - 1;
-						instance_create_layer(x,y,"Player",obj_Hit);		
+						scr_Enemy_TakeDamage(5,2,60,true);			
 					}
 				}
 			}
@@ -60,8 +59,7 @@
 					if (object_is_ancestor(object_index, obj_Enemy))
 					{
 						show_debug_message("FOUND ONE OR MORE ENEMY!");
-						hp = hp - 1;
-						instance_create_layer(x,y,"Player",obj_Hit);		
+						scr_Enemy_TakeDamage(5,2,60,true);	
 					}
 				}
 			}
@@ -76,7 +74,7 @@
 		{
 			energy--;
 		}
-		//TODO: Heal Code
+		/// @todo Heal Code
 	}
 
 //Ability 4: ARC

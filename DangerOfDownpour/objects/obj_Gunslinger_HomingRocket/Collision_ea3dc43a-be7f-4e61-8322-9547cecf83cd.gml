@@ -1,5 +1,5 @@
 //Damage on collision
-with(other)
-{
-	hp--;
-}
+//with(other)
+//{
+//	hp--;
+//}

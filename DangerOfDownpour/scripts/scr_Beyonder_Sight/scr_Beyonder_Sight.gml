@@ -49,7 +49,7 @@
 		{
 			with(target)
 			{
-				hp = hp - 10;	
+				scr_Enemy_TakeDamage(10,2,60,true);	
 			}
 		}
 

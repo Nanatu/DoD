@@ -1,6 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 with(other)
 {
-hp--;	
+scr_Enemy_TakeDamage(1,2,60,true);	
 }

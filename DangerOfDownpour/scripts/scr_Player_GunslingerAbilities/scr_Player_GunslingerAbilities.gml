@@ -109,7 +109,7 @@
 					if (object_is_ancestor(object_index, obj_Enemy))
 					{
 						show_debug_message("FOUND ONE OR MORE ENEMY!");
-					scr_Enemy_TakeDamage(1,2,60,true);
+						scr_Enemy_TakeDamage(1,2,60,true);
 						
 					}
 				}
