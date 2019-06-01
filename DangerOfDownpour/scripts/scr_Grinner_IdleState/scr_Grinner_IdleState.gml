@@ -1,5 +1,6 @@
-///scr_Grinner_Idlestate
+/// @function scr_Grinner_Idlestate()
 //
+/// @description Grinner enemy idle state.
 
 //Verbs for Animation Controlller
 	var moveVerb,actionVerb;

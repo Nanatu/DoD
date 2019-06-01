@@ -1,6 +1,6 @@
-/// scr_Beyonder_Sight()
+/// @function scr_Beyonder_Sight()
 //	
-//	Script describing the Beyonder's Sight ability
+/// @description Beyonder's Sight ability
 //	Includes upkeep
 
 {

@@ -1,3 +1,8 @@
+/// @function  scr_Gunslinger_Create
+//
+
+/// @description Gunslinger characters create event
+
 enum gunslingerStates
 {
 	normal,

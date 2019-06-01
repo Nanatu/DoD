@@ -1,6 +1,6 @@
-/// scr_GetInputs()
+/// @function scr_GetInputs()
 //	
-//	General Script for getting player input
+/// @description General Script for getting player input
 //
 {
 	if(gamepad_is_connected(0))

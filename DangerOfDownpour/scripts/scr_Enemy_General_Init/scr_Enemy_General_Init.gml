@@ -1,5 +1,5 @@
-///scr_Enemy_General_Init
-// Script describing the general enemy initialization 
+/// @function scr_Enemy_General_Init
+/// @description General enemy initialization 
 //
 {
 	
@@ -11,7 +11,7 @@
 	facing = sign(hsp);
 	attack = false;
 	control = false;
-	takenDamage = false;
+	flinchTrigger = false;
 	deathSprite = noone;
 	flash = 0;
 	

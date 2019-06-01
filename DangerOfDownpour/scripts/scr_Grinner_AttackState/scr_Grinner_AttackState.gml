@@ -1,5 +1,6 @@
- ///scr_Grinner_Idlestate
+/// @function scr_Grinner_Attackstate()
 //
+/// @description Grinner enemy attack state
 
 //Verbs for Animation Controlller
 	var moveVerb,actionVerb;
@@ -17,7 +18,7 @@
 		if(ds_list_find_index(damageList, collideInst.id) == -1)
 		{
 		 collideInst.hp = collideInst.hp - 1;
-		 collideInst.takenDamage = true;
+		 collideInst.flinchTrigger = true;
 		 ds_list_add(damageList, collideInst.id);
 		}
 			}

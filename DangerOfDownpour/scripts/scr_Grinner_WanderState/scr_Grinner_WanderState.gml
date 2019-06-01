@@ -1,6 +1,6 @@
-///scr_Grinner_Wander()
+/// @function scr_Grinner_WanderState()
 //
-
+/// @description Grinner enemy wandering state.
 //Verbs for Animation Controlller
 	var moveVerb,actionVerb;
 	actionVerb = noone;

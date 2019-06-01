@@ -1,6 +1,6 @@
-/// scr_Marksman_Load()
+/// @function scr_Marksman_Load()
 //	
-//	Script to load in Marksman data
+/// @description Load in Marksman data
 //
 {
 

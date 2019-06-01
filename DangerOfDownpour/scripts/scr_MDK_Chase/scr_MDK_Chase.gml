@@ -1,6 +1,6 @@
-///scr_MDK_Attack
+/// @function scr_MDK_Attack
 //
-
+/// @description Huntress dog general chase state
 {
 	
 	if(scr_Player_EnemyWithinRange(180))

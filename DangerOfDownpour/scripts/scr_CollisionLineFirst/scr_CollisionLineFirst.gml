@@ -1,6 +1,6 @@
-/// CollisionLineFirst(x1,y1,x2,y2,object,prec,notme)
+/// @function CollisionLineFirst(x1,y1,x2,y2,object,prec,notme)
 //
-/// @description First of specified objects along a line
+/// @description First of specified objects along a line.
 /// @param x1 Starting x
 /// @param y1 Starting y
 /// @param x2 Ending x

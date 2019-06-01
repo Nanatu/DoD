@@ -1,6 +1,6 @@
-/// scr_PlayerState_MarksmanBackflip()
+/// @function scr_PlayerState_MarksmanBackflip()
 //	
-//	Script describing the Marksman Backflip ability
+/// @description Marksman Backflip ability state
 //
 
 {

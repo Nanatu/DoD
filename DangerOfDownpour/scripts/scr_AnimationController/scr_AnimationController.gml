@@ -1,6 +1,6 @@
-/// scr_AnimationController()
+/// @function scr_AnimationController()
 //	
-//	General script for character animations and facing switching
+/// @description General script for character animations and facing switching
 //
 {
 

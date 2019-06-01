@@ -1,5 +1,6 @@
-///scr_Gunner_Idlestate
+/// @function scr_Gunner_Chasestate()
 //
+/// @description Gunner enemy chase state
 
 //Verbs for Animation Controlller
 	var moveVerb,actionVerb;

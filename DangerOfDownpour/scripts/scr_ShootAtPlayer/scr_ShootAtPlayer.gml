@@ -1,4 +1,4 @@
-///	scr_ShootAtPlayer(playerX,playerY,selfX,selfY,bullet)
+/// @function scr_ShootAtPlayer(playerX,playerY,selfX,selfY,bullet)
 /// @description List of specified objects along a line
 /// @param playerX Starting x
 /// @param PlayerY Starting y

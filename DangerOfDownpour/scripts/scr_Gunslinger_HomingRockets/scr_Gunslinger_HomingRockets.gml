@@ -1,4 +1,6 @@
-//scr_Gunslinger_HomingRockets
+/// @function scr_Gunslinger_HomingRockets
+//
+/// @description AI of Gunslinger's Homing Missile attack.
 
 {
 	

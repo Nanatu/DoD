@@ -1,6 +1,6 @@
-/// scr_Gunslinger_Load()
+/// @function scr_Gunslinger_Load()
 //	
-//	Script to load in Gunslinger data
+/// @description Load in Gunslinger data
 //
 {
 

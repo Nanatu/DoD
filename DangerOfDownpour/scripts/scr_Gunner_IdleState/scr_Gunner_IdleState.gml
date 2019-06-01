@@ -1,5 +1,6 @@
-///scr_Gunner_Idlestate
+/// @function scr_Gunner_Idlestate()
 //
+/// @description Gunner enemy idle state.
 
 //Verbs for Animation Controlller
 	var moveVerb,actionVerb;

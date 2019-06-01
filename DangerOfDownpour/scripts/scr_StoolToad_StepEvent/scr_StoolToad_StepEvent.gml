@@ -1,4 +1,4 @@
-///scr_StoolToad_StepEvent
+/// @function scr_StoolToad_StepEvent
 //
 var moveVerb,actionVerb;
 actionVerb = noone;
@@ -11,7 +11,7 @@ if(instance_exists(obj_Player)){
 //show_debug_message(state);
 
 
-if (takenDamage == true)
+if (flinchTrigger == true)
 	{
 		state = enemyStates.flinch;
 		image_index = 0;

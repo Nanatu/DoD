@@ -1,7 +1,7 @@
 with (other)
 {
 	hp--;
-	takenDamage = true;	
+	flinchTrigger = true;	
 }
 
 instance_destroy();

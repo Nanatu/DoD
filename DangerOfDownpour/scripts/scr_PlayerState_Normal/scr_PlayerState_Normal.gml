@@ -1,6 +1,6 @@
-/// scr_PlayerState_Normal()
+/// @function scr_PlayerState_Normal()
 //	
-//	General script for a player character being in the "Normal" state
+/// @description Player character being in the "Normal" state.
 //
 
 {
@@ -42,12 +42,12 @@
 //Get Ability Verb, should override moveVerb
 	actionVerb = script_execute(playerScript);
 	
-	if (takenDamage == true)
+	if (flinchTrigger == true)
 	{
 		actionVerb = "Flinching";
 		control = controlState.inAbility;
 		image_index = 0;
-		takenDamage = false;
+		flinchTrigger = false;
 	}
 
 //Set if player is on the ground

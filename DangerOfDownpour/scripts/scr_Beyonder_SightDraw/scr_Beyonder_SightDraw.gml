@@ -1,6 +1,6 @@
-/// scr_Beyonder_SightDraw()
+/// @function scr_Beyonder_SightDraw()
 //	
-//	Script describing the Beyonder's Sight draw event
+/// @description Beyonder's Sight draw event
 
 {
 	

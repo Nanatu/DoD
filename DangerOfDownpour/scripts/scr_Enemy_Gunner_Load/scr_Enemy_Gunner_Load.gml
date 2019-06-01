@@ -1,6 +1,6 @@
-/// scr_Gunner_Load()
+/// @function scr_Gunner_Load()
 //	
-//	Script to load in Grinner data
+/// @description Load in Grinner data
 //
 
 //Instantiate list

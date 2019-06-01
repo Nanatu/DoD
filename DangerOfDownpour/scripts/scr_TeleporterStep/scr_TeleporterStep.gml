@@ -1,6 +1,6 @@
-/// scr_TeleporterStep()
+/// @function scr_TeleporterStep()
 //	
-//	Script for the Teleporter step event
+/// @description Teleporter step event.
 //
 {
 //	Select key check

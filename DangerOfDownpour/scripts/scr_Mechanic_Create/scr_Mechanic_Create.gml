@@ -1,3 +1,7 @@
+/// @function scr_Mechanic_Create
+//
+/// @description Mechanic character create event
+
 enum mechanicStates
 {
 	normal,

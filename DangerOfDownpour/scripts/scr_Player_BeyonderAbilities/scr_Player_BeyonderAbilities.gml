@@ -1,6 +1,6 @@
-/// scr_Player_BeyonderAbilities()
+/// @function scr_Player_BeyonderAbilities()
 //	
-//	Script describing the Beyonder character's abilities
+/// @description Beyonder character's abilities
 //	Includes upkeep
 //TODO: Fissure and Rift
 

@@ -1,6 +1,6 @@
-/// scr_Gunslinger_Load()
+/// @function scr_Gunslinger_Load()
 //	
-//	Script to have camera follow players location
+/// @description Camera follow players location.
 //
 //  Moving camera to player, Lower divison == faster camera
 //

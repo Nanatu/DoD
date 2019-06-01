@@ -1,4 +1,4 @@
-/// scr_LineOfSight(target)
+/// @function scr_LineOfSight(target)
 //
 /// @description Given parameter, determine if target is within raycast
 /// @param target Object to look for

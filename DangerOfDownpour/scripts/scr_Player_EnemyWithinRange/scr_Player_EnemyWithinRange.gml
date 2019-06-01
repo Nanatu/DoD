@@ -1,5 +1,6 @@
-///@description bool check if an enemy object is within the calling obj range
-///@param range range to find enemy
+/// @function scr_Player_EnemyWithinRange
+/// @description bool check if an enemy object is within the calling obj range
+/// @param range range to find enemy
 //
 {
 	if(instance_exists(obj_Enemy))

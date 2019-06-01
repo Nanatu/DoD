@@ -1,4 +1,4 @@
-/// scr_CollisionCircleList(x1,y1,radius,obj,prec,notme)
+/// @function scr_CollisionCircleList(x1,y1,radius,obj,prec,notme)
 /// @description List of objects in a circle around calling
 /// @param x1 Origin x
 /// @param y1 Origin y

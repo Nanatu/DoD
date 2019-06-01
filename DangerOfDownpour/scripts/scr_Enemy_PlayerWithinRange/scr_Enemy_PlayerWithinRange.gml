@@ -1,4 +1,4 @@
-///scr_Enemy_PlayerWithinRange(range)
+/// @function scr_Enemy_PlayerWithinRange(range)
 // params inbound
 ///@description bool return for player within parameter range
 ///@param range range to find a player within

@@ -1,5 +1,6 @@
-/// scr_Enemy_CollisionAndMovement
+/// @function scr_Enemy_CollisionAndMovement
 //
+/// @description Movement, collision checking, and verbs for Enemies.
 {
 	
 	var verb;

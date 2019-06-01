@@ -1,6 +1,6 @@
-/// scr_Controller()
+/// @function scr_Controller()
 //	
-//	Script for the Controller object
+/// @description Controller object AI.
 //		Handles persistence
 //
 {

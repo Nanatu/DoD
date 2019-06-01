@@ -1,4 +1,4 @@
-///scr_StoolToad_Wander()
+/// @function scr_StoolToad_Wander()
 //
 
 //Verbs for Animation Controlller

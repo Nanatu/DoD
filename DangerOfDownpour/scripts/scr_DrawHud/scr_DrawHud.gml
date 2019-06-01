@@ -1,6 +1,6 @@
-/// scr_DrawHud()
+/// @function scr_DrawHud()
 //	
-//	Script to draw the players HUD
+/// @description Draw the players HUD.
 //
 {
 

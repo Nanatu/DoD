@@ -1,4 +1,6 @@
-/// Approach(start, ending, difference);
+/// @function Approach(start, ending, difference);
+//
+/// @description Approach a number in steps bu the difference.
 /// @param start
 /// @param ending
 /// @param difference

@@ -1,6 +1,6 @@
-/// scr_Huntress_Load()
-//	
-//	Script to load in Huntress data
+/// @function scr_Huntress_Load()
+//
+/// @description Load in Huntress data
 //
 {
 

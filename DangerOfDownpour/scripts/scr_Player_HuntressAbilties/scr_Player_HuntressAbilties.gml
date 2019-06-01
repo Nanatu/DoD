@@ -1,6 +1,6 @@
-/// scr_Player_HuntressAbilities()
+/// @function scr_Player_HuntressAbilities()
 //	
-//	Script describing the Huntress character's abilities
+/// @description Huntress character's abilities
 //	Includes upkeep
 //
 {

@@ -1,4 +1,4 @@
-///scr_StoolToad_Load()
+/// @function scr_StoolToad_Load()
 //	
 //	Script to load in StoolToad data
 //

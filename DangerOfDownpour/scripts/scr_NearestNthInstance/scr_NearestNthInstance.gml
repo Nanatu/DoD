@@ -1,5 +1,6 @@
-/// scr_NearestNthInstance(x,y,obj,n)
+/// @function scr_NearestNthInstance(x,y,obj,n)
 //
+/// @description Grab the nearest Nth instance of an object.
 /// @param x Origin x
 /// @param y Origin y
 /// @param object Object to look for

@@ -1,6 +1,6 @@
-/// scr_Player_LRBAbilities()
+/// @function scr_Player_LRBAbilities()
 //	
-//	Script describing the LRB's character's abilities
+/// @description LRB's character's abilities
 //	Includes upkeep
 //
 

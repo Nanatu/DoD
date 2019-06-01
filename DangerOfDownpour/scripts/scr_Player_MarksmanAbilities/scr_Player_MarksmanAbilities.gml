@@ -1,6 +1,6 @@
-/// scr_Player_MarksmanAbilities()
+/// @function scr_Player_MarksmanAbilities()
 //	
-//	Script describing the Marksman character's abilities
+/// @description Marksman character's abilities
 //	Includes upkeep
 //
 

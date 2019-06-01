@@ -1,6 +1,6 @@
-///scr_Grinner_Load()
+/// @function scr_Grinner_Load()
 //	
-//	Script to load in Grinner data
+/// @description Load in Grinner data
 //
 
 //Instantiate list

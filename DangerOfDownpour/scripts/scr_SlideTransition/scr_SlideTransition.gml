@@ -1,3 +1,6 @@
+/// @function scr_SlideTransition
+//
+/// @description Slide Transition handler.
 
 with (obj_TransitionAnimator)
 {

@@ -1,6 +1,6 @@
-/// scr_Beyonder_Load()
+/// @function scr_Beyonder_Load()
 //	
-//	Script to load in Beyonder data
+/// @description Load in Beyonder data
 //
 {
 

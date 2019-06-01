@@ -1,6 +1,6 @@
-/// scr_Enemy_Death()
+/// @function scr_Enemy_Death()
 //	
-//	General script describing events for a player characters death
+/// @description Events for an enemy death
 //
 var deathSprite = argument0;
 {

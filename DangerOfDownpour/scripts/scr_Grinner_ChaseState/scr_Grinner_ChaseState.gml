@@ -1,5 +1,6 @@
-///scr_Grinner_Idlestate
+/// @function scr_Grinner_Chasestate()
 //
+/// @description Grinner Enemy chase state
 
 //Verbs for Animation Controlller
 	var moveVerb,actionVerb;
@@ -9,7 +10,7 @@
 	ds_list_destroy(damageList);
 	damageList = ds_list_create();
 	
-	if(scr_Enemy_PlayerWithinRange(400))
+	if(scr_Enemy_PlayerWithinRange(400) || aggressionTimer)
 	{
 		
 //Check if close enough to attack

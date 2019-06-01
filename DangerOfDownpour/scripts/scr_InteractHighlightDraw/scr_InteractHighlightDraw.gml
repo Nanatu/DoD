@@ -1,3 +1,7 @@
+/// @function scr_InteractHighlightDraw
+//
+/// @description Determine if shader should be used.
+
 if (selected)
 {
 shader_set(shd_Outline);

@@ -1,5 +1,6 @@
-///scr_Gunner_StepEvent
+/// @function scr_Gunner_StepEvent()
 //
+/// @description Gunner enemy step event
 
 var moveVerb,actionVerb;
 actionVerb = noone;
@@ -12,7 +13,7 @@ if(instance_exists(obj_Player)){
 show_debug_message(state);
 
 
-if (takenDamage == true)
+if (flinchTrigger == true)
 	{
 		state = enemyStates.flinch;
 		image_index = 0;

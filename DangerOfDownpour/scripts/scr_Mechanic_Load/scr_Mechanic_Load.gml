@@ -1,6 +1,6 @@
-/// scr_Mechanic_Load()
+/// @function scr_Mechanic_Load()
 //	
-//	Script to load in Mechanic data
+/// @description Load in Mechanic data
 //
 {
 

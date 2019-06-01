@@ -1,4 +1,4 @@
-/// scr_Enemy_AnimationController()
+/// @function scr_Enemy_AnimationController()
 //	
 //	General script for Enemy animations and facing switching
 //

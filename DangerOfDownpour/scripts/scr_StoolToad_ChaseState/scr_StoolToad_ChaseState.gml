@@ -1,4 +1,4 @@
-///scr_StoolToad_Idlestate
+/// @function scr_StoolToad_Idlestate
 //
 
 //Verbs for Animation Controlller

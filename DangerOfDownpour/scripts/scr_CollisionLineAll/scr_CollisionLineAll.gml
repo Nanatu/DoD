@@ -1,6 +1,6 @@
-/// CollisionLineList(x1,y1,x2,y2,obj,prec,notme)
+/// @function CollisionLineList(x1,y1,x2,y2,obj,prec,notme)
 //
-/// @description List of specified objects along a line
+/// @description List of specified objects along a line.
 /// @param x1 Starting x
 /// @param y1 Starting y
 /// @param x2 Ending x

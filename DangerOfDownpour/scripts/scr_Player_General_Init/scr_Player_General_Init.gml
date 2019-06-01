@@ -1,6 +1,6 @@
-/// scr_Player_General_Init()
+/// @function scr_Player_General_Init()
 //	
-//	General script describing the general parameters needed to instantiate a player character
+/// @description General script describing the general parameters needed to instantiate a player character
 //
 {
 	
@@ -14,7 +14,7 @@
 	facing = sign(hsp);
 	jump_power = 10;
 	jumping = false;
-	takenDamage = false;
+	flinchTrigger = false;
 	grounded = true;
 	
 	key_down = 0;

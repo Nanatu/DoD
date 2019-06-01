@@ -1,6 +1,6 @@
-/// scr_PlayerState_MechanicRivet()
+/// @function scr_PlayerState_MechanicRivet()
 //	
-//	Script describing when the Mechanic character is using the Rivet ability
+/// @description Mechanic's Rivet ability state
 //
 
 {

@@ -1,5 +1,7 @@
-///scr_MDK_Attack
+/// @function scr_MDK_Attack
 //
+/// @description Huntress dog general attack state
+
 {
 	
 	if(attackTimer == 0)

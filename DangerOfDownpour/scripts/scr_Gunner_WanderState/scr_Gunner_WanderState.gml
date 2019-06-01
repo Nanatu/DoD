@@ -1,5 +1,6 @@
-///scr_Gunner_Wander()
+/// @function scr_Gunner_Wander()
 //
+/// @description Gunner enemy wander state.
 
 //Verbs for Animation Controlller
 	var moveVerb,actionVerb;

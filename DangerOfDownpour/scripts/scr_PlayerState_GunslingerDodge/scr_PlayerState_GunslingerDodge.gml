@@ -1,6 +1,6 @@
-/// scr_PlayerState_GunslingerDodge()
+/// @function scr_PlayerState_GunslingerDodge()
 //	
-//	Script describing the dodge state of the Gunslinger character
+/// @description Dodge state of the Gunslinger character
 //
 
 {

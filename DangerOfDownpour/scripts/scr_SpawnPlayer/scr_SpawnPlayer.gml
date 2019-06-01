@@ -1,6 +1,6 @@
-/// scr_SpawnPlayer()
+/// @function scr_SpawnPlayer()
 //	
-//	Script to spawin in proper character type
+/// @description Spawn in proper character type
 //
 {
 	var characterObj;

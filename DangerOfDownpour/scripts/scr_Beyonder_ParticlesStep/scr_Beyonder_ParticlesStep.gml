@@ -1,3 +1,7 @@
+/// @function scr_Beyonder_Particles_Step
+//
+/// @description Beyonder particles step event
+
 part_type_gravity(part_type, 0.05, random_range(50,150));
 
 part_emitter_region(part_system, 

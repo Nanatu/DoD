@@ -1,6 +1,6 @@
-/// scr_ElevatorStep()
+/// @function scr_ElevatorStep()
 //	
-//	Script for the Elevator step event
+/// @description Elevator step event.
 //
 {
 //	Select key check

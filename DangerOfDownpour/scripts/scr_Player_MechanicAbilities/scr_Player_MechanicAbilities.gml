@@ -1,6 +1,6 @@
-/// scr_Player_MechanicAbilities()
+/// @function scr_Player_MechanicAbilities()
 //	
-//	Script describing the Mechanic character's abilities
+/// @description Mechanic character's abilities
 //	Includes upkeep
 //
 {

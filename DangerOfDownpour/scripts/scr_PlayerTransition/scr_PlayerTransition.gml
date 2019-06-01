@@ -1,6 +1,6 @@
-/// scr_PlayerTransition()
+/// @function scr_PlayerTransition()
 //	
-//	Script to spawn in proper character type after using a room transition
+/// @description Spawn in proper character type after using a room transition
 //
 {
 	var characterObj;

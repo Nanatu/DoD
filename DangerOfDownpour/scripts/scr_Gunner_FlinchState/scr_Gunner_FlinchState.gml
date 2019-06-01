@@ -1,5 +1,6 @@
-///scr_Gunner_Idlestate
+/// @function scr_Gunner_Flinchstate()
 //
+/// @description Gunner enemy flinch state
 
 //Verbs for Animation Controlller
 	var moveVerb,actionVerb;
@@ -7,7 +8,7 @@
 	moveVerb = noone;
 //Setting up flinch and stopping movement
 	actionVerb = "Flinching";
-	takenDamage = false;	
+	flinchTrigger = false;	
 	control = controlState.inAbility
 	hsp = 0;
 

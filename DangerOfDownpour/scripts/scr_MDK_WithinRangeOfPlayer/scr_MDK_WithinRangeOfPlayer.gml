@@ -1,3 +1,5 @@
+/// @function scr_MDK_WithinRangeOfPlayer
+//
 ///@description make sure MDK is within leash range
 
 //show_debug_message(off_from_player);

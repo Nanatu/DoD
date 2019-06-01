@@ -1,6 +1,6 @@
-/// scr_Player_Death()
+/// @function scr_Player_Death()
 //	
-//	General script describing events for a player characters death
+/// @description Events for a player characters death
 //
 
 {

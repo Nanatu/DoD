@@ -1,6 +1,6 @@
-/// scr_CameraSetup()
+/// @function scr_CameraSetup()
 //	
-//	Script to set up the camera frame
+/// @description Set up the camera frame.
 //
 {
 	

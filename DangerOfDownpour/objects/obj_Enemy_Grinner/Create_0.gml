@@ -18,3 +18,5 @@ control = controlState.inAbility;
 attackCD = 0;
 
 state = enemyStates.idle;
+
+aggressionTimer = 0;

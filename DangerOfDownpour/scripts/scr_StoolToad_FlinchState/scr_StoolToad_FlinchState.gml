@@ -1,4 +1,4 @@
-///scr_StoolToad_Idlestate
+/// @function scr_StoolToad_Idlestate
 //
 
 //Verbs for Animation Controlller
@@ -7,7 +7,7 @@
 	moveVerb = noone;
 //Setting up flinch and stopping movement
 	actionVerb = "Flinching";
-	takenDamage = false;	
+	flinchTrigger = false;	
 	control = controlState.inAbility
 	hsp = 0;
 

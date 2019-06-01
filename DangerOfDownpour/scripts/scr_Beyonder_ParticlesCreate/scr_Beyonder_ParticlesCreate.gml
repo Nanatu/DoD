@@ -1,3 +1,7 @@
+/// @function scr_Beyonder_Particles_Create
+//
+/// @description Beyonder particles create event
+
 part_system = part_system_create();
 
 part_emitter = part_emitter_create(part_system);

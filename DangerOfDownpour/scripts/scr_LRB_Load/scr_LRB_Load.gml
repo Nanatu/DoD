@@ -1,6 +1,6 @@
-/// scr_LRB_Load()
-//	
-//	Script to load in LRB data
+/// @function scr_LRB_Load()
+//
+/// @description Load in LRB data
 //
 {
 

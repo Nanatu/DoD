@@ -1,6 +1,6 @@
-/// scr_CollisionAndMovement()
+/// @function scr_CollisionAndMovement()
 //	
-//	General script for checking collision and moving player based on inputs
+/// @description General script for checking collision and moving player based on inputs
 //
 {
 	var verb = noone;

@@ -1,5 +1,6 @@
-///scr_MDK_Idle
+/// @function scr_MDK_Idle
 //
+/// @description Huntress dog general idle state
 
 {
 // stays idle till enemy is seen within range
