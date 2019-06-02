@@ -5,16 +5,6 @@
     "name": "obj_Marksman_BackflipExplosion",
     "eventList": [
         {
-            "id": "717237f1-2e74-419a-b691-ad48220fb339",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "54ce38f7-1ff0-4859-83d3-264e7f6178c6",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "92d7e834-a8d8-4dbd-bd1b-e0e8a7f8245a"
-        },
-        {
             "id": "d8895d25-6128-4bed-b61e-1c3159ab8cb1",
             "modelName": "GMEvent",
             "mvc": "1.0",

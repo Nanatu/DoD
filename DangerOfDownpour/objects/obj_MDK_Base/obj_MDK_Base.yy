@@ -5,16 +5,6 @@
     "name": "obj_MDK_Base",
     "eventList": [
         {
-            "id": "43983922-ff0f-409c-92ab-3bf25eb2b12a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 90,
-            "eventtype": 5,
-            "m_owner": "125e5200-292c-402f-996b-e64b7fa29b3f"
-        },
-        {
             "id": "aa02c9a0-d8dc-4041-81a3-8bf632783ad1",
             "modelName": "GMEvent",
             "mvc": "1.0",
