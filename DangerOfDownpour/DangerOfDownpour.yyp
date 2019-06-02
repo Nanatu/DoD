@@ -1063,6 +1063,14 @@
             }
         },
         {
+            "Key": "699b18fb-3da7-48e9-b39d-4519dcd8353f",
+            "Value": {
+                "id": "8f16a0df-fb0c-4062-a111-81e58320f59e",
+                "resourcePath": "scripts\\scr_Grinner_CreateEvent\\scr_Grinner_CreateEvent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "69a12fb9-038b-454e-8571-5267510088c9",
             "Value": {
                 "id": "e6e2d0c0-2b27-428f-b0bc-61f876166d3f",
@@ -1999,6 +2007,14 @@
             }
         },
         {
+            "Key": "bb562bb8-34cb-495e-a03a-f173884d898f",
+            "Value": {
+                "id": "a66ae4c1-64f2-4702-b220-df077223cb93",
+                "resourcePath": "scripts\\scr_Gunner_CreateEvent\\scr_Gunner_CreateEvent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bd14722c-33e4-40eb-814b-6944ad05a8c6",
             "Value": {
                 "id": "7879c9f9-8c5a-4aaa-9b3a-c253cc3416e9",
@@ -2829,6 +2845,7 @@
         "73dde14e-e468-4a96-9f36-6c5759d8a3b0",
         "aa9679d5-0818-4bf5-a2b2-f8e9ccd98b0f",
         "3bdb84a1-7d68-4d45-9892-48bad37fa87b",
+        "699b18fb-3da7-48e9-b39d-4519dcd8353f",
         "cb1ccc6b-b274-49ca-88e0-f0f66c5895b3",
         "02dd325d-3f8b-4e33-99cd-71b38629ab36",
         "e328b927-73b2-4934-87ae-122522136f06",
@@ -2836,6 +2853,7 @@
         "bf5409d9-cc4a-43f6-9006-b4cd75f7676d",
         "ff9c15c4-3968-42b1-963a-48b8cafbfa5a",
         "ebc93864-774b-4d72-97a5-20bcc7211940",
+        "bb562bb8-34cb-495e-a03a-f173884d898f",
         "62152f0f-d152-43c1-b698-b9e8d85d97aa",
         "1d7bd43b-a398-4579-bdb2-bb3edf7647e9",
         "5b42e273-1d47-4865-8a6c-f7630845653b",
