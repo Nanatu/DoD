@@ -1151,6 +1151,14 @@
             }
         },
         {
+            "Key": "6fd9d285-fbc9-4131-8bb6-2bd705e9f3f7",
+            "Value": {
+                "id": "be230059-8663-4b0b-a313-f2b79afee74b",
+                "resourcePath": "sprites\\spr_Mechanic_OilCan\\spr_Mechanic_OilCan.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "708e5891-ca49-43f1-8dbc-14aeafd43f01",
             "Value": {
                 "id": "9c40eca3-2dc6-4177-8124-081e3fc76485",
@@ -2364,6 +2372,14 @@
                 "id": "de99c22e-2aed-474e-9611-2e17be3e6ae2",
                 "resourcePath": "sprites\\spr_Player_Beyonder_Running\\spr_Player_Beyonder_Running.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e118df0e-0c3f-4455-a186-0c81071d088c",
+            "Value": {
+                "id": "d284cbe3-51ce-4fc4-8375-f02142d8bde8",
+                "resourcePath": "objects\\obj_Mechanic_OilCan\\obj_Mechanic_OilCan.yy",
+                "resourceType": "GMObject"
             }
         },
         {

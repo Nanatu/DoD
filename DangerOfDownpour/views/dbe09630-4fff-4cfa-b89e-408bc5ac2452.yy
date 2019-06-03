@@ -7,7 +7,8 @@
         "c49d7185-8383-47c8-b006-b1a99e8f2bfc",
         "fc17f240-933a-4334-94c8-4f95224a600c",
         "e5421bc8-893f-4b59-b4c5-9c5f88744fc1",
-        "a545b7fc-bd43-436e-b92d-34bd5f6a7f3a"
+        "a545b7fc-bd43-436e-b92d-34bd5f6a7f3a",
+        "e118df0e-0c3f-4455-a186-0c81071d088c"
     ],
     "filterType": "GMObject",
     "folderName": "Player_Mechanic",
