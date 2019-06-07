@@ -169,6 +169,7 @@
 		with (instance_create_layer(x,y,"Player",obj_Mechanic_OilCan))
 		{
 			hsp = 10;
+			vsp = -10;
 		}
 	}
 //Pass back verb

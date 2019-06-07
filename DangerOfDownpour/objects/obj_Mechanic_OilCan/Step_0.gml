@@ -3,10 +3,6 @@ if (vsp < 10)
 		vsp = vsp + grv;
 	}
 	
-if (hsp > 0)
-{
-	hsp = hsp - 1;
-}
 
 //Horizontal Collision
 	if (place_meeting(x+hsp,y,obj_Wall))
@@ -33,6 +29,7 @@ if (hsp > 0)
 			y = y + sign(vsp);
 		}
 		vsp = 0;
+		hsp = 0;
 	}
 
 //Vertical actual
