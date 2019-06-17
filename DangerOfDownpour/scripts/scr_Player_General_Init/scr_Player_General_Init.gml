@@ -24,5 +24,7 @@
 	
 //Animation list for all characters
 	animation_List = ds_list_create();
+	
+	scr_Player_JumpLandSmokeCreate();
 
 }

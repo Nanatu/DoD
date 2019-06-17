@@ -25,6 +25,7 @@
 	{
 		jumping = true;
 		verb = "Jumping";
+		part_particles_create(smoke, x, y+sprite_height/2, smoketrail, 3);
 		vsp = -jump_power;
 	}
 
@@ -57,8 +58,13 @@
 		while ((!place_meeting(x,y+sign(vsp),obj_Wall)))
 		{
 			y = y + sign(vsp);
+			if (sign(vsp) == 1)
+			{
+			part_particles_create(smoke, x, y+sprite_height/2, smoketrail, 3);
+			}
 		}
 		vsp = 0;
+		
 	}
 
 //Vertical actual

@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "104c7b90-c5a8-497b-9d13-d2f2cb23811b",
+            "Value": {
+                "id": "0dd79eee-6b4c-4514-94cc-35c2489b0bdf",
+                "resourcePath": "scripts\\scr_Player_JumpLandSmokeCreate\\scr_Player_JumpLandSmokeCreate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "10fcd857-d266-45fd-aa62-b9957707f49b",
             "Value": {
                 "id": "e03ae0ee-fe17-489b-ac76-aee6a8f22124",
@@ -2850,6 +2858,7 @@
         "faa63cef-560f-4541-96b0-0a20d510ed8f",
         "d6f57862-3347-4004-9705-4e976a099dbc",
         "a8d745cf-60f5-4167-8317-f8ac8038a261",
+        "104c7b90-c5a8-497b-9d13-d2f2cb23811b",
         "e294f5e8-ca17-450a-a96e-1610318ff64d",
         "0ed55985-2e81-4542-acda-28bb2937ee0c",
         "8d02d343-9330-42ff-9677-ad910c8a1f7e",
