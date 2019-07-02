@@ -5,16 +5,6 @@
     "name": "obj_Mechanic_OilCan",
     "eventList": [
         {
-            "id": "5fb3cfad-28ab-46ee-853a-a5564e19c878",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "4019c028-8a5d-4b3e-a47a-065ff2a53b0b",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "e118df0e-0c3f-4455-a186-0c81071d088c"
-        },
-        {
             "id": "d0f0fb78-4ec5-4feb-93d9-772ed3c12ba0",
             "modelName": "GMEvent",
             "mvc": "1.0",

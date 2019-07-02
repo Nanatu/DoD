@@ -168,7 +168,8 @@
 /// @todo oil can toss
 		with (instance_create_layer(x,y,"Player",obj_Mechanic_OilCan))
 		{
-			hsp = 10;
+			facing = other.facing;
+			hsp = facing*10;
 			vsp = -10;
 		}
 	}
