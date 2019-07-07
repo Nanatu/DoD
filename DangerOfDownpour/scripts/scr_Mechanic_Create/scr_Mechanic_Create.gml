@@ -19,6 +19,7 @@ key_down = 0;
 rivetCD =20;
 rivetInterval=5;
 rivetTime=15;
+oilCD = 0;
 
 barrelOne = false;
 

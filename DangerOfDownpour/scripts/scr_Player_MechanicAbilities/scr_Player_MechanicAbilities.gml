@@ -19,10 +19,17 @@
 	{
 		obj_GUIController.abil1CD = false;
 	}
-	rivetCD = max(0,rivetCD-1);
+	
+	rivetCD = max(0, rivetCD-1);
 	if (rivetCD == 0)
 	{
 		obj_GUIController.abil2CD = false;
+	}
+	
+	oilCD = max(0, oilCD-1);
+	if (oilCD == 0)
+	{
+		obj_GUIController.abil4CD = false;
 	}
 
 //Ability 1: Duplex first shot
@@ -163,9 +170,10 @@
 	
 //Ability 4
 	
-	if (key_abilityFour)
+	if (key_abilityFour && (oilCD == 0))
 	{
-/// @todo oil can toss
+		oilCD = 120;
+		obj_GUIController.abil4CD = true;
 		with (instance_create_layer(x,y,"Player",obj_Mechanic_OilCan))
 		{
 			facing = other.facing;

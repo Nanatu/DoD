@@ -1,9 +1,15 @@
+timer -= 1;
+
 if (vsp < 10)
 	{
 		vsp = vsp + grv;
 	}
 	
-if hsp != 0
+if ((hsp != 0) && (grounded = false))
+{
+	hsp = hsp - (facing*.05);
+}
+else
 {
 	hsp = hsp - (facing*.15);
 }
@@ -38,8 +44,19 @@ hsp = 0;
 			y = y + sign(vsp);
 		}
 		vsp = 0;
-		//hsp = 0;
+		grounded = true;
 	}
 
 //Vertical actual
 	y = y + vsp;
+	
+	if ((timer <= 0) || 
+	(place_meeting(x,y,obj_Mechanic_Fletchette)) ||
+	(place_meeting(x,y,obj_Mechanic_Rivet)) ||
+	(place_meeting(x,y,obj_Enemy))) 
+	{
+		//todo: Create different explosion effect 
+		instance_create_layer(x,y,"Player",obj_Marksman_BackflipExplosion)			
+		instance_destroy();	
+	}
+	
