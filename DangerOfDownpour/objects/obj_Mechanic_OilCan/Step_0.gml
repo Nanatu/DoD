@@ -1,23 +1,27 @@
+//Timer for explosion
 timer -= 1;
 
-if (vsp < 10)
+//Speed to a certain velocity
+	if (vsp < 10)
 	{
 		vsp = vsp + grv;
 	}
-	
-if ((hsp != 0) && (grounded = false))
-{
-	hsp = hsp - (facing*.05);
-}
-else
-{
-	hsp = hsp - (facing*.15);
-}
 
-if (hsp <= .5) && (hsp >= -.5)
-{
-hsp = 0;	
-}
+//Drag in air else on ground
+	if ((hsp != 0) && (grounded = false))
+	{
+		hsp = hsp - (facing*.05);
+	}
+	else
+	{
+		hsp = hsp - (facing*.15);
+	}
+
+//Clamp speed
+	if (hsp <= .5) && (hsp >= -.5)
+	{
+		hsp = 0;	
+	}
 
 //Horizontal Collision
 	if (place_meeting(x+hsp,y,obj_Wall))

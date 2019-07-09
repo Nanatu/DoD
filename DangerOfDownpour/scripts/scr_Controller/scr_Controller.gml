@@ -5,7 +5,7 @@
 //
 {
 //	Set Controller object to not be seen
-	visible = false;
+	//visible = false;
 //	Enum for the currently selected character
 //	Used to spawn in appropriate character per room
 	enum currentCharacter
