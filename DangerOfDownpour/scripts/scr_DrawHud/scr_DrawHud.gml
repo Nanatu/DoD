@@ -48,5 +48,5 @@
 		1,1,1,c_white,.5);
 	}
 //TEMP: Draw shine amount
-	draw_text(30,30, "Shine " + string(global.currentShineAmount));
+	draw_text(100,30, "Shine " + string(global.currentShineAmount));
 }

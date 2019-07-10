@@ -9,4 +9,4 @@ if (mode != TRANS_MODE.OFF)
 }
 
 draw_set_color(c_white);
-draw_text(50,50, "Current screen wipe: " + string(percent));
+draw_text(150,50, "Current screen wipe: " + string(percent));
