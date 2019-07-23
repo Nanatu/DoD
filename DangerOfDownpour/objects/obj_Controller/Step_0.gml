@@ -1,4 +1,4 @@
-if keyboard_check_released(ord("P"))
+if (room != rm_MainMenu) && keyboard_check_released(ord("P"))
 {
     paused = !paused;
 	if(!sprite_exists(screenShot))
@@ -42,7 +42,8 @@ if (select)
 			//Options
 			break;	
 		case 3:
-			game_end();
+		paused = false;
+			room_goto(rm_MainMenu);
 			break;
 		
 	}
