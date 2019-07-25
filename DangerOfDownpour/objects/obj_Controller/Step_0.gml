@@ -33,18 +33,20 @@ if (select)
 	switch (menuIndex)
 	{
 		case 0:
-			room_goto(rm_Hub)
+			paused = false;
+			if(sprite_exists(screenShot))
+			{
+			  sprite_delete(screenShot);
+			}
+			  instance_activate_all();
 			break;
 		case 1:
-			//LoadGame
+			//Options
 			break;
 		case 2:
-			//Options
-			break;	
-		case 3:
-		paused = false;
+			paused = false;
 			room_goto(rm_MainMenu);
-			break;
+			break;	
 		
 	}
 }
