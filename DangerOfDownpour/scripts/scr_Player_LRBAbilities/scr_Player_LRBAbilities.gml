@@ -8,6 +8,16 @@
 
 {
 	
+if (hsp != 0)
+{
+	energyTimer++;
+	if ((energyTimer >= 60) && (energy < energyMax))
+	{	
+		energy++;
+		energyTimer = 0;
+	}
+}
+	
 //Declare Verb
 	var verb;
 	
@@ -70,11 +80,12 @@
 //Ability 3: Garbage Collection
 	if (key_abilityThree)
 	{
-		if (energyMax > 0)
+		
+		if ((hp < maxHP) && (energy > 0))
 		{
+			hp++;
 			energy--;
 		}
-		/// @todo Heal Code
 	}
 
 //Ability 4: ARC

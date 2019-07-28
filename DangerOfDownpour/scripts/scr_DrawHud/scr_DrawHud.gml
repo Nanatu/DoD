@@ -7,9 +7,9 @@
 //	Draw the overall GUI sprite
 	draw_sprite(spr_GUI,0,0,0);
 //	Test Health border, area within is health amount
-	draw_sprite(spr_healthBorder,1,display_get_gui_width()/2,display_get_gui_height()-100);
+	draw_sprite(spr_healthBorder,1,display_get_gui_width()/2-195,display_get_gui_height()-120);
 //	Area inside health bar
-	draw_sprite_ext(spr_healthFiller,1,display_get_gui_width()/2,display_get_gui_height()-100,
+	draw_sprite_ext(spr_healthFiller,1,display_get_gui_width()/2-195,display_get_gui_height()-120,
 	max(0,playerHealth/playerMaxHealth),1,0,c_white,1);
 //	Ability 1 icon
 	draw_sprite_ext(spr_testAbil1,1,display_get_gui_width()/2 - 96,display_get_gui_height()-40,

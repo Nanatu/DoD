@@ -21,6 +21,7 @@
 	
 //Health
 	hp = 20;
+	maxHP = 20;
 	
 //Animation list for all characters
 	animation_List = ds_list_create();

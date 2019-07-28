@@ -29,5 +29,9 @@
 	animation_List = lrb_Animation_List;
 	
 	playerScript = scr_Player_LRBAbilities;
+	
+	energyTimer = 0;
+	energyMax = 10;
+	energy = 0;
 
 }
