@@ -1,6 +1,3 @@
-scr_Huntress_Create();
-
-/*
 enum huntressStates
 {
 	normal,
