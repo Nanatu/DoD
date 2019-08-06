@@ -927,6 +927,14 @@
             }
         },
         {
+            "Key": "5620a6a6-698b-4a79-a36e-194d4730a143",
+            "Value": {
+                "id": "17bfde61-e82c-4946-a099-dbc6a21700e3",
+                "resourcePath": "objects\\obj_Options_Controller\\obj_Options_Controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5643d71b-f1f7-41d6-b1fd-53c2cd100a2b",
             "Value": {
                 "id": "88faba07-1ed8-4a75-b983-19ba2042598a",
@@ -2218,7 +2226,7 @@
             "Key": "c8f0bbe3-1fb1-4e70-9963-a24d6b0b14a0",
             "Value": {
                 "id": "2abb51d9-f105-4545-beb9-a486e4f06a4f",
-                "resourcePath": "objects\\obj_MainMenu\\obj_MainMenu.yy",
+                "resourcePath": "objects\\obj_MainMenu_Controller\\obj_MainMenu_Controller.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2516,6 +2524,14 @@
                 "id": "3f5572b5-6d67-460a-a23d-de7334c92f7b",
                 "resourcePath": "views\\e42428bc-68f5-4492-a65c-98958b65e9ba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e474af9d-e98a-4bce-b060-2edc3386397d",
+            "Value": {
+                "id": "cbb068f3-83b9-4699-940c-55f611c38443",
+                "resourcePath": "objects\\obj_Slider_Sound\\obj_Slider_Sound.yy",
+                "resourceType": "GMObject"
             }
         },
         {
