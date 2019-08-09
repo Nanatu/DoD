@@ -1,1 +1,1 @@
-scr_Gunslinger_Create()
+scr_Gunslinger_Create();

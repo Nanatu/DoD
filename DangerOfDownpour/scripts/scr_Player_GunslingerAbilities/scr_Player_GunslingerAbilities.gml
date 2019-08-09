@@ -12,14 +12,14 @@
 //Initialize to constrain
 	verb = noone;
 
-//Ability 1: Bang
+//Ability 1 CD: Bang
 	fireCD = max(0, fireCD-1);
 	if (fireCD == 0)
 	{
 		obj_GUIController.abil1CD = false;
 	}
 
-//Ability 2: FMJs
+//Ability 2 CD: FMJs
 	if (fmjAmmo == 0)
 	{
 	fmjCD = max(0, fmjCD-1);
@@ -29,7 +29,7 @@
 		obj_GUIController.abil2CD = false;
 	}
 
-//Ability 3: Grit
+//Ability 3 CD: Grit
 	dodgeCD = max(0, dodgeCD-1);
 	if (dodgeCD == 0)
 	{
@@ -37,7 +37,7 @@
 	}
 	dodgeTime = max(0, dodgeTime-1);
 	
-//Ability 4: Big Iron 
+//Ability 4 CD: Big Iron 
 	missileCD = max(0, missileCD-1);
 	if (missileCD == 0)
 	{
@@ -69,7 +69,12 @@
 				}
 		}
 		else show_debug_message("NOT FOUND ENEMY!");		
-
+		if audio_is_playing(snd_gunshot)
+		{
+		audio_stop_sound(snd_gunshot);	
+		}
+		audio_sound_pitch(snd_gunshot,random_range(.9,1));
+		audio_play_sound(snd_gunshot,0,0);
 	fireCD = 10;
 	}
 	

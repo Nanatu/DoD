@@ -20,3 +20,5 @@ buttons = array_length_1d(button);
 menuIndex = 0;
 lastSelected = 0;
 lastSelected = 0;
+
+audio_group_load(audiogroup_Music);
