@@ -5,7 +5,7 @@ buttonHeight = 32;
 // Buttons
 	button[0] = "New Game";
 	button[1] = "Load Game";
-	button[2] = "Options";
+	button[2] = "Settings";
 	button[3] = "Exit";
 buttons = array_length_1d(button);
 

@@ -22,7 +22,7 @@ if (select)
 			//LoadGame
 			break;
 		case 2:
-			//Options
+			room_goto(rm_Settings);
 			break;	
 		case 3:
 			game_end();
