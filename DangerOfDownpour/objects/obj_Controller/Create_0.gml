@@ -21,4 +21,9 @@ menuIndex = 0;
 lastSelected = 0;
 lastSelected = 0;
 
+masterVolumeValue = 0;
+musicVolumeValue = 0;
+sfxVolumeValue = 0;
+
+
 audio_group_load(audiogroup_Music);

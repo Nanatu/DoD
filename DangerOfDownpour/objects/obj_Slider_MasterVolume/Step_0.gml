@@ -21,4 +21,5 @@ if selected
 {
 	value = clamp((mouse_x-x)/sprite_width, 0, maxValue);	
 	audio_master_gain(value);
+	obj_Controller.masterVolumeValue = value;
 }

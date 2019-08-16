@@ -21,4 +21,5 @@ if selected
 {
 	value = clamp((mouse_x-x)/sprite_width, 0, maxValue);	
 	audio_group_set_gain(audiogroup_Music, value, 0);
+	obj_Controller.musicVolumeValue = value;
 }
